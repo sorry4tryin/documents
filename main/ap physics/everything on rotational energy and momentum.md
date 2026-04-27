@@ -8,8 +8,6 @@ aliases:
   - momentum
   - kinematics
 ---
-# AP Physics 1 — Unit 6 Active Recall (Blurting Outline)
-
 > Cover your notes. Answer each prompt from memory, then check.
 
 ---
