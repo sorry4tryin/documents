@@ -4,9 +4,9 @@ class: blurt
 topic: ap-physics/unit-6
 source:
 references:
-author:
 description: blurt to activate recall on unit 6 sub topics
 aliases:
+  - blurt/unit-6
 ---
 > Cover your notes. Answer each prompt from memory, then check.
 
