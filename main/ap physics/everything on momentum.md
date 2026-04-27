@@ -3,7 +3,7 @@ created: "[[04-27-2026]]"
 class:
   - blurt
 topic: ap-physics/unit-6
-references: "[[    ]]"
+references: "[[rotational kinetic energy to gravitational potential energy under rotational]]"
 aliases:
   - blurt/unit-6
 ---
