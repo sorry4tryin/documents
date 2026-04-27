@@ -1,12 +1,9 @@
 ---
-title: "rotational kinetic energy to gravitational potential energy under rotational"
-source: "https://chatgpt.com/g/g-p-69e1264882c0819187abed1fac171342-ap-physics/c/69f00dc5-368c-83ea-a740-ed14f96977ea"
-author:
-published:
+source: https://chatgpt.com/g/g-p-69e1264882c0819187abed1fac171342-ap-physics/c/69f00dc5-368c-83ea-a740-ed14f96977ea
 created: 2026-04-27
-description: "everything covering the outline on the topics regarding uploading the worksheets from class"
+description: everything covering the outline on the topics regarding uploading the worksheets from class
 tags:
-  - "chatgpt/conversation"
+  - chatgpt/conversation
 ---
 # 6.1 Rotational Kinetic Energy
 
