@@ -1,5 +1,5 @@
 ---
-created: "[[04-27-2026]]"
+created: 2026-04-27
 class:
   - blurt
 topic: ap-physics/unit-6
