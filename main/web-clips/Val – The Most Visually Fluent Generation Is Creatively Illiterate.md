@@ -1,15 +1,13 @@
 ---
-title: "The Most Visually Fluent Generation Is Creatively Illiterate"
+title: The Most Visually Fluent Generation Is Creatively Illiterate
 author:
   - "[[Val]]"
 published: 2026-04-28
-source: "https://www.youtube.com/watch?v=T3Ne2kAmW4g"
+source: "[The Most Visually Fluent Generation Is Creatively Illiterate](https://www.youtube.com/watch?v=T3Ne2kAmW4g)"
 clipped: 2026-05-03
 tags:
-  - "youtube/video"
+  - youtube/video
 ---
-![The Most Visually Fluent Generation Is Creatively Illiterate](https://www.youtube.com/watch?v=T3Ne2kAmW4g)
-
 ## notes
 - as an individual we should be able to understand the production of art: how it was made, the meaning behind it, even the etymology that surrounds that meaning; or whats the purpose? 
 	- appearance doesn't matter. if we judge a piece just off of appearance we wont get to the real reason its there. 
