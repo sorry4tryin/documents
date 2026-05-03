@@ -20,9 +20,9 @@ tags:
 	- though something that takes a short time to create may appear to take longer than usual it still lacks that introspection. 
 - articulation is vague
 	- we may look at something that is eye-catching to us, but aren't able to describe the exact feeling with the correct language.
-		- makes the point of our opinion useless
-- image illiterate
-	- being unable to describe ones own thought about a piece (in the context of images and visual fluency)
-		- why this works
-		- how this make them feel
-		- how deliberate a reference is being used
+		- make
+	- image illiterate
+		- being unable to describe ones own thought about a piece (in the context of images and visual fluency)
+			- why this works
+			- how this make them feel
+			- how deliberate a reference is being used the point of our opinion useless
