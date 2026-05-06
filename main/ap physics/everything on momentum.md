@@ -6,6 +6,8 @@ topic: ap-physics/unit-6
 references: "[[rotational kinetic energy to gravitational potential energy under rotational]]"
 aliases:
   - blurt/unit-6
+tags:
+  - study/assisted-blurt
 ---
 > Cover your notes. Answer each prompt from memory, then check.
 
