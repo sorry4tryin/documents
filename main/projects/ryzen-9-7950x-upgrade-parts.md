@@ -25,14 +25,14 @@ tags:
 
 ## upgrade parts list
 
-| # | component | model | est. price |
-|---|-----------|-------|------------|
-| 1 | cpu | AMD Ryzen 9 7950X (16c/32t, 5.7GHz boost, Zen 4) | ~$450–500 |
-| 2 | motherboard | MSI MAG X870 Tomahawk WiFi (AM5, ATX) | ~$280 |
-| 3 | ram | G.Skill Trident Z5 Neo 32GB (2x16GB) DDR5-6000 CL30 EXPO | ~$110 |
-| 4 | boot ssd | WD Black SN7100 2TB NVMe (PCIe 4.0) | ~$140 |
-| 5 | cpu cooler | Thermalright Peerless Assassin 120 SE | ~$35 |
-| 6 | psu | Corsair RM850e (80+ Gold, fully modular, ATX 3.0) | ~$100 |
+| #   | component   | model                                                    | est. price |
+| --- | ----------- | -------------------------------------------------------- | ---------- |
+| 1   | cpu         | AMD Ryzen 9 7950X (16c/32t, 5.7GHz boost, Zen 4)         | ~$450–500  |
+| 2   | motherboard | MSI MAG X870 Tomahawk WiFi (AM5, ATX)                    | ~$280      |
+| 3   | ram         | G.Skill Trident Z5 Neo 32GB (2x16GB) DDR5-6000 CL30 EXPO | ~$110      |
+| 4   | boot ssd    | WD Black SN7100 2TB NVMe (PCIe 4.0)                      | ~$140      |
+| 5   | cpu cooler  | Thermalright Peerless Assassin 120 SE                    | ~$35       |
+| 6   | psu         | Corsair RM850e (80+ Gold, fully modular, ATX 3.0)        | ~$100      |
 
 **total: ~$1,115–1,165**
 
