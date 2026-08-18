@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
+                "file": "projects/ryzen-9-7950x-upgrade-parts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Module 2 - The Internet"
+              "title": "ryzen-9-7950x-upgrade-parts"
             }
           }
         ]
@@ -104,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 526.12890625
+    "width": 200
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -211,16 +211,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c2420b2e274eea2",
+  "active": "cd4a7202b7b48361",
   "lastOpenFiles": [
+    "ap physics/everything on momentum.md",
+    "projects/ryzen-9-7950x-upgrade-parts.md",
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
+    "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "documents/Discovering Computers/Module 1",
     "documents/Discovering Computers/Discovering Computers.md",
-    "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Discovering Computers/Module 2",
     "documents/Discovering Computers",
-    "projects/ryzen-9-7950x-upgrade-parts.md",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents",
     "systems/academic independence.md",
@@ -230,7 +231,6 @@
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
     "projects",
     "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md",
-    "questions/unconscious contentment personal issues.md",
-    "ap physics/everything on momentum.md"
+    "questions/unconscious contentment personal issues.md"
   ]
 }
