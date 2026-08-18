@@ -65,12 +65,12 @@
 - **CSS** (Cascading Style Sheets) - specifies design and appearance
 
 ### Browsers
-| Browser | Key Features |
-|---------|-------------|
-| **Apple Safari** | Default for macOS since 2003; built-in social sharing, parental controls |
-| **Google Chrome** | Free, independent tabbed browsing (one tab crash doesn't affect others) |
-| **Microsoft Edge** | Default Windows browser; Cortana/OneDrive integration, annotation |
-| **Mozilla Firefox** | Extensive plug-ins, enhanced privacy/security, password manager |
+| Browser             | Key Features                                                             |
+| ------------------- | ------------------------------------------------------------------------ |
+| **Apple Safari**    | Default for macOS since 2003; built-in social sharing, parental controls |
+| **Google Chrome**   | Free, independent tabbed browsing (one tab crash doesn't affect others)  |
+| **Microsoft Edge**  | Default Windows browser; Cortana/OneDrive integration, annotation        |
+| **Mozilla Firefox** | Extensive plug-ins, enhanced privacy/security, password manager          |
 
 ### Browser Features
 - **Cache:** holding area storing copies of pages you view (loads faster next time)
@@ -140,25 +140,25 @@ Consider:
 ## Objective 4 - Online Activities and Services
 
 ### Website Categories
-| Category | Purpose |
-|----------|---------|
-| **Informational/Research** | Factual info (libraries, encyclopedias, dictionaries) |
-| **News/Weather/Sports** | Current events, customizable local news, alerts |
-| **Bookmarking** | Organize, tag, share links (e.g., Pinterest) |
-| **Educational** | Formal/informal teaching, tutorials, online classes |
-| **Business/Government/Org** | Brand awareness, company info, government services |
-| **Blogs** | Time-stamped articles in diary format (vlogs = video blogs) |
-| **Wikis** | Collaborative websites for editing/sharing info (e.g., Wikipedia) |
-| **Health/Fitness** | Medical, fitness, nutrition information |
-| **Science** | Space, astronomy, physics, earth sciences |
-| **Entertainment** | Music, videos, games, streaming media |
-| **Travel/Tourism** | Research travel, book flights/hotels |
-| **Mapping** | Search addresses, get directions, GPS integration |
-| **Banking/Finance** | Online banking, trading, bill pay |
-| **Retail/Auctions** | E-commerce storefronts, online auctions (e.g., eBay) |
-| **Careers/Employment** | Job search, salary data, training requirements |
-| **Portals** | Combine pages from many sources, customized |
-| **Content Aggregation** | Gather and distribute web content (e.g., Flipboard) |
+| Category                    | Purpose                                                           |
+| --------------------------- | ----------------------------------------------------------------- |
+| **Informational/Research**  | Factual info (libraries, encyclopedias, dictionaries)             |
+| **News/Weather/Sports**     | Current events, customizable local news, alerts                   |
+| **Bookmarking**             | Organize, tag, share links (e.g., Pinterest)                      |
+| **Educational**             | Formal/informal teaching, tutorials, online classes               |
+| **Business/Government/Org** | Brand awareness, company info, government services                |
+| **Blogs**                   | Time-stamped articles in diary format (vlogs = video blogs)       |
+| **Wikis**                   | Collaborative websites for editing/sharing info (e.g., Wikipedia) |
+| **Health/Fitness**          | Medical, fitness, nutrition information                           |
+| **Science**                 | Space, astronomy, physics, earth sciences                         |
+| **Entertainment**           | Music, videos, games, streaming media                             |
+| **Travel/Tourism**          | Research travel, book flights/hotels                              |
+| **Mapping**                 | Search addresses, get directions, GPS integration                 |
+| **Banking/Finance**         | Online banking, trading, bill pay                                 |
+| **Retail/Auctions**         | E-commerce storefronts, online auctions (e.g., eBay)              |
+| **Careers/Employment**      | Job search, salary data, training requirements                    |
+| **Portals**                 | Combine pages from many sources, customized                       |
+| **Content Aggregation**     | Gather and distribute web content (e.g., Flipboard)               |
 
 ### Web Apps
 - Apps you run entirely in a browser (reside on server, not your device)
