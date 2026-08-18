@@ -11,12 +11,24 @@
             "id": "cd4a7202b7b48361",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf"
+                "file": "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
+              "icon": "lucide-file",
+              "title": "Module 2 - The Internet"
             }
           }
         ]
@@ -190,13 +202,13 @@
   },
   "active": "cd4a7202b7b48361",
   "lastOpenFiles": [
-    "Discovering Computers/Module 2/Module 2 - The Internet.md",
-    "Discovering Computers/Discovering Computers.md",
-    "Discovering Computers/Module 2",
-    "Discovering Computers",
+    "documents/Discovering Computers/Discovering Computers.md",
+    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
+    "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
+    "documents/Discovering Computers/Module 2",
+    "documents/Discovering Computers",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
-    "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents",
     "systems/academic independence.md",
     "systems/dig. notes system.canvas",
