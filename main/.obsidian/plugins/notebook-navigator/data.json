@@ -120,7 +120,7 @@
   "showTooltips": false,
   "showTooltipPath": true,
   "showTooltipWordCount": false,
-  "desktopBackground": "secondary",
+  "desktopBackground": "primary",
   "desktopScale": 0.95,
   "mobileScale": 1,
   "useFloatingToolbars": true,
