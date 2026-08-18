@@ -7,5 +7,6 @@
   "livePreview": true,
   "openBehavior": "file:inbox/core",
   "newFileLocation": "current",
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "titlebarStyle": "hidden"
 }

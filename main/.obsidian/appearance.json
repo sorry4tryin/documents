@@ -6,7 +6,8 @@
   "nativeMenus": false,
   "cssTheme": "",
   "enabledCssSnippets": [
-    "obsidian"
+    "obsidian",
+    "hide-titlebar"
   ],
   "translucency": false
 }
