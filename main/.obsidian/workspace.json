@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
+                "file": "questions/unconscious contentment personal issues.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Module 2 - The Internet"
+              "title": "unconscious contentment personal issues"
             }
           }
         ]
@@ -211,11 +211,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c2420b2e274eea2",
+  "active": "cd4a7202b7b48361",
   "lastOpenFiles": [
+    "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
+    "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "documents/Discovering Computers/Module 3",
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
-    "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "ap physics/everything on momentum.md",
     "documents/Discovering Computers/Module 1",
