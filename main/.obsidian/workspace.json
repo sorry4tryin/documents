@@ -11,24 +11,12 @@
             "id": "cd4a7202b7b48361",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "questions/unconscious contentment personal issues.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Mark Ciampa - Comptia Security+ Guide to Network Security Fundamentals (2021, Cengage Learning) - libgen.li.pdf"
               },
-              "icon": "lucide-file",
-              "title": "unconscious contentment personal issues"
+              "icon": "lucide-file-text",
+              "title": "Mark Ciampa - Comptia Security+ Guide to Network Security Fundamentals (2021, Cengage Learning) - libgen.li"
             }
           }
         ]
@@ -213,6 +201,7 @@
   },
   "active": "cd4a7202b7b48361",
   "lastOpenFiles": [
+    "questions/unconscious contentment personal issues.md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "documents/Discovering Computers/Module 3",
@@ -232,7 +221,6 @@
     "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md",
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
     "projects",
-    "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md",
-    "questions/unconscious contentment personal issues.md"
+    "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md"
   ]
 }
