@@ -11,12 +11,24 @@
             "id": "cd4a7202b7b48361",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf"
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
+              "icon": "lucide-file",
+              "title": "Module 1 - Introduction to Information Security"
             }
           }
         ]
@@ -201,6 +213,10 @@
   },
   "active": "cd4a7202b7b48361",
   "lastOpenFiles": [
+    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
@@ -212,17 +228,14 @@
     "ap physics/everything on momentum.md",
     "documents/Discovering Computers/Module 1",
     "documents/Discovering Computers/Discovering Computers.md",
-    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Discovering Computers/Module 2",
     "documents/Discovering Computers",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
-    "documents",
     "systems/academic independence.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas",
     "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md",
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
-    "projects",
     "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md"
   ]
 }
