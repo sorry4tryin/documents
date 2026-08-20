@@ -1,3 +1,17 @@
+---
+created: 2026-08-19 20:12:00
+class:
+  - document
+description: Discovering Computers Module 2 — Internet evolution, web basics, connectivity, online activities, safety, social networks, and search evaluation
+mod.: 2026-08-19 20:12:00
+aliases:
+  - dc module 2
+  - the internet
+tags:
+  - study/discovering-computers
+  - study/discovering-computers/module-2
+---
+
 # Module 2 - The Internet: Connecting and Communicating Online
 
 ## Objectives

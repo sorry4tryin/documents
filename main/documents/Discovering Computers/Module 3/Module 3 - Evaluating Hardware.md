@@ -1,3 +1,17 @@
+---
+created: 2026-08-19 20:12:00
+class:
+  - document
+description: Discovering Computers Module 3 — hardware evaluation, input/output devices, performance, storage, networking, health, and e-waste
+mod.: 2026-08-19 20:12:00
+aliases:
+  - dc module 3
+  - evaluating hardware
+tags:
+  - study/discovering-computers
+  - study/discovering-computers/module-3
+---
+
 # Module 3 - Evaluating Hardware: For Home and Work
 
 ## Objectives

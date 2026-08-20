@@ -1,3 +1,17 @@
+---
+created: 2026-08-19 20:12:00
+class:
+  - document
+description: Discovering Computers Module 1 — digital literacy, technology in society, protecting personal information, legal and ethical responsibilities
+mod.: 2026-08-19 20:12:00
+aliases:
+  - dc module 1
+  - digital citizen
+tags:
+  - study/discovering-computers
+  - study/discovering-computers/module-1
+---
+
 # Module 1 - Being a Digital Citizen: At Home, School, and Work
 
 ## Objectives

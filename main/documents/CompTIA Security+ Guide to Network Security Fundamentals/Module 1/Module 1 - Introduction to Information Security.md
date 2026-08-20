@@ -1,3 +1,17 @@
+---
+created: 2026-08-19 20:12:00
+class:
+  - document
+description: CompTIA Security+ SY0-701 Module 1 — information security fundamentals, threat actors, attack surfaces, and security resources
+mod.: 2026-08-19 20:12:00
+aliases:
+  - security+ module 1
+  - intro to infosec
+tags:
+  - study/security-plus
+  - study/security-plus/module-1
+---
+
 # Module 1 - Introduction to Information Security
 
 ## Objectives
