@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.18359375
+    "width": 278.18359375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -108,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "documents/Criminal Procedure-Third Edition.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
