@@ -2,7 +2,7 @@
   "showInlineTitle": true,
   "vimMode": false,
   "showLineNumber": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "propertiesInDocument": "visible",
   "livePreview": true,
   "openBehavior": "file:inbox/core",
