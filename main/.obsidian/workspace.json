@@ -11,12 +11,24 @@
             "id": "0298105a9479a814",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Criminal Procedure-Third Edition.pdf"
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Criminal Procedure-Third Edition"
+              "icon": "lucide-file",
+              "title": "Module 1 - Introduction to Information Security"
             }
           }
         ]
@@ -202,6 +214,7 @@
   },
   "active": "0298105a9479a814",
   "lastOpenFiles": [
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
@@ -210,7 +223,6 @@
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Mark Ciampa - Comptia Security+ Guide to Network Security Fundamentals (2021, Cengage Learning) - libgen.li.pdf",
     "questions/unconscious contentment personal issues.md",
     "documents/Discovering Computers/Module 3",
