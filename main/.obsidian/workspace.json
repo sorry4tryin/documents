@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "092fe563408eefcf",
+        "id": "e4959ef1591ad3e7",
         "type": "tabs",
         "children": [
           {
-            "id": "cd4a7202b7b48361",
+            "id": "0298105a9479a814",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.18359375,
-    "collapsed": true
+    "width": 278.18359375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -201,8 +200,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd4a7202b7b48361",
+  "active": "0298105a9479a814",
   "lastOpenFiles": [
+    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
