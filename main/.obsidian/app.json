@@ -1,6 +1,6 @@
 {
   "showInlineTitle": true,
-  "vimMode": false,
+  "vimMode": true,
   "showLineNumber": false,
   "readableLineLength": false,
   "propertiesInDocument": "visible",

@@ -188,13 +188,13 @@ tags:
 - Keep air vents free of dust
 
 ### Electrical Changes
-| Change | Description |
-|--------|-------------|
-| **Blackout** | Total loss of power |
+| Change       | Description                           |
+| ------------ | ------------------------------------- |
+| **Blackout** | Total loss of power                   |
 | **Brownout** | Drop in voltage lasting minutes/hours |
-| **Spike** | Very short duration voltage increase |
-| **Surge** | Short duration voltage increase |
-| **Noise** | Unwanted high-frequency energy |
+| **Spike**    | Very short duration voltage increase  |
+| **Surge**    | Short duration voltage increase       |
+| **Noise**    | Unwanted high-frequency energy        |
 
 ### Restore a Device
 - Copy personal files to separate storage before restoring
