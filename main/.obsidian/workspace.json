@@ -11,24 +11,12 @@
             "id": "0298105a9479a814",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Criminal Procedure-Third Edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Module 3 - Evaluating Hardware"
+              "icon": "lucide-file-text",
+              "title": "Criminal Procedure-Third Edition"
             }
           }
         ]
@@ -104,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.18359375
+    "width": 278.18359375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -214,8 +203,8 @@
   },
   "active": "0298105a9479a814",
   "lastOpenFiles": [
-    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
+    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Untitled",
