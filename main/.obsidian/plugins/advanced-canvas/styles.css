@@ -77,6 +77,9 @@
   transform: translateZ(0);
   margin: 0;
 }
+.document-search-count.is-hidden {
+  display: none;
+}
 .canvas-wrapper:not(.mod-readonly) .show-while-readonly {
   display: none;
 }

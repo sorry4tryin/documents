@@ -11,24 +11,12 @@
             "id": "0298105a9479a814",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Module 3 - Evaluating Hardware"
+              "icon": "lucide-file-text",
+              "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
             }
           }
         ]
@@ -104,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.18359375
+    "width": 278.18359375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -212,14 +201,63 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "floating": {
+    "id": "38b3f6312fcc6d2d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "34975a64f742c96c",
+        "type": "window",
+        "children": [
+          {
+            "id": "615da6a6e038a3a2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "de565148f9972fe2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Module 3 - Evaluating Hardware"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1201,
+        "y": 44,
+        "width": 592,
+        "height": 1119,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "0298105a9479a814",
   "lastOpenFiles": [
-    "documents/Criminal Procedure-Third Edition.pdf",
+    "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
+    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Untitled",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
-    "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1",
@@ -232,7 +270,6 @@
     "documents/Discovering Computers/Module 1",
     "documents/Discovering Computers/Discovering Computers.md",
     "documents/Discovering Computers/Module 2",
-    "documents/Discovering Computers",
     "systems/academic independence.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas",
