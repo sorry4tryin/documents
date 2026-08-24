@@ -11,7 +11,7 @@ tags:
   - study/discovering-computers
   - study/discovering-computers/module-3
 ---
-					
+		
 # Module 3 - Evaluating Hardware: For Home and Work
 
 ## Objectives
