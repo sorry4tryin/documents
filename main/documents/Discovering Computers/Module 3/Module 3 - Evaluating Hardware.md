@@ -11,7 +11,7 @@ tags:
   - study/discovering-computers
   - study/discovering-computers/module-3
 ---
-
+					
 # Module 3 - Evaluating Hardware: For Home and Work
 
 ## Objectives
@@ -332,11 +332,11 @@ Four basic operations repeated for every instruction:
 3. **Trade-in** = bring to technology store for credit toward newer device
 
 ### Sustainable Electronics Management (SEM)
-| Step | Action | Description |
-|------|--------|-------------|
-| 1 | Buy green | Purchase sustainably designed products |
-| 2 | Donate | Give functional equipment to schools/charities |
-| 3 | Recycle | Send to verified recycling center |
+| Step | Action    | Description                                    |
+| ---- | --------- | ---------------------------------------------- |
+| 1    | Buy green | Purchase sustainably designed products         |
+| 2    | Donate    | Give functional equipment to schools/charities |
+| 3    | Recycle   | Send to verified recycling center              |
 
 - Before disposing: back up all data, encrypt contents, reset to factory settings
 - Ensure recycling facility follows health code regulations
