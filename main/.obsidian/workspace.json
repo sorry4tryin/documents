@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.0703125,
-    "collapsed": true
+    "width": 366.0703125
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -201,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0298105a9479a814",
+  "active": "9c2420b2e274eea2",
   "lastOpenFiles": [
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "Untitled",
