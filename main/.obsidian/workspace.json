@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Criminal Procedure-Third Edition.pdf"
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Criminal Procedure-Third Edition"
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           }
         ]
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.0703125
+    "width": 366.0703125,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -200,11 +201,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c2420b2e274eea2",
+  "active": "0298105a9479a814",
   "lastOpenFiles": [
+    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "Untitled",
-    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
