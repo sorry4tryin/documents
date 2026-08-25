@@ -11,12 +11,24 @@
             "id": "0298105a9479a814",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "icon": "lucide-file",
+              "title": "Module 2 - Pervasive Attack Surfaces and Controls"
             }
           }
         ]
@@ -203,6 +215,9 @@
   },
   "active": "0298105a9479a814",
   "lastOpenFiles": [
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 14",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 13",
@@ -212,8 +227,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 9",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 8",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 7",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
