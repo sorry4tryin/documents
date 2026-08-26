@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -212,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c2420b2e274eea2",
+  "active": "0298105a9479a814",
   "lastOpenFiles": [
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
