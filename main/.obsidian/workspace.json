@@ -11,10 +11,24 @@
             "id": "7b0b20c2db5e5ef4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Create Artificial Intelligence autonomously conscious..md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Create Artificial Intelligence autonomously conscious."
             }
           }
         ]
@@ -201,6 +215,7 @@
   },
   "active": "7b0b20c2db5e5ef4",
   "lastOpenFiles": [
+    "Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
@@ -237,7 +252,6 @@
     "systems/dig. notes system.canvas",
     "systems/study method.canvas",
     "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md",
-    "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
-    "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md"
+    "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md"
   ]
 }
