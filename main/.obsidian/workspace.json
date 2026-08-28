@@ -240,19 +240,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 1201,
+        "x": 903,
         "y": 44,
-        "width": 592,
+        "width": 889,
         "height": 1119,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "978267b7ae56ed0d",
+  "active": "7aa764a739c9b02d",
   "lastOpenFiles": [
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
