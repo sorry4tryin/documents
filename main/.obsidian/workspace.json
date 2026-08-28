@@ -212,47 +212,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "a7cb46d348fb6da6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ede569743a1df1ee",
-        "type": "window",
-        "children": [
-          {
-            "id": "1dbfad235d523402",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7aa764a739c9b02d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1201,
-        "y": 44,
-        "width": 592,
-        "height": 1119,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7aa764a739c9b02d",
+  "active": "978267b7ae56ed0d",
   "lastOpenFiles": [
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
