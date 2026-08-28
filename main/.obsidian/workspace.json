@@ -11,10 +11,24 @@
             "id": "978267b7ae56ed0d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Module 3 - Fundamentals of Cryptography"
             }
           }
         ]
@@ -90,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -199,11 +212,49 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "floating": {
+    "id": "a7cb46d348fb6da6",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ede569743a1df1ee",
+        "type": "window",
+        "children": [
+          {
+            "id": "1dbfad235d523402",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7aa764a739c9b02d",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1201,
+        "y": 44,
+        "width": 592,
+        "height": 1119,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "978267b7ae56ed0d",
   "lastOpenFiles": [
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 14/Module 14 - Oversight and Operations.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 13/Module 13 - Incident Preparation and Investigation.md",
@@ -216,7 +267,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 14",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 13",
@@ -237,7 +287,6 @@
     "systems/academic independence.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas",
-    "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md",
-    "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md"
+    "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md"
   ]
 }
