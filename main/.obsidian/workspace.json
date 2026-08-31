@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf"
+                "file": "documents/Criminal Procedure-Third Edition.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
+              "title": "Criminal Procedure-Third Edition"
             }
           }
         ]
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -203,6 +202,7 @@
   },
   "active": "978267b7ae56ed0d",
   "lastOpenFiles": [
+    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -228,7 +228,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 10",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 9",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 8",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 7",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
