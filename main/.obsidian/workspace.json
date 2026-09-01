@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
+                "file": "academic independence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Module 5 - Endpoint Vulnerabilities Attacks and Defenses"
+              "title": "academic independence"
             }
           }
         ]
@@ -214,6 +214,8 @@
   },
   "active": "f42133152569bfdc",
   "lastOpenFiles": [
+    "Create Artificial Intelligence autonomously conscious..md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/styles/ieee.csl",
@@ -226,7 +228,6 @@
     "documents/styles/chicago-shortened-notes-bibliography.csl",
     "documents/styles/chicago-author-date.csl",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
-    "Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 14/Module 14 - Oversight and Operations.md",
@@ -238,7 +239,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 8/Module 8 - Infrastructure Threats and Security Monitoring.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 7/Module 7 - Identity and Access Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
@@ -247,7 +247,7 @@
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "ap physics/everything on momentum.md",
     "documents/Discovering Computers/Discovering Computers.md",
-    "systems/academic independence.md",
+    "academic independence.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas",
     "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md"
