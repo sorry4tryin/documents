@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c877e6a9daeb17f9",
+        "id": "44e2b431999529c4",
         "type": "tabs",
         "children": [
           {
-            "id": "978267b7ae56ed0d",
+            "id": "7568fd5b2ba4973f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "documents/Criminal Procedure-Third Edition.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Criminal Procedure-Third Edition"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -200,10 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "978267b7ae56ed0d",
+  "active": "7568fd5b2ba4973f",
   "lastOpenFiles": [
-    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
+    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Create Artificial Intelligence autonomously conscious..md",
