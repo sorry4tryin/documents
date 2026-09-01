@@ -24,6 +24,6 @@ main
 └── web-clips 
 ```
 
-#### Notes
+
 
 ***Understand that this system will be changed and is a temporary measure until I figure out where to place all my notes while providing remote access***
