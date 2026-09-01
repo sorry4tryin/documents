@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3788ec14cda98c88",
+        "id": "275c120323b4c8d5",
         "type": "tabs",
         "children": [
           {
-            "id": "c937cb69ff4b8ffc",
+            "id": "afc4615f7d96aa81",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -198,42 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "420fbac1aa0520db",
-    "type": "floating",
-    "children": [
-      {
-        "id": "52e00f46ca29f7bc",
-        "type": "window",
-        "children": [
-          {
-            "id": "dc7a34d6ec1b3908",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a05ef1c7f12d3716",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1201,
-        "y": 44,
-        "width": 592,
-        "height": 1119,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c937cb69ff4b8ffc",
+  "active": "afc4615f7d96aa81",
   "lastOpenFiles": [
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/Criminal Procedure-Third Edition.pdf",
