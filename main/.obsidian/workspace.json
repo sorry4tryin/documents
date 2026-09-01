@@ -11,10 +11,24 @@
             "id": "755c53c79ef5d5b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Module 3 - Fundamentals of Cryptography"
             }
           }
         ]
@@ -198,11 +212,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "755c53c79ef5d5b8",
+  "floating": {
+    "id": "420fbac1aa0520db",
+    "type": "floating",
+    "children": [
+      {
+        "id": "52e00f46ca29f7bc",
+        "type": "window",
+        "children": [
+          {
+            "id": "dc7a34d6ec1b3908",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a05ef1c7f12d3716",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1201,
+        "y": 44,
+        "width": 592,
+        "height": 1119,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a05ef1c7f12d3716",
   "lastOpenFiles": [
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
@@ -225,7 +274,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 11",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 10",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 9",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 8",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
