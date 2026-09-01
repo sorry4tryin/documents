@@ -14,6 +14,7 @@ Welcome this is the organizing section of all notes taken in my Obsidian Vault. 
 
 
 
+### Tree View
 
 ```md
 main
