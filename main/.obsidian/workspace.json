@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "663651d62d73a066",
+        "id": "4c0e115a6838b557",
         "type": "tabs",
         "children": [
           {
-            "id": "0f9c94ffa96c4dae",
+            "id": "8fee640fe645160c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "academic independence.md",
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "academic independence"
+              "title": "Module 4 - Advanced Cryptography"
             }
           }
         ]
@@ -212,12 +212,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f42133152569bfdc",
+  "active": "8fee640fe645160c",
   "lastOpenFiles": [
-    "Create Artificial Intelligence autonomously conscious..md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "academic independence.md",
+    "Create Artificial Intelligence autonomously conscious..md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/styles/ieee.csl",
     "documents/styles/nlm-citation-sequence.csl",
     "documents/styles/nature.csl",
@@ -247,7 +248,6 @@
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "ap physics/everything on momentum.md",
     "documents/Discovering Computers/Discovering Computers.md",
-    "academic independence.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas",
     "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md"
