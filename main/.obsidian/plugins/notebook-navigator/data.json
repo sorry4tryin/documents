@@ -119,6 +119,7 @@
   "narrowSidebarCustomWidth": 350,
   "showTooltips": false,
   "showTooltipPath": true,
+  "showTooltipTags": false,
   "showTooltipWordCount": false,
   "desktopBackground": "primary",
   "desktopScale": 0.95,
@@ -571,7 +572,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "3.3.5",
+  "lastShownVersion": "3.3.6",
   "rootFolderOrder": [],
   "rootTagOrder": [],
   "rootPropertyOrder": []

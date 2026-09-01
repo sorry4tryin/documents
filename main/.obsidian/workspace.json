@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "275c120323b4c8d5",
+        "id": "663651d62d73a066",
         "type": "tabs",
         "children": [
           {
-            "id": "afc4615f7d96aa81",
+            "id": "0f9c94ffa96c4dae",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,7 +76,7 @@
             }
           },
           {
-            "id": "9c2420b2e274eea2",
+            "id": "25275a1fe8ac3181",
             "type": "leaf",
             "state": {
               "type": "notebook-navigator",
@@ -198,8 +198,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afc4615f7d96aa81",
+  "active": "0f9c94ffa96c4dae",
   "lastOpenFiles": [
+    "Untitled",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
