@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4c0e115a6838b557",
+        "id": "3ef4ca81d6397c81",
         "type": "tabs",
         "children": [
           {
-            "id": "8fee640fe645160c",
+            "id": "f8b8dc90fee2c6cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Module 4 - Advanced Cryptography"
+              "title": "New tab"
             }
           }
         ]
@@ -212,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8fee640fe645160c",
+  "active": "f8b8dc90fee2c6cd",
   "lastOpenFiles": [
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
