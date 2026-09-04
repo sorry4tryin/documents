@@ -11,10 +11,12 @@
             "id": "f8b8dc90fee2c6cd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           }
         ]
@@ -90,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -198,71 +201,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "2538ac5df182d4b5",
-    "type": "floating",
-    "children": [
-      {
-        "id": "94affcf51b055d3a",
-        "type": "window",
-        "children": [
-          {
-            "id": "cbd2da4f09fe8017",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f3820523850f1d51",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 605,
-        "y": 44,
-        "width": 588,
-        "height": 1119,
-        "maximize": false,
-        "zoom": 0
-      },
-      {
-        "id": "d74393b2f8f1b801",
-        "type": "window",
-        "children": [
-          {
-            "id": "5c32a00b43003926",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "357ccbdb4893871e",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1201,
-        "y": 44,
-        "width": 592,
-        "height": 1119,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "357ccbdb4893871e",
+  "active": "f8b8dc90fee2c6cd",
   "lastOpenFiles": [
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
