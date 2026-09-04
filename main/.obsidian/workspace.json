@@ -198,7 +198,71 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "floating": {
+    "id": "2538ac5df182d4b5",
+    "type": "floating",
+    "children": [
+      {
+        "id": "94affcf51b055d3a",
+        "type": "window",
+        "children": [
+          {
+            "id": "cbd2da4f09fe8017",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f3820523850f1d51",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 7,
+        "y": 607,
+        "width": 890,
+        "height": 273,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "d74393b2f8f1b801",
+        "type": "window",
+        "children": [
+          {
+            "id": "5c32a00b43003926",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "357ccbdb4893871e",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 903,
+        "y": 44,
+        "width": 890,
+        "height": 1119,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "357ccbdb4893871e",
   "lastOpenFiles": [
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
