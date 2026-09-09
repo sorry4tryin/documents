@@ -5,3 +5,5 @@
 	* make it convienent
 * references:
 	* claude computer
+	* https://docs.orgo.ai/introduction
+	* 
