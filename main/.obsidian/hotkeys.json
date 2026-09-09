@@ -53,7 +53,14 @@
     }
   ],
   "templater-obsidian:replace-in-file-templater": [],
-  "file-explorer:new-file": [],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
   "workspace:show-trash": [
     {
       "modifiers": [
@@ -61,14 +68,6 @@
         "Mod"
       ],
       "key": "1"
-    }
-  ],
-  "notebook-navigator:open": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Q"
     }
   ],
   "app:toggle-left-sidebar": [
@@ -87,14 +86,6 @@
         "Shift"
       ],
       "key": "D"
-    }
-  ],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "N"
     }
   ],
   "file-explorer:new-folder": [
@@ -119,6 +110,25 @@
         "Alt"
       ],
       "key": "S"
+    }
+  ],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ],
+  "editor:toggle-bold": [],
+  "editor:toggle-italics": [],
+  "markdown:toggle-preview": [],
+  "notebook-navigator:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
     }
   ]
 }
