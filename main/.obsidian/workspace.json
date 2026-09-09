@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ef4ca81d6397c81",
+        "id": "b16f837c8c15772c",
         "type": "tabs",
         "children": [
           {
-            "id": "f8b8dc90fee2c6cd",
+            "id": "2e6026b1dec17495",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/Create Artificial Intelligence autonomously conscious..md",
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Create Artificial Intelligence autonomously conscious."
+              "title": "Module 1 - Introduction to Information Security"
             }
           }
         ]
@@ -212,17 +212,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "active": "2e6026b1dec17495",
   "lastOpenFiles": [
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
+    "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "quick notes",
     "documents/Criminal Procedure-Third Edition.pdf",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "academic independence.md",
-    "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/styles/ieee.csl",
     "documents/styles/nlm-citation-sequence.csl",
@@ -231,7 +231,6 @@
     "documents/styles/mhra-notes.csl",
     "documents/styles/harvard-cite-them-right.csl",
     "documents/styles/elsevier-harvard.csl",
-    "documents/styles/chicago-shortened-notes-bibliography.csl",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 14/Module 14 - Oversight and Operations.md",
