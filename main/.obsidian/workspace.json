@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ryzen-9-7950x-upgrade-parts.md",
+                "file": "quick notes/Create Artificial Intelligence autonomously conscious..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ryzen-9-7950x-upgrade-parts"
+              "title": "Create Artificial Intelligence autonomously conscious."
             }
           }
         ]
@@ -212,13 +212,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f8b8dc90fee2c6cd",
+  "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
+    "quick notes",
+    "documents/Criminal Procedure-Third Edition.pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
+    "projects/ryzen-9-7950x-upgrade-parts.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "academic independence.md",
-    "Create Artificial Intelligence autonomously conscious..md",
+    "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/styles/ieee.csl",
     "documents/styles/nlm-citation-sequence.csl",
@@ -228,7 +232,6 @@
     "documents/styles/harvard-cite-them-right.csl",
     "documents/styles/elsevier-harvard.csl",
     "documents/styles/chicago-shortened-notes-bibliography.csl",
-    "documents/styles/chicago-author-date.csl",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 14/Module 14 - Oversight and Operations.md",
@@ -241,11 +244,9 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 7/Module 7 - Identity and Access Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
     "questions/unconscious contentment personal issues.md",
-    "projects/ryzen-9-7950x-upgrade-parts.md",
     "ap physics/everything on momentum.md",
     "documents/Discovering Computers/Discovering Computers.md",
     "systems/dig. notes system.canvas",

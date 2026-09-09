@@ -44,14 +44,6 @@
     }
   ],
   "editor:open-search": [],
-  "file-explorer:new-folder": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ],
   "canvas:new-file": [
     {
       "modifiers": [
@@ -74,14 +66,6 @@
         "Alt"
       ],
       "key": "1"
-    }
-  ],
-  "templater-obsidian:create-new-note-from-template": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
     }
   ],
   "templater-obsidian:replace-in-file-templater": [],
@@ -119,6 +103,22 @@
         "Shift"
       ],
       "key": "D"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-folder": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "F"
     }
   ]
 }
