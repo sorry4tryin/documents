@@ -44,22 +44,6 @@
     }
   ],
   "editor:open-search": [],
-  "canvas:new-file": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
-  "bases:new-file": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
   "pomodoro-timer:toggle-timer-panel": [
     {
       "modifiers": [
@@ -119,6 +103,22 @@
         "Ctrl"
       ],
       "key": "F"
+    }
+  ],
+  "markdown:add-metadata-property": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": ";"
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
     }
   ]
 }
