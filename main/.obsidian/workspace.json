@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "53f44b7fc85941b3",
+        "id": "048588617a8de590",
         "type": "tabs",
         "children": [
           {
-            "id": "ed8ccbe4d9f1d550",
+            "id": "cd685100c93251e8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -201,8 +199,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed8ccbe4d9f1d550",
+  "active": "cd685100c93251e8",
   "lastOpenFiles": [
+    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
