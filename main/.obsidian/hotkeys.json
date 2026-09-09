@@ -4,21 +4,12 @@
   "workspace:next-tab": [
     {
       "modifiers": [
-        "Ctrl"
+        "Alt"
       ],
-      "key": "PageDown"
+      "key": "D"
     }
   ],
   "file-explorer:new-file-in-new-pane": [],
-  "app:delete-file": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
   "app:open-settings": [
     {
       "modifiers": [
@@ -70,15 +61,6 @@
       "key": "1"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -127,6 +109,56 @@
     {
       "modifiers": [
         "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "workspace:goto-tab-3": [],
+  "workspace:goto-tab-4": [],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-tab-7": [],
+  "workspace:goto-tab-8": [],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "app:open-help": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ","
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "notebook-navigator:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
       ],
       "key": "1"
     }
