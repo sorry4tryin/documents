@@ -237,10 +237,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9239bb7780be1d5",
+  "floating": {
+    "id": "e8bf5eacd6cbab80",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0ab35d78c9b9260f",
+        "type": "window",
+        "children": [
+          {
+            "id": "fd40b6e9097aa299",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fc809ad0aee1bd39",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/Criminal Procedure-Third Edition.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Criminal Procedure-Third Edition"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1197,
+        "y": 44,
+        "width": 595,
+        "height": 1119,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "fc809ad0aee1bd39",
   "lastOpenFiles": [
-    "quick notes/recreate orgo ai computer setup.md",
     "quick notes/implement autoload prompt via opencode and pi.dev.md",
+    "quick notes/recreate orgo ai computer setup.md",
     "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
