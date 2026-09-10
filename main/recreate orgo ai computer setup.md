@@ -2,8 +2,7 @@
 	* recreate this concept
 	* make it functional
 	* make it effective
-	* make it convienent
+	* make it convenient
 * references:
 	* claude computer
 	* https://docs.orgo.ai/introduction
-	* 
