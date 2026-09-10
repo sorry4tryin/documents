@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "recreate orgo ai computer setup"
             }
+          },
+          {
+            "id": "c9239bb7780be1d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "implement autoload prompt via opencode and pi.dev.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "implement autoload prompt via opencode and pi.dev"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,9 +237,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cd685100c93251e8",
+  "active": "c9239bb7780be1d5",
   "lastOpenFiles": [
     "recreate orgo ai computer setup.md",
+    "implement autoload prompt via opencode and pi.dev.md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
@@ -250,7 +276,6 @@
     "ap physics/everything on momentum.md",
     "documents/Discovering Computers/Discovering Computers.md",
     "systems/dig. notes system.canvas",
-    "systems/study method.canvas",
-    "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md"
+    "systems/study method.canvas"
   ]
 }
