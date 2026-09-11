@@ -1,0 +1,4 @@
+{
+  "weave-floating-button-position": "{\"x\":572,\"y\":1146}",
+  "weave-deck-categories": "[{\"id\":\"basic\",\"name\":\"基础\",\"colorStart\":\"#ef4444\",\"colorEnd\":\"#dc2626\",\"order\":0,\"isDefault\":true,\"created\":\"2026-09-11T17:11:47.069Z\",\"modified\":\"2026-09-11T17:11:47.069Z\"},{\"id\":\"reading\",\"name\":\"阅读\",\"colorStart\":\"#3b82f6\",\"colorEnd\":\"#2563eb\",\"order\":1,\"isDefault\":true,\"created\":\"2026-09-11T17:11:47.069Z\",\"modified\":\"2026-09-11T17:11:47.069Z\"},{\"id\":\"interest\",\"name\":\"兴趣\",\"colorStart\":\"#f59e0b\",\"colorEnd\":\"#d97706\",\"order\":2,\"isDefault\":true,\"created\":\"2026-09-11T17:11:47.069Z\",\"modified\":\"2026-09-11T17:11:47.069Z\"}]"
+}
