@@ -237,45 +237,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "e8bf5eacd6cbab80",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0ab35d78c9b9260f",
-        "type": "window",
-        "children": [
-          {
-            "id": "fd40b6e9097aa299",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fc809ad0aee1bd39",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "documents/Criminal Procedure-Third Edition.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Criminal Procedure-Third Edition"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1197,
-        "y": 44,
-        "width": 595,
-        "height": 1119,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "fc809ad0aee1bd39",
+  "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
+    "documents/Criminal Procedure-Third Edition.pdf",
     "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "quick notes/recreate orgo ai computer setup.md",
     "quick notes/Create Artificial Intelligence autonomously conscious..md",
@@ -284,7 +248,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
     "quick notes",
-    "documents/Criminal Procedure-Third Edition.pdf",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -311,7 +274,6 @@
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
     "questions/unconscious contentment personal issues.md",
     "ap physics/everything on momentum.md",
-    "documents/Discovering Computers/Discovering Computers.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
