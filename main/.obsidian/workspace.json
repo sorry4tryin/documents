@@ -35,24 +35,12 @@
             "id": "c9239bb7780be1d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "quick notes/implement autoload prompt via opencode and pi.dev.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Introduction to Criminal Justice.pdf"
               },
-              "icon": "lucide-file",
-              "title": "implement autoload prompt via opencode and pi.dev"
+              "icon": "lucide-file-text",
+              "title": "Introduction to Criminal Justice"
             }
           }
         ],
@@ -129,7 +117,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -237,8 +226,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "active": "c9239bb7780be1d5",
   "lastOpenFiles": [
+    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
+    "documents/Introduction to Criminal Justice.pdf",
+    "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "weave/schema-version.md",
     "weave/README.md",
     "weave/memory/decks.json",
@@ -248,10 +242,7 @@
     "weave/memory",
     "weave",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module5QuizV1.csv",
-    "documents/Introduction to Criminal Justice.pdf",
     "documents/Section 3.1 Narrative Strategy from Successful College Composition reduced and optimized.pdf",
-    "documents/Criminal Procedure-Third Edition.pdf",
-    "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "quick notes/recreate orgo ai computer setup.md",
     "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
@@ -271,10 +262,8 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 9/Module 9 - Infrastructure Security.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 8/Module 8 - Infrastructure Threats and Security Monitoring.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 7/Module 7 - Identity and Access Management.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
     "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
-    "questions/unconscious contentment personal issues.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
