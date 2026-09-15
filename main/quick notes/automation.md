@@ -1,0 +1,1 @@
+- create an automation in opencode that allows any user input to be translated into a prompt for better context alongside the exisiting prompt located in 'AGENTS.md'

@@ -66,9 +66,33 @@
               "icon": "lucide-file",
               "title": "observer"
             }
+          },
+          {
+            "id": "7f5bd065778deb2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quick notes/automation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "automation"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -249,10 +273,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6cddf6f641ca1576",
+  "active": "7f5bd065778deb2f",
   "lastOpenFiles": [
-    "documents/Introduction to Criminal Justice.pdf",
     "quick notes/observer.md",
+    "quick notes/automation.md",
+    "documents/Introduction to Criminal Justice.pdf",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
