@@ -1,0 +1,4 @@
+- a lightweight background process that monitor's the users activity across multiple sessions. sessions are identified by a single day; considering the date, time, and occupation (application centered or idle). the purpose of this is to maintain operational flow through the application of life optimization, maximization, and optimization.
+	- life optimization follows the ability to utilize measurements as models of reality, not specifically reality itself. we compact these measurements into numbers so that effectiveness is improved overtime rather than completing task obsessively. each task is produced to become a more independent and performative individual in society. 
+	- maximization follows the ability to reach max capacity in terms of consistent task completion. 
+	- optimization follows the ability to produce the best overall result with the given constraints
