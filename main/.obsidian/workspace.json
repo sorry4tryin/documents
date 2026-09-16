@@ -95,24 +95,12 @@
             "id": "8898bf02ed0e5b73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "quick notes/maximizing agent spawning and delegation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf"
               },
-              "icon": "lucide-file",
-              "title": "maximizing agent spawning and delegation"
+              "icon": "lucide-file-text",
+              "title": "2026-09-16-latex-paper-writer-vault-integration"
             }
           }
         ],
@@ -299,12 +287,12 @@
   },
   "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
+    "quick notes/maximizing agent spawning and delegation.md",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries",
     "quick notes/agent spawning.md",
     "templates/quicknote.md",
-    "quick notes/maximizing agent spawning and delegation.md",
     "templates/Untitled.md",
     "questions/unconscious contentment personal issues.md",
     "templates",
@@ -323,7 +311,6 @@
     "weave/memory/decks.json",
     "weave/memory/media",
     "weave/memory/learning/sessions",
-    "weave/memory/learning",
     "quick notes/recreate orgo ai computer setup.md",
     "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
