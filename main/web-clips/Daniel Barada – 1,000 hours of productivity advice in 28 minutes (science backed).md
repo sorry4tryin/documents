@@ -8,7 +8,7 @@ clipped: 2026-05-12
 tags:
   - "youtube/video"
 ---
-## notes
+# notes
 - the market delivers the false feeling of productivity, knowing that we wont actually demonstrate that action because we have stuck in a loop hole.
 - 1st order procrastination: expressive avoidance; you avoid the tasks you need to get done, on purpose
 	- 2nd order procrastination: a major false sense of producing actual work by observing something that stimulates it. this mainly becomes a difficult stage because it's so seamless that we don't recognize it until deep reflection occurs 
