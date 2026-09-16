@@ -1,4 +1,15 @@
-- the direct approach for creating multiple instances containing specific agents for specific tasks. each agent is programmed to achieve one goal: finish the task with max efficiency and don't exceed the dedicated context window. in turn, this will aid the focus of suspending human attention per agent; instead of 50 agents creating 50 interruptions, there will be 50 workers creating a better workflow. 
+---
+created: 2026-09-16
+mod.:
+class:
+  - note
+aliases:
+  - "overview: maximizing agent spawning and delegation"
+tags:
+  - thoughts/overview
+  - thoughts
+---
+- a viable approach to spawning multiple child agents in coordination with a parent_agent to complete tasks effectively and efficiently. each child is specialized in a random primary skill to finish the task with max efficiency to not exceed the dedicated context window–no agent will have similar primary skills; this setup is used to suspend human attention by all means especially for the parent agent. for example, instead of the user prompting the parent_agent to spawn fifty child_agents that have a high probability to create disruptions,  the prompt the user inputs (with or without the term agents) will automatically prompt the parent_agent to prompt the child_agent–the child_agent can reciprocate a prompt to the parent_agent but it is less likely.
 	- platform: opencode––migrate to `pi.dev` (TBA)
 	- structure:
 		- session_name: a seven word statement that provides concise understanding on what the session is anticipated to perform or what the session has proved to display

@@ -86,14 +86,7 @@
       "key": ";"
     }
   ],
-  "workspace:close": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    }
-  ],
+  "workspace:close": [],
   "workspace:new-tab": [
     {
       "modifiers": [
@@ -161,6 +154,24 @@
         "Shift"
       ],
       "key": "1"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "S"
     }
   ]
 }
