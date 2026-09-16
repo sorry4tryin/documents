@@ -90,9 +90,33 @@
               "icon": "lucide-file",
               "title": "automation"
             }
+          },
+          {
+            "id": "8898bf02ed0e5b73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quick notes/agent spawning.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "agent spawning"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -273,10 +297,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f5bd065778deb2f",
+  "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
-    "quick notes/observer.md",
     "quick notes/automation.md",
+    "quick notes/agent spawning.md",
+    "quick notes/observer.md",
     "documents/Introduction to Criminal Justice.pdf",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -310,7 +335,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 9/Module 9 - Infrastructure Security.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 8/Module 8 - Infrastructure Threats and Security Monitoring.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 7/Module 7 - Identity and Access Management.md",
-    "documents/Discovering Computers/Module 2/Module 2 - The Internet.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
