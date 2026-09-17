@@ -95,12 +95,24 @@
             "id": "8898bf02ed0e5b73",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf"
+                "file": "quick notes/summary agent collection.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "2026-09-16-latex-paper-writer-vault-integration"
+              "icon": "lucide-file",
+              "title": "summary agent collection"
             }
           }
         ],
@@ -287,9 +299,10 @@
   },
   "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
+    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
+    "quick notes/summary agent collection.md",
     "quick notes/maximizing agent spawning and delegation.md",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
-    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries",
     "quick notes/agent spawning.md",
     "templates/quicknote.md",
@@ -321,7 +334,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
     "academic independence.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 2/Module 2 - Pervasive Attack Surfaces and Controls.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 15/Module 15 - Information Security Management.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
