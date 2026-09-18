@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/summary agent collection.md",
+                "file": "quick notes/maximizing agent spawning and delegation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "summary agent collection"
+              "title": "maximizing agent spawning and delegation"
             }
           },
           {
@@ -323,11 +323,11 @@
   },
   "active": "9c10340809f951df",
   "lastOpenFiles": [
-    "documents/Game Theory.pdf",
+    "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/summary agent collection.md",
     "quick notes/make a youtube short account using ai tools (make profit).md",
+    "documents/Game Theory.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
-    "quick notes/maximizing agent spawning and delegation.md",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
     "quick notes/agent spawning.md",
@@ -349,7 +349,6 @@
     "weave/README.md",
     "weave/memory/decks.json",
     "weave/memory/media",
-    "weave/memory/learning/sessions",
     "quick notes/recreate orgo ai computer setup.md",
     "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
