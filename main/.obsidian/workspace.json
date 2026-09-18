@@ -114,9 +114,33 @@
               "icon": "lucide-file",
               "title": "summary agent collection"
             }
+          },
+          {
+            "id": "9c10340809f951df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quick notes/make a youtube short account using ai tools (make profit).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "make a youtube short account using ai tools (make profit)"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -297,10 +321,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8898bf02ed0e5b73",
+  "active": "9c10340809f951df",
   "lastOpenFiles": [
-    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "quick notes/summary agent collection.md",
+    "quick notes/make a youtube short account using ai tools (make profit).md",
+    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "quick notes/maximizing agent spawning and delegation.md",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
