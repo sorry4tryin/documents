@@ -12,5 +12,6 @@
   "templater-obsidian",
   "mermaid-tools",
   "todoist-sync-plugin",
-  "hide-traffic-lights"
+  "hide-traffic-lights",
+  "front-matter-timestamps"
 ]

@@ -44,14 +44,7 @@
     }
   ],
   "templater-obsidian:replace-in-file-templater": [],
-  "file-explorer:new-file": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
+  "file-explorer:new-file": [],
   "workspace:show-trash": [
     {
       "modifiers": [
@@ -172,6 +165,14 @@
         "Shift"
       ],
       "key": "S"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
     }
   ]
 }
