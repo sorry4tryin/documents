@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/make a youtube short account using ai tools (make profit).md",
+                "file": "templates/documentnote.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -136,7 +136,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "make a youtube short account using ai tools (make profit)"
+              "title": "documentnote"
             }
           }
         ],
@@ -321,11 +321,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c10340809f951df",
+  "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
+    "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
+    "templates/documentnote.md",
+    "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
+    "quick notes/make a youtube short account using ai tools (make profit).md",
+    "documents/Game Theory",
     "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/summary agent collection.md",
-    "quick notes/make a youtube short account using ai tools (make profit).md",
     "documents/Game Theory.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
@@ -347,8 +351,6 @@
     "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "weave/schema-version.md",
     "weave/README.md",
-    "weave/memory/decks.json",
-    "weave/memory/media",
     "quick notes/recreate orgo ai computer setup.md",
     "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
@@ -357,7 +359,6 @@
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 4/Module 4 - Advanced Cryptography.md",
-    "academic independence.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
