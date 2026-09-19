@@ -143,24 +143,12 @@
             "id": "4a7ab62e3abb6d26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "templates/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Game Theory/Game Theory.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "icon": "lucide-file-text",
+              "title": "Game Theory"
             }
           }
         ],
@@ -357,7 +345,7 @@
     "documents/Game Theory",
     "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/summary agent collection.md",
-    "documents/Game Theory.pdf",
+    "documents/Game Theory/Game Theory.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
