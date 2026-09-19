@@ -143,12 +143,24 @@
             "id": "4a7ab62e3abb6d26",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Game Theory/Game Theory.pdf"
+                "file": "documents/Game Theory/stock topics to research.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Game Theory"
+              "icon": "lucide-file",
+              "title": "stock topics to research"
             }
           }
         ],
@@ -335,6 +347,8 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
+    "documents/Game Theory/Game Theory.pdf",
+    "documents/Game Theory/stock topics to research.md",
     "templates/quicknote.md",
     "templates/Untitled.md",
     "templates/documentnote.md",
@@ -345,7 +359,6 @@
     "documents/Game Theory",
     "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/summary agent collection.md",
-    "documents/Game Theory/Game Theory.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
@@ -369,8 +382,6 @@
     "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 5/Module 5 - Endpoint Vulnerabilities Attacks and Defenses.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 1/Module 1 - Introduction to Information Security.md",
-    "projects/ryzen-9-7950x-upgrade-parts.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 3/Module 3 - Fundamentals of Cryptography.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
