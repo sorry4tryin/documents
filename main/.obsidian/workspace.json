@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/Game Theory/stock topics to research.md",
+                "file": "quick notes/stock topics to research.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -347,8 +347,9 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
+    "quick notes/summary agent collection.md",
+    "quick notes/stock topics to research.md",
     "documents/Game Theory/Game Theory.pdf",
-    "documents/Game Theory/stock topics to research.md",
     "templates/quicknote.md",
     "templates/Untitled.md",
     "templates/documentnote.md",
@@ -358,7 +359,6 @@
     "quick notes/make a youtube short account using ai tools (make profit).md",
     "documents/Game Theory",
     "quick notes/maximizing agent spawning and delegation.md",
-    "quick notes/summary agent collection.md",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
