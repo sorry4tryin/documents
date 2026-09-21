@@ -2,7 +2,6 @@
 class:
   - document
 description:
-mod.:
 aliases:
 tags:
 ---

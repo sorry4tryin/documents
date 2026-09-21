@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/stock topics to research.md",
+                "file": "documents/Game Theory/game theory notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -160,7 +160,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "stock topics to research"
+              "title": "game theory notes"
             }
           }
         ],
@@ -347,12 +347,13 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
-    "quick notes/summary agent collection.md",
+    "templates/documentnote.md",
+    "documents/Game Theory/game theory notes.md",
     "quick notes/stock topics to research.md",
+    "quick notes/summary agent collection.md",
     "documents/Game Theory/Game Theory.pdf",
     "templates/quicknote.md",
     "templates/Untitled.md",
-    "templates/documentnote.md",
     "templates/Untitled 1.md",
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
