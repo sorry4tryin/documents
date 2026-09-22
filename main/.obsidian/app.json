@@ -1,6 +1,6 @@
 {
-  "showInlineTitle": true,
-  "vimMode": true,
+  "showInlineTitle": false,
+  "vimMode": false,
   "showLineNumber": false,
   "readableLineLength": false,
   "propertiesInDocument": "visible",
@@ -8,5 +8,6 @@
   "openBehavior": "file:inbox/core",
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
-  "titlebarStyle": "hidden"
+  "titlebarStyle": "hidden",
+  "strictLineBreaks": false
 }
