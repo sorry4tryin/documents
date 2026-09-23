@@ -8,14 +8,13 @@ tags:
   - documents/game-theory
   - documents
 created: 2026-09-21 12:48
-modified: 2026-09-23 17:32
+modified: 2026-09-23 17:39
 ---
 - most player underestimate the value of fairness within certain scenarios; defines how individuals assume that other players are inherently selfish and greedy. 
 	- fairness is actually what individuals are founded upon (more likely to come across)
 - *game-frame*: a table of player strategies we have no information about regarding the preferences of the players
 
-
-- 1.e.1.a
+ 1.e.1.a
 $$
 \begin{gathered}
 I = \{1,2,\dots, n\} \\
@@ -25,7 +24,27 @@ I = \{1,2,\dots, n\} \\
 S_{1} = \{ 2,4,6 \}\quad \text{and}\quad S_{2} = \{ 1,3,5 \}
 \end{gathered}
 $$
-		$I= {1,2}$ 
+$$
+\begin{aligned}
+& I = (1, 2, \dots, n) \\
+& \text{Let Antonia be player 1 and Bob player 2.} \\
+& \text{Suppose Antonia is constrained to the values } 2, 4, 6 \text{ and Bob to } 1, 3, 5. \\
+& \text{Represent those values by } S_n \text{:} \\
+& S_1 = \{ 2, 4, 6 \} \quad \text{and} \quad S_2 = \{ 1, 3, 5 \}
+\end{aligned}
+$$
+$$
+\begin{array}{l}
+I = (1, 2, \dots, n) \\
+\text{Let Antonia be player 1 and Bob player 2.} \\
+\text{Suppose Antonia is constrained to the values } 2, 4, 6 \text{ and Bob to } 1, 3, 5. \\
+\text{Represent those values by } S_n \text{:} \\
+S_1 = \{ 2, 4, 6 \} \quad \text{and} \quad S_2 = \{ 1, 3, 5 \}
+\end{array}
+$$
+
+		
+$I= {1,2}$ 
 		$\text{Let Antonia be player 1 and Bob player 2}$
 		$S_{1}=\{ 2,4,6 \}$ 
 		$\text{Antonia will serve as the rows}$
