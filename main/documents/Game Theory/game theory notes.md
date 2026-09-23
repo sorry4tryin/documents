@@ -8,7 +8,7 @@ tags:
   - documents/game-theory
   - documents
 created: 2026-09-21 12:48
-modified: 2026-09-23 16:59
+modified: 2026-09-23 17:05
 ---
 - most player underestimate the value of fairness within certain scenarios; defines how individuals assume that other players are inherently selfish and greedy. 
 	- fairness is actually what individuals are founded upon (more likely to come across)
@@ -29,4 +29,4 @@ modified: 2026-09-23 16:59
 		$\text{Let}~M~\text{represent Mexican,}~I~\text{represent Italian,}~J~\text{represent Japanese}$
 		$S=\begin{bmatrix}&&1&&3&&5&\\2&&M&&M&&I\\4&&M&&I&&J\\6&&I&&J&&J\end{bmatrix}$
 - 1.e.1.b
-		$\begin{matrix}\text{outcome}~\rightarrow o_{1}&o_{2}&o_{3}&o_{4}&o_{5}&o_{6}&o_{7}&o_{8}&o_{9}\\\text{utility function \downarrow}\\ 3\end{matrix}$
+		$\begin{align}\begin{matrix}\text{outcome}~\rightarrow&o_{1}&o_{2}&o_{3}&o_{4}&o_{5}&o_{6}&o_{7}&o_{8}&o_{9}\\\text{utility function \downarrow}\\ 3\end{matrix}\end{align}$
