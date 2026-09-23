@@ -237,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -348,8 +347,9 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
-    "quick notes/stock topics to research.md",
+    "quick notes/maximizing agent spawning and delegation.md",
     "documents/Game Theory/game theory notes.md",
+    "quick notes/stock topics to research.md",
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
     "templates/documentnote.md",
@@ -362,7 +362,6 @@
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "quick notes/make a youtube short account using ai tools (make profit).md",
     "documents/Game Theory",
-    "quick notes/maximizing agent spawning and delegation.md",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
