@@ -8,7 +8,7 @@ tags:
   - documents/game-theory
   - documents
 created: 2026-09-21 12:48
-modified: 2026-09-23 19:11
+modified: 2026-09-23 19:27
 ---
 - most player underestimate the value of fairness within certain scenarios; defines how individuals assume that other players are inherently selfish and greedy. 
 	- fairness is actually what individuals are founded upon (more likely to come across)
@@ -27,22 +27,35 @@ o_{1} & o_{2} & o_{3} & o_{4} & o_{5} & o_{6} & o_{7} & o_{8} & o_{9} \\
 $$
 Calculate payoff per outcome: 
 $$
-\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\begin{array}{cc}
+ & \text{Player 2 (Bob)} \\
+\text{Player 1 (Antonia)} & 
+\begin{array}{|c|c|c|}
+
 \hline
-3 & 5 & 7 & 5 & 7 & 9 & 7 & 9 & 11 \\
+3 & 5 & 7\\
 \hline
-o_{1} & o_{2} & o_{3} & o_{4} & o_{5} & o_{6} & o_{7} & o_{8} & o_{9} \\
+5 & 7 & 9\\
 \hline
+7 & 9 & 11\\
+\hline
+\end{array}
 \end{array}
 $$
 Let $5 \geq x$ is Mexican ($M$), $7=x$ is Italian ($I$), and $9 \le x$ is Japanese ($J$):
 $$
-\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\begin{array}{cc} \\
+ & \text{Player 2 (Bob)} \\ \\x
+ \text{Player 1 (Antonia)} & 
+\begin{array}{|c|c|c|}
 \hline
-M & M & I & M & I & J & I & J & J \\
+M & M & I\\
 \hline
-o_{1} & o_{2} & o_{3} & o_{4} & o_{5} & o_{6} & o_{7} & o_{8} & o_{9} \\
+M & I & J\\
 \hline
+I & J & J \\
+\hline
+\end{array}
 \end{array}
 $$
 1.e.1.b
