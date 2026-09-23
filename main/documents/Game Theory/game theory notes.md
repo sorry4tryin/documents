@@ -8,7 +8,7 @@ tags:
   - documents/game-theory
   - documents
 created: 2026-09-21 12:48
-modified: 2026-09-23 18:42
+modified: 2026-09-23 18:50
 ---
 - most player underestimate the value of fairness within certain scenarios; defines how individuals assume that other players are inherently selfish and greedy. 
 	- fairness is actually what individuals are founded upon (more likely to come across)
@@ -58,10 +58,28 @@ U_{2}~(\text{Bob})  & 2 & 2 & 3 & 2 & 3 & 1 & 3 & 1 & 1 &
 $$
 Represent the corresponding reduced-form game as table:
 $$
-\begin{array}{|c|c|c|}
+\begin{array}{|c|c|c|c|}
 \hline
-\text{Mexican} & \text{Italian} & \text{Japanese}  \\
+\quad & \text{Mexican} & \text{Italian} & \text{Japanese} \\
+\hline
+\text{Mexican}  & 2 \quad 3  & 2 \quad 3 &  3 \quad 2\\
+\hline
+\text{Italian}  & 2 \quad 3 & 3 \quad 2 & 1 \quad 1\\
+\hline 
+\text{Japanese} & 3 \quad 2  & 1 \quad 1 & 1 \quad 1\\
+\hline
+\end{array}
+$$
 
+\begin{array}{|c|c|c|c|}
+\hline
+\text{P1} \backslash \text{P2} & 1 & 3 & 5 \\
+\hline
+2 & (3, 3) & (5, 5) & (7, 7) \\
+\hline
+4 & (5, 5) & (7, 7) & (9, 9) \\
+\hline
+6 & (7, 7) & (9, 9) & (11, 11) \\
 \hline
 \end{array}
 $$
