@@ -8,7 +8,7 @@ tags:
   - documents/game-theory
   - documents
 created: 2026-09-21 12:48
-modified: 2026-09-23 19:27
+modified: 2026-09-23 19:36
 ---
 - most player underestimate the value of fairness within certain scenarios; defines how individuals assume that other players are inherently selfish and greedy. 
 	- fairness is actually what individuals are founded upon (more likely to come across)
@@ -45,7 +45,7 @@ $$
 Let $5 \geq x$ is Mexican ($M$), $7=x$ is Italian ($I$), and $9 \le x$ is Japanese ($J$):
 $$
 \begin{array}{cc} \\
- & \text{Player 2 (Bob)} \\ \\x
+ & \text{Player 2 (Bob)} \\
  \text{Player 1 (Antonia)} & 
 \begin{array}{|c|c|c|}
 \hline
@@ -58,6 +58,7 @@ I & J & J \\
 \end{array}
 \end{array}
 $$
+Therefore, the following scenario represents $\bra{I = \{ 1,2 \}, (S_{1},S_{2}) = (\{ 2,4,6 \}, \{ 1,3,5 \}), O = \{ M, I, J \}, f \rightarrow O}$
 1.e.1.b
 For Antonia: $M >_{Antonia}I>_{Antonia}J$; for Bob: $I>_{Bob}M>_{Bob}J$. Use values $1,2$ and $3$ with utility function:
 $$
