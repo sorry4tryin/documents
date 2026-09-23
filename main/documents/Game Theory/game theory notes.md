@@ -8,14 +8,14 @@ tags:
   - documents/game-theory
   - documents
 created: 2026-09-21 12:48
-modified: 2026-09-23 19:41
+modified: 2026-09-23 19:46
 ---
 - most player underestimate the value of fairness within certain scenarios; defines how individuals assume that other players are inherently selfish and greedy. 
 	- fairness is actually what individuals are founded upon (more likely to come across)
 - *game-frame*: a table of player strategies we have no information about regarding the preferences of the players
 
  1.e.1.a
-Suppose we have two players: let Antonia be player 1 and Bob player 2: $I = \{ 1,2\}$. Each player has select values $S_{1}=\{ 2,4,6 \}$ (Antonia) and $S_{2}=\{ 1,3,5 \}$ (Bob). Each strategy pair $(s_{1},s_{2}) \in S_{1} \times S_{2}$ produces an outcome $o_{n}$ with payoff $f(s_{1},s_{2}) = s_{1}+s_{2}$ :
+Suppose we have two players: let Antonia be player 1 and Bob player 2: $I = \{ 1,2\}$. Each player has select values $S_{1}=\{ 2,4,6 \}$ (Antonia) and $S_{2}=\{ 1,3,5 \}$ (Bob). Each strategy pair $(s_{1},s_{2}) \in S_{1} \times S_{2}$ produces an outcome $f(s_{1},s_{2})=s_{1}+s_{2}\rightarrow O$
 $$
 \begin{array}{|c|c|c|c|c|c|c|c|c|}
 \hline

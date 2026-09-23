@@ -91,14 +91,6 @@
   "editor:toggle-bold": [],
   "editor:toggle-italics": [],
   "markdown:toggle-preview": [],
-  "notebook-navigator:open": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "1"
-    }
-  ],
   "workspace:previous-tab": [
     {
       "modifiers": [
@@ -140,15 +132,6 @@
     }
   ],
   "editor:open-link-in-new-leaf": [],
-  "notebook-navigator:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "1"
-    }
-  ],
   "app:delete-file": [
     {
       "modifiers": [
@@ -173,6 +156,23 @@
         "Alt"
       ],
       "key": "T"
+    }
+  ],
+  "notebook-navigator:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "notebook-navigator:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
     }
   ]
 }
