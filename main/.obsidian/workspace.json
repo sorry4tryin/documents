@@ -143,24 +143,12 @@
             "id": "4a7ab62e3abb6d26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "quick notes/trading overview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf"
               },
-              "icon": "lucide-file",
-              "title": "trading overview"
+              "icon": "lucide-file-text",
+              "title": "2026-09-16-latex-paper-writer-vault-integration"
             }
           }
         ],
@@ -347,13 +335,14 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
-    "quick notes/schedule 1.md",
+    "quick notes/maximizing agent spawning and delegation.md",
+    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "quick notes/trading overview.md",
+    "quick notes/schedule 1.md",
     "quick notes/sat prep framework.md",
     "quick notes/stock topics to research.md",
     "quick notes/make a youtube short account using ai tools (make profit).md",
     "documents/Game Theory/game theory notes.md",
-    "quick notes/maximizing agent spawning and delegation.md",
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
     "templates/documentnote.md",
@@ -365,7 +354,6 @@
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Game Theory",
-    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
     "quick notes/agent spawning.md",
@@ -382,7 +370,6 @@
     "weave/schema-version.md",
     "weave/README.md",
     "quick notes/recreate orgo ai computer setup.md",
-    "quick notes/Create Artificial Intelligence autonomously conscious..md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
