@@ -143,24 +143,12 @@
             "id": "4a7ab62e3abb6d26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "quick notes/trading overview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "session-summaries/testing-session-paper-plugin-demo.pdf"
               },
-              "icon": "lucide-file",
-              "title": "trading overview"
+              "icon": "lucide-file-text",
+              "title": "testing-session-paper-plugin-demo"
             }
           }
         ],
@@ -237,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -348,6 +335,7 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
+    "quick notes/trading overview.md",
     "session-summaries/testing-session-paper-plugin-demo.tex",
     "session-summaries/testing-session-paper-plugin-demo.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
@@ -355,7 +343,6 @@
     "projects/Beginner Trading Knowledge System.md",
     "questions/unconscious contentment personal issues.md",
     "quick notes/maximizing agent spawning and delegation.md",
-    "quick notes/trading overview.md",
     "quick notes/schedule 1.md",
     "quick notes/sat prep framework.md",
     "quick notes/stock topics to research.md",
@@ -375,7 +362,6 @@
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "session-summaries",
     "quick notes/agent spawning.md",
-    "templates",
     "web-clips/Struggling Grad Student – Natural Born Talent vs Practice.md",
     "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md",
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
