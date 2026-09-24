@@ -6,7 +6,7 @@ aliases:
 tags:
   - thoughts/overview
 created: 2026-09-23 22:33
-modified: 2026-09-23 22:57
+modified: 2026-09-23 23:03
 ---
 - suppose a individual requires a schedule to reduce procrastination
 	- let the main priorities be school and trading
