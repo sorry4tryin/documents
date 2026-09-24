@@ -1,0 +1,161 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\title{A Demo of the \texttt{session-paper} OpenCode Plugin:\\ Automatic Session Distillation and Paper Generation}
+\author{Author placeholder} % TODO: replace with real author name/affiliation
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We present a basic demo and test of \texttt{session-paper}, an OpenCode server plugin
+registered at \texttt{\textasciitilde/.config/opencode/plugins/session-paper.ts}. The plugin
+injects a standing directive into every primary session's system prompt instructing the
+active agent to distill the session and spawn the \texttt{latex-paper-writer} subagent at
+the end of every response, naming the output document from a slugified form of the session
+title, and it surfaces TUI toasts when the spawn is detected and when the child paper
+session finishes. A 14-check harness exercising the plugin's three hooks passed in full,
+and the live end-to-end path was then exercised by spawning the subagent from a primary
+session, producing this document. We report the design under test, the harness checks, and
+the observed end-to-end results.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+Large language model agent sessions often produce useful structure---decisions, methods,
+and findings---that is lost when the conversation ends. Motivated by the desire to turn
+completed sessions into durable, citable documents, the \texttt{session-paper} plugin
+automates the last step of a session: distilling it into a LaTeX paper without requiring
+the user to prompt for this manually.
+
+The plugin operates through three mechanisms working together: (i)~a standing directive
+injected into the system prompt of primary sessions, (ii)~detection of the moment the
+active agent spawns the \texttt{latex-paper-writer} subagent, and (iii)~lifecycle tracking
+of the resulting child paper session, with user-visible TUI toasts marking the spawn and
+the child's completion.
+
+The research question for this demo is straightforward: \emph{does the plugin function as
+designed across its three hooks, and does the automatic paper-generation loop complete end
+to end in a live session?} We answer it with a scripted test harness plus a live
+end-to-end run whose output is this very document.
+
+\section{Background and Related Work}
+\label{sec:background}
+
+The plugin builds on OpenCode's extension points: registration in the OpenCode
+configuration, hooking of chat system-prompt transformation, interception of tool
+execution, and subscription to session events. Related in spirit are prior efforts to
+auto-generate scholarly artifacts from agent transcripts, but our scope here is narrower
+and strictly empirical: verify the plugin's own contract, not the broader quality of
+model-generated papers. No external literature was surveyed for this demo; references are
+limited to the artifacts actually exercised.
+
+\section{Methods / Approach}
+\label{sec:methods}
+
+\subsection{Plugin under test}
+The plugin file \texttt{\textasciitilde/.config/opencode/plugins/session-paper.ts} was
+registered in the OpenCode configuration and confirmed active: its directive appeared in
+the session's system prompt, with the slug \texttt{testing-session-paper-plugin-demo}
+derived from the session title ``Testing session-paper plugin demo.''
+
+The plugin's three hooks are:
+
+\begin{enumerate}
+  \item \texttt{experimental.chat.system.transform} --- injects the standing directive
+        into primary sessions only.
+  \item \texttt{tool.execute.after} --- raises an info toast when a task tool spawns a
+        subagent with \texttt{subagent\_type} equal to \texttt{latex-paper-writer}.
+  \item An event handler --- tracks \texttt{session.created}/\texttt{session.updated}
+        titles, links the child paper session to its parent, and raises a success toast on
+        \texttt{session.idle}.
+\end{enumerate}
+
+\subsection{Test harness}
+A 14-check \texttt{bun test} harness with a mock client exercised all three hooks. Beyond
+the happy path, the harness asserted negative and edge behaviors:
+
+\begin{itemize}
+  \item the directive is suppressed in child/subagent sessions, preventing recursion;
+  \item unrelated tools spawn no toast;
+  \item unknown sessions fall back to \texttt{client.session.get};
+  \item renamed sessions update the derived slug;
+  \item idle toasts fire exactly once per child session.
+\end{itemize}
+
+\subsection{Live end-to-end run}
+Finally, the real path was exercised: the \texttt{latex-paper-writer} subagent was spawned
+from the primary session, the plugin detected the spawn and toasted, and the child session
+produced this document.
+
+\section{Results / Findings}
+\label{sec:results}
+
+All 14 harness checks passed, covering directive injection, slug derivation,
+child-session gating, and the toast lifecycle. Table~\ref{tab:hooks} summarizes the
+hook-level outcomes.
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{@{}llc@{}}
+    \toprule
+    Hook & Behavior verified & Outcome \\
+    \midrule
+    \texttt{system.transform} & Directive injected into primary sessions only & Pass \\
+    \texttt{tool.execute.after} & Toast on \texttt{latex-paper-writer} spawn only & Pass \\
+    Event handler & Title tracking, child linking, single idle toast & Pass \\
+    \bottomrule
+  \end{tabular}
+  \caption{Hook-level results from the 14-check harness.}
+  \label{tab:hooks}
+\end{table}
+
+The live end-to-end path also succeeded: the subagent spawn was detected and toasted, and
+this document was written to disk as \texttt{testing-session-paper-plugin-demo.pdf} with
+source \texttt{testing-session-paper-plugin-demo.tex}.
+
+\section{Discussion}
+\label{sec:discussion}
+
+The results indicate the plugin works as designed. The negative checks matter as much as
+the positive ones: suppressing the directive in child sessions prevents a paper-writing
+subagent from recursively spawning further paper writers, and gating toasts on the
+specific \texttt{latex-paper-writer} subagent type avoids noise from unrelated tool calls.
+The rename check confirms slug derivation tracks live title edits rather than a stale
+snapshot, and the exactly-once idle toast prevents duplicated completion notifications.
+
+This demo deliberately limits its claims. It verifies the plugin's contract and one live
+run; it does not evaluate paper quality across sessions, robustness under concurrent
+sessions, or behavior when the subagent fails. Those remain open for future testing.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+The \texttt{session-paper} plugin is operational: directive injection, slug derivation,
+child-session gating, and the toast lifecycle were all verified by a 14-check harness, and
+the automatic paper-generation loop functions end to end, as demonstrated by the
+production of this document.
+
+\section*{Acknowledgments}
+% TODO: optional acknowledgments.
+
+\begin{thebibliography}{9}
+\bibitem{session-paper-plugin}
+\texttt{session-paper} OpenCode server plugin source,
+\texttt{\textasciitilde/.config/opencode/plugins/session-paper.ts}; exercised in this
+session via its configuration registration and 14-check \texttt{bun test} harness.
+
+\bibitem{session-paper-output}
+This document itself: \texttt{testing-session-paper-plugin-demo.tex} /
+\texttt{testing-session-paper-plugin-demo.pdf}, generated by the
+\texttt{latex-paper-writer} subagent spawned through the plugin's end-to-end path.
+\end{thebibliography}
+
+\end{document}

@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Beginner Trading Knowledge System.md",
+                "file": "quick notes/trading overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -160,7 +160,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Beginner Trading Knowledge System"
+              "title": "trading overview"
             }
           }
         ],
@@ -237,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -347,10 +348,12 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
+    "session-summaries/testing-session-paper-plugin-demo.tex",
+    "session-summaries/testing-session-paper-plugin-demo.pdf",
+    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "projects/Beginner Trading Knowledge System.md",
     "questions/unconscious contentment personal issues.md",
-    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/trading overview.md",
     "quick notes/schedule 1.md",
@@ -378,11 +381,9 @@
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
     "quick notes/automation.md",
     "quick notes/observer.md",
-    "documents/Introduction to Criminal Justice.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
     "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "weave/schema-version.md",
-    "weave/README.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
