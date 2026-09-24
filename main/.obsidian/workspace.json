@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/schedule 1.md",
+                "file": "quick notes/trading overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -160,7 +160,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "schedule 1"
+              "title": "trading overview"
             }
           }
         ],
@@ -237,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -348,8 +347,9 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
-    "quick notes/sat prep framework.md",
     "quick notes/schedule 1.md",
+    "quick notes/trading overview.md",
+    "quick notes/sat prep framework.md",
     "quick notes/stock topics to research.md",
     "quick notes/make a youtube short account using ai tools (make profit).md",
     "documents/Game Theory/game theory notes.md",
@@ -383,7 +383,6 @@
     "weave/README.md",
     "quick notes/recreate orgo ai computer setup.md",
     "quick notes/Create Artificial Intelligence autonomously conscious..md",
-    "documents/Discovering Computers/Module 3/Module 3 - Evaluating Hardware.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
