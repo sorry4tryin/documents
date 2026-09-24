@@ -143,12 +143,24 @@
             "id": "4a7ab62e3abb6d26",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf"
+                "file": "questions/unconscious contentment personal issues.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "2026-09-16-latex-paper-writer-vault-integration"
+              "icon": "lucide-file",
+              "title": "unconscious contentment personal issues"
             }
           }
         ],
@@ -335,9 +347,9 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
+    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "projects/Beginner Trading Knowledge System.md",
     "quick notes/maximizing agent spawning and delegation.md",
-    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "quick notes/trading overview.md",
     "quick notes/schedule 1.md",
     "quick notes/sat prep framework.md",
@@ -370,7 +382,6 @@
     "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "weave/schema-version.md",
     "weave/README.md",
-    "quick notes/recreate orgo ai computer setup.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
