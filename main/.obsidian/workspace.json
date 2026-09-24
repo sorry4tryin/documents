@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/Game Theory/game theory notes.md",
+                "file": "quick notes/schedule 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -160,7 +160,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "game theory notes"
+              "title": "schedule 1"
             }
           }
         ],
@@ -237,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -347,9 +348,11 @@
   },
   "active": "4a7ab62e3abb6d26",
   "lastOpenFiles": [
-    "quick notes/maximizing agent spawning and delegation.md",
-    "documents/Game Theory/game theory notes.md",
     "quick notes/stock topics to research.md",
+    "quick notes/schedule 1.md",
+    "quick notes/make a youtube short account using ai tools (make profit).md",
+    "documents/Game Theory/game theory notes.md",
+    "quick notes/maximizing agent spawning and delegation.md",
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
     "templates/documentnote.md",
@@ -360,7 +363,6 @@
     "templates/Untitled 1.md",
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
-    "quick notes/make a youtube short account using ai tools (make profit).md",
     "documents/Game Theory",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
