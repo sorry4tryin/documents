@@ -6,11 +6,11 @@ aliases:
 tags:
   - thoughts/overview
 created: 2026-09-23 22:33
-modified: 2026-09-23 23:03
+modified: 2026-09-23 23:07
 ---
 - suppose a individual requires a schedule to reduce procrastination
 	- let the main priorities be school and trading
-		- let school have a mandatory 8 hours a day (07:00-15:30), with leftover time exceeding into 19:00
+		- let school have a mandatory 8 hours a day (07:00-15:30), with leftover time exceeding into 19:00 
 		- let trading have a optional 1-2 hours per day, with some days reaching 5 hours
 			- suppose further consistency will improve hours, reverse applies as well
 			- suppose school doesn't require action
