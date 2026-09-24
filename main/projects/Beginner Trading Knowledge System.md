@@ -1,12 +1,10 @@
 ---
-title: Beginner Trading Knowledge System
-type: trading-curriculum
-status: active
-platform: Axiom
-assets:
-  - Bitcoin
-  - Memecoins
-difficulty: beginner
+description:
+class:
+  - project
+created: 2026-09-24
+modified: 2026-09-24 10:00
+aliases:
 tags:
   - trading
   - bitcoin

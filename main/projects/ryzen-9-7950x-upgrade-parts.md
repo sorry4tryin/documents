@@ -1,27 +1,27 @@
 ---
-created: 2026-08-17
 class:
   - project
 description: core components list for full platform upgrade from Ryzen 3 3200G (AM4) to Ryzen 9 7950X (AM5)
-mod.: 2026-08-17
 aliases:
   - 7950x build
   - pc upgrade
 tags:
   - hardware/pc-build
   - hardware/amd
+created: 2026-08-17
+modified: 2026-09-24 10:00
 ---
 
 ## current system
 
-| component | model |
-|-----------|-------|
-| cpu | AMD Ryzen 3 3200G (4c/4t, Zen+) |
-| gpu | Integrated Radeon Vega 8 |
-| ram | ~13.6GB DDR4 (mixed sticks, likely single-channel) |
-| boot drive | 250GB SATA SSD (WDC WDS250G2B0B) |
-| data drive | 1TB HDD (WDC WD10EZEX, 7200RPM) |
-| os | Arch Linux (kernel 6.19) |
+| component  | model                                              |
+| ---------- | -------------------------------------------------- |
+| cpu        | AMD Ryzen 3 3200G (4c/4t, Zen+)                    |
+| gpu        | Integrated Radeon Vega 8                           |
+| ram        | ~13.6GB DDR4 (mixed sticks, likely single-channel) |
+| boot drive | 250GB SATA SSD (WDC WDS250G2B0B)                   |
+| data drive | 1TB HDD (WDC WD10EZEX, 7200RPM)                    |
+| os         | Arch Linux (kernel 6.19)                           |
 
 ## upgrade parts list
 
