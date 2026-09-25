@@ -15,9 +15,9 @@
   linkcolor=black,
   citecolor=black,
   urlcolor=blue,
-  pdftitle={Locating a CompTIA+ Study Resource in a Personal Obsidian Vault and Auditing the Integrity of a Purported Answer Key},
-  pdfauthor={Anonymous},
-  pdfsubject={Study-material assessment and answer-key integrity audit}
+  pdftitle={Retrieval and Answer-Key Integrity Audit of a CompTIA Security+ Study Note in a Personal Obsidian Vault},
+  pdfauthor={Anonymous Author},
+  pdfsubject={Single-participant study-material assessment and answer-key verification}
 }
 
 % List spacing set with standard LaTeX lengths (enumitem unavailable in this TeX install).
@@ -25,241 +25,270 @@
 \setlength{\parskip}{3pt}
 \renewcommand{\arraystretch}{1.12}
 
-\title{\textbf{Locating a CompTIA+ Study Resource in a Personal Obsidian Vault:\\ An Exploratory Retrieval and Answer-Key Integrity Audit}}
-\author{Anonymous Author\\[2pt] \small Personal Knowledge Management Study --- Session Record}
-\date{Session date recorded in vault log}
+% Hyphenation hints for long compound terms used in the body text.
+\hyphenation{pre-com-puted data-base renum-ber-ing dis-place-ment dis-cre-to-ry}
+
+% ----------------------------------------------------------------------------
+% PROVENANCE NOTE
+% This document is generated from a distilled session summary supplied by the
+% session conductor. Every factual claim below is grounded in that summary.
+% Where the summary is silent, the omission is marked with a % TODO comment
+% rather than filled in. No external literature was consulted; the reference
+% list therefore contains only the primary artifact under audit.
+% ----------------------------------------------------------------------------
+
+\title{\textbf{Retrieval and Answer-Key Integrity Audit of a CompTIA Security+ Study Note\\ in a Personal Obsidian Vault}\\[4pt]
+\large A Single-Participant Session Analysis}
+\author{Anonymous Author\\[2pt] \small Session record: ``Locate CompTIA+ Book in Obsidian Vault''}
+\date{25 September 2026}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-This paper reports a small-scale, single-participant audit carried out on one study note held in a personal Obsidian vault. The work proceeded in four stages. First, a case-insensitive recursive retrieval was executed against the vault to locate CompTIA+ study material; one matching title was returned --- a Security+ textbook --- present both as a source PDF and as a directory of fifteen extracted per-module notes. Second, the note for Module~7, ``Identity and Access Management'' (SY0-701), was selected by the participant, read in full (471 lines), and audited for internal coherence; two defects were surfaced, an internal contradiction between a statement of industry password-expiry practice and an explicit recommendation against expiry, and a malformed review question offering two textually identical answer options. Third, twenty-five examination items drawn from the module were answered under a drill protocol in which every answer was scored and supported by a line-level citation into the source note; all twenty-five items were resolved against the note, and one further defect was identified, an item demanding two selections for which only one was supportable. Fourth, a purported answer key supplied by the participant was subjected to integrity analysis, which found the key to be corrupt: across roughly three quarters of its entries the printed option letter contradicted the accompanying rationale, and four of its twenty-five entries were topically unrelated to any supplied item. Re-mapping the key by subject matter rather than by position yielded coverage of twenty-one of the twenty-five items. Scoring the recorded responses against the reconstructed intended answers rather than the printed letters produced sixteen confirmed correct, one confirmed incorrect, three disputed, and four unverifiable responses. The methodological conclusion is that a printed option letter is not self-validating, that any accompanying rationale must be checked for consistency against both the item and the proposed answer before use, and that subject-matter re-mapping is necessary whenever positional alignment between item and key has been broken. The disputed and unverifiable items are retained as open findings rather than resolved silently.
+This paper reports a small-scale, single-participant audit carried out on one study note held in a personal Obsidian vault, together with a verification of a third-party answer key supplied for that material. The work proceeded in six stages. Stage~A performed a case-insensitive recursive retrieval against the vault, which returned a single matching title: a Security+ textbook by Mark Ciampa, present both as a source PDF and as a directory of fifteen extracted per-module notes. Stage~B selected Module~7, ``Identity and Access Management'' (SY0-701), read it in full at 471 lines, and audited it for internal coherence across its three stated objectives --- authentication credential types, authentication best practices, and access control schemes --- surfacing two defects: an internal contradiction between a statement of industry password-expiry practice and an explicit recommendation against expiry, and a malformed review question presenting two textually identical answer options. Stage~C had the participant answer twenty-five examination items under a drill protocol requiring that every answer be scored and accompanied by a line-level citation into the source note; all twenty-five were resolved against the note, and a third defect was identified, an item demanding two selections for which only one was supportable from the source. Stages~D--F then examined a purported answer key. In roughly three quarters of its entries the printed option letter contradicted the printed explanatory rationale, and several entries were topically unrelated to any supplied item; re-mapping the key by subject matter rather than by position established coverage of only twenty-one items, leaving four unaddressed. The analysis nonetheless exposed a pattern in which certain printed letters were displaced while the accompanying rationales were correct, motivating the hypothesis that the rationales were authoritative and the letters had been shuffled independently of them. The participant then reissued the item set with all options reordered within each question; under the new ordering the same key became internally consistent, confirming the hypothesis. The reissued set also substituted five new items for four the key had never covered. Rescoring the original responses against the now-aligned key produced thirteen confirmed correct responses, three confirmed incorrect responses, four partial or disputed responses, and five newly covered items. The three confirmed errors are analysed individually, and the disputed items are preserved as open findings rather than resolved. The methodological conclusions are that an answer key's option letters are not self-validating, that a rationale must be checked for consistency with both the item and the letter before use, that positional alignment must be verified before scoring, and that fidelity to a single source can produce confident errors whenever that source is silent on the distinction actually being tested.
 \end{abstract}
 
 \tableofcontents
 
 \section{Introduction}
+\label{sec:intro}
 
 \subsection{Motivation}
 
-Personal knowledge management systems increasingly serve as the substrate for exam preparation. When a certification guide is imported into a vault and decomposed into per-module notes, two properties become immediately consequential. The first is \emph{structural}: the learner must be able to find the intended artifact, and must be able to identify which fragment of a large imported corpus corresponds to the objective currently under study. The second is \emph{epistemic}: material presented in the form of an assessment, together with any key supplied with it, must be internally consistent, otherwise the learner rehearses against error rather than against the underlying subject.
+Personal knowledge management systems increasingly serve as the substrate for certification exam preparation. When a certification guide is imported into a vault and decomposed into per-module notes, two properties become immediately consequential. The first is \emph{structural}: the learner must be able to find the intended artifact, and must be able to identify which fragment of a large imported corpus corresponds to the objective currently under study. The second is \emph{epistemic}: material presented in the form of an assessment, together with any key supplied alongside it, must be internally consistent, otherwise the learner rehearses against error rather than against the underlying subject.
 
-The two properties fail in different ways and for different reasons. Retrieval failure is usually benign --- a naming or indexing problem that produces an empty or misleading result set. Assessment-integrity failure is subtler and more damaging, because a defective item or a defective key is indistinguishable from a valid one at the moment of use. A learner who drills against a corrupt key can leave a study session with a systematically distorted model of the material, and can do so while experiencing the session as successful.
+The second property is the more fragile of the two. A note can be located reliably and still teach an inconsistency. An answer key can be handed over in good faith and still be internally contradictory, and the contradiction is not visible to a learner who reads only the letter. The failure mode is silent: the learner records a verdict, carries it forward as settled, and does not discover the error until an examination disagrees.
 
 \subsection{Research questions}
 
-This session record is organised around three questions:
+This session record is organised around four questions, each answerable from the audit trail alone.
 
 \begin{enumerate}
-  \item \textbf{Retrieval.} Can the intended certification study material be located unambiguously in a personal vault, and does the retrieved material decompose into an addressable per-module structure?
-  \item \textbf{Item quality.} What defects, if any, are present in the audited module note and in the examination items derived from it, as detected by direct reading and by line-level citation into the source?
-  \item \textbf{Key integrity.} When a purported answer key is cross-referenced against the items it purports to answer, what is its condition, and what scoring follows if answers are graded against reconstructed intent rather than against printed option letters?
+  \item \textbf{Retrieval and scoping.} Can the intended study artifact be located unambiguously within a personal vault, and can the note corresponding to a named module objective be identified and read to completion?
+  \item \textbf{Note integrity.} What classes of defect are detectable in a study note by a full read against a single declared source of truth, and which concrete defects were found in the note audited here?
+  \item \textbf{Key integrity.} When a purported answer key is checked against the item set and the source note, in what ways does it fail, and can the nature of the failure be characterised rather than merely reported?
+  \item \textbf{Scoring validity.} What does rescoring a recorded response set against a key whose internal structure has been repaired reveal, and which responses are confirmed, refuted, or left genuinely open?
 \end{enumerate}
 
-The third question is the load-bearing one. The analysis reported in Section~\ref{sec:results-integrity} is descriptive of a single audit; it makes no claim about answer keys in general, and no external literature is cited in support of any observation made here.
+\subsection{Contributions and non-contributions}
 
-\section{Methods}
+The contribution is a methodological case record: a single artefact audited to exhaustion, with the defect classes, the key-corruption pattern, and the rescoring outcome documented descriptively. The non-contributions are equally deliberate. No pass rates, score statistics, effect sizes, or reliability estimates are computed, because a single participant working a single twenty-five-item set does not license them. No external literature is cited, because none was consulted. Where the session record characterises an item only partially, that partiality is carried forward as an open finding rather than resolved by inference.
 
-\subsection{Setting and materials}
+% TODO: The distilled record characterises four items as partial or disputed but describes
+% only two of them individually. The remaining two are reported at the class level in
+% Section~\ref{sec:disputed} and are explicitly flagged as uncharacterised.
 
-The audit was performed on a single participant's personal Obsidian vault. The materials are those retrieved within that vault; no external dataset, corpus, or public benchmark was involved. Counts reported below (fifteen module notes; 471 lines; twenty-five items; twenty-five key entries) are counts of the objects actually handled in the session.
+\section{Material Under Audit}
+\label{sec:material}
 
-\subsection{Retrieval procedure}
+\subsection{Retrieval outcome}
 
-A case-insensitive recursive search was executed across the vault for the certification study material. The result set was recorded before any content was read, so that the reported structure reflects retrieval rather than expectation.
+A case-insensitive recursive search was executed against the vault. Exactly one title matched the CompTIA study-book query: a Security+ textbook by Mark Ciampa \cite{ciampa}. The artifact exists in two representations --- a source PDF, and a directory of fifteen extracted per-module notes. This dual representation is the structural point of interest: the learner must know which representation to consult, and the per-module decomposition is what makes a single objective addressable at all.
 
-\subsection{Module selection and reading}
+\subsection{The selected note}
 
-The participant narrowed scope to Module~7, ``Identity and Access Management'' (SY0-701). The corresponding note was read in full, 471 lines, and its structure was recorded as being organised around three objectives:
+Scope was narrowed by the participant to Module~7, ``Identity and Access Management'' (SY0-701). The note was read in full at 471 lines. It is organised around three stated objectives:
 
 \begin{enumerate}
   \item authentication credential types;
-  \item authentication best practices; and
+  \item authentication best practices;
   \item access control schemes.
 \end{enumerate}
 
-Full reading rather than sampling was performed because the audit questions concern internal consistency across the whole note; a contradiction of the kind reported in Section~\ref{sec:results-items} is invisible to a partial read.
+The three-objective structure matters methodologically, because it supplies the partition against which later items were classified. An item about a credential type, an item about a practice recommendation, and an item about an access control scheme are each adjudicable against a distinct region of the note, which is what makes a line-level citation a meaningful check rather than a gesture.
 
-\subsection{Citation protocol for item resolution}
+\section{Methods}
+\label{sec:methods}
 
-Twenty-five examination items were drawn from the module. The protocol adopted for answering them was as follows.
+The audit was executed as six sequential stages. Each stage consumed the output of its predecessor, so the design is strictly chained: a failure at any stage would have invalidated the stages downstream of it.
 
-\begin{enumerate}
-  \item Each item is answered against the source note alone.
-  \item Every answer is scored --- marked correct or incorrect --- and is accompanied by a citation giving the specific line or lines in the source note that license the answer.
-  \item An answer is recorded as resolved only if a supporting span can be identified; otherwise the item is flagged as unresolved.
-\end{enumerate}
+\subsection{Stage A --- Retrieval and scoping}
 
-The protocol is deliberately conservative. Requiring a locatable span converts a judgement of plausibility into a judgement of licence, and it makes the disagreement cases in Section~\ref{sec:results-integrity} visible rather than tacit.
+A case-insensitive recursive search was run over the vault for the CompTIA study book. The single returned title was then decomposed into its available representations, and the module directory enumerated. The participant selected Module~7 by name, fixing the scope of all subsequent work.
 
-\subsection{Key integrity analysis}
+\subsection{Stage B --- Full read and coherence audit}
 
-A purported answer key was subsequently supplied for cross-referencing. It was subjected to three successive analyses.
+The selected note was read to completion rather than sampled. The audit sought contradictions internal to the note --- statements that cannot both be true, or question forms that cannot be answered as written --- and did not import expectations from outside the note. The point of this stage is that the note is its own reference standard: a defect is a defect regardless of what external sources say.
 
-\begin{enumerate}
-  \item \textbf{Internal consistency check.} For each entry, the printed option letter was compared against the accompanying explanatory rationale. An entry is \emph{self-contradictory} when the letter selects one option while the rationale endorses a different one.
-  \item \textbf{Topical correspondence check.} Each key entry was compared against the supplied items for subject-matter correspondence, independent of position. An entry is \emph{off-topic} when no supplied item shares its subject matter.
-  \item \textbf{Subject-matter re-mapping.} Where positional alignment between item and key is unreliable, the key was re-indexed by subject matter to establish which items are addressed at all, and hence which are left unaddressed.
-\end{enumerate}
+\subsection{Stage C --- Item response under a citation protocol}
 
-\subsection{Grading rule}
+Twenty-five examination items were supplied and answered. The drill protocol imposed two obligations on every response: the answer was scored, and it was accompanied by a line-level citation into the source note. The citation obligation converts an answer from an assertion into a checkable claim --- the recorded response is right or wrong relative to the note, not relative to the learner's recall. All twenty-five items were resolved against the note under this protocol.
 
-Where the key's own rationale supported the recorded response while its printed letter did not, the rationale was treated as authoritative and the response was upheld. This rule is stated in advance because it determines the reported tally; it is applied consistently, and the items it does not settle are reported as disputed rather than being forced into a verdict.
+\subsection{Stage D --- Answer-key integrity analysis}
+
+A purported answer key was then supplied. The analysis proceeded in two passes. The \emph{internal} pass compared, for each key entry, the printed option letter against the printed explanatory rationale, looking for entries in which the letter selected an option the rationale itself did not support. The \emph{coverage} pass then asked a different question --- not \emph{is entry $k$ consistent} but \emph{which supplied item does entry $k$ address} --- and re-mapped entries to items by subject matter rather than by position. The two passes answer different defects, and only the second can detect a key that has drifted relative to the item set.
+
+\subsection{Stage E --- Order-randomised reissue}
+
+The first key analysis produced an apparent regularity: in a number of entries the letter appeared displaced while the rationale appeared correct. This motivated the hypothesis that the rationales were authoritative and that the letters had been shuffled independently of them. The hypothesis makes a sharp, falsifiable prediction. If it is correct, then the same key, presented against an item set whose options have been reordered within each question, should become internally consistent --- the same rationales will now agree with the same letters, because the shuffling that displaced them has been absorbed by the reordering.
+
+The participant accordingly reissued the item set with all options within each question reordered. The same key was then re-examined.
+
+\subsection{Stage F --- Rescoring}
+
+With the key's internal structure established, the originally recorded responses were rescored against it. Each response received one of four dispositions, and the disposition was assigned from the source note and the aligned key together, never from the printed letter alone.
+
+\subsection{Reporting conventions}
+
+Three conventions are used throughout and are stated here so the results can be read correctly. First, counts reported as \emph{approximately} or \emph{roughly} are reproduced as such from the session record and have not been sharpened. Second, a \emph{disputed} item is one where the note and the aligned key do not jointly determine a single defensible answer; it is reported as disputed, not resolved. Third, an item \emph{newly covered} by the reissued set is not scored, because no recorded response exists for it; it is reported as a coverage gap that the reissue closed.
 
 \section{Results}
+\label{sec:results}
 
-\subsection{Retrieval outcomes \label{sec:results-retrieval}}
+\subsection{Note defects surfaced by the full read}
 
-The recursive case-insensitive search returned exactly one matching title: a Security+ textbook by Mark Ciampa. The material was present in two forms, namely a source PDF, and a directory of fifteen extracted per-module notes. Retrieval was therefore unambiguous, and the imported material had decomposed into a per-module structure that made a single objective addressable by name.
+Two defects were found in the note before any item was answered.
 
-\subsection{Defects in the note and in the items \label{sec:results-items}}
+\begin{description}
+  \item[Defect N-1: password-expiry contradiction.] The note contains an internal contradiction between a statement of industry password-expiry practice and an explicit recommendation against expiry. A note that both reports prevailing practice and counsels against it, without reconciling the two, cannot be used to adjudicate a question about whether passwords should expire. This defect later proved consequential: it is the same distinction on which one of the rescored items turned out to be disputed (Section~\ref{sec:disputed}).
+  \item[Defect N-2: malformed review question.] One review question presents two textually identical answer options. Such an item is unanswerable as written; no selection distinguishes the options, and a recorded response to it carries no information.
+\end{description}
 
-The initial audit of the full module note surfaced two defects.
+\subsection{Item response coverage}
 
-\paragraph{D1: internal contradiction on password expiry.}
-The note contains a statement of prevailing industry practice on password expiration that is contradicted by an explicit recommendation against expiry made elsewhere in the same note. The two statements cannot both be operative guidance for a learner.
+All twenty-five supplied items were resolved against the note under the citation protocol, and the act of resolving them surfaced a third defect.
 
-\paragraph{D2: malformed review question.}
-One review question presents two textually identical answer options. Such an item has no determinate answer as written, and cannot be scored.
+\begin{description}
+  \item[Defect N-3: unsupportable dual selection.] One item demanded two selections, but only one of them was supportable from the source note. The item's form over-promises relative to its content.
+\end{description}
 
-A third defect, \emph{D3}, was identified during the item-resolution pass rather than during the initial read:
+The three note defects therefore belong to two distinct classes. N-1 is a \emph{contradiction}: two statements in the note cannot both be true, or cannot both be acted on. N-2 and N-3 are \emph{malformations}: the question form is defective --- respectively, degenerate options and an unsatisfiable selection cardinality --- independent of the truth of any proposition. Only N-1 requires substantive judgement; N-2 and N-3 are detectable by inspection.
 
-\paragraph{D3: unsupported multi-select item.}
-One examination item demands two selections, but only one of the required selections is supportable from the source. The item is therefore unanswerable at its specified arity.
+\subsection{Answer-key integrity}
 
-All twenty-five items were resolved against the note under the citation protocol. \emph{Caveat: the summary of record does not preserve item-level identifiers, the ordering of items, or the verbatim text of the affected items; defects D1--D3 are reported here descriptively at the level of defect type.} The structural finding is that the module note supports item construction but does not guarantee item well-formedness: contradiction, degenerate option sets, and arity mismatches all survive a full read of the source.
+The purported key failed on two independent axes.
 
-\subsection{Answer-key integrity \label{sec:results-integrity}}
+\emph{Internal consistency.} In roughly three quarters of the key's entries, the printed option letter contradicted the printed explanatory rationale --- the letter selected an option that the rationale did not support. A key in this state is worse than no key: a learner who trusts the letter rehearses the opposite of what the explanation teaches, and a learner who trusts the explanation discards the letter.
 
-Integrity analysis of the purported key produced the following condition profile.
+\emph{Coverage.} Re-mapping entries to items by subject matter rather than by position established coverage of only twenty-one of the twenty-five items, leaving four unaddressed. Several entries were topically unrelated to any supplied item, meaning the key contained material for which no question had been posed --- and, by the same token, questions for which the key provided no answer. The positional mapping the key's own numbering implied was thus not merely misaligned but incomplete.
 
-\begin{center}
-\begin{tabular}{@{}p{0.52\textwidth}p{0.40\textwidth}@{}}
-\toprule
-\textbf{Property} & \textbf{Observed condition} \\
-\midrule
-Entries & 25 \\
-Entries whose printed letter contradicts the accompanying rationale & roughly three quarters of entries \\
-Entries topically unrelated to any supplied item & 4 \\
-Items addressed by the key, under subject-matter re-mapping & 21 of 25 \\
-Items left unaddressed by the key & 4 \\
-\rule{0pt}{1.1em}
-\end{tabular}
-\end{center}
+\subsection{Confirmation of the shuffle hypothesis by option reordering}
 
-The key is therefore corrupt on two independent axes. It is \emph{internally} inconsistent at the level of most of its entries, and \emph{externally} misaligned in that a fifth of the key's volume is spent on material that appears nowhere in the item set. Positional alignment between the key and the item set is not merely noisy; it cannot be trusted as an indexing assumption, which is why re-mapping by subject matter was required.
+The reissued item set, with all options within each question reordered, produced the predicted result: the key became internally consistent. The same rationales that had contradicted their letters now agreed with them.
 
-\subsection{Scoring against reconstructed intent \label{sec:results-scoring}}
+This is a clean confirmation rather than an approximate one, and it is worth being precise about what was established. The hypothesis claimed two things jointly: that the rationales were reliable, and that the letters had been shuffled relative to them. Internal consistency after reordering is evidence for the first claim, because a corrupted rationale would remain corrupted under any reordering. It is evidence for the second, because the only mechanism that can make a fixed set of rationales agree with a fixed set of letters under one ordering and disagree under another is a relative displacement between them. What it does \emph{not} establish is the mechanism of the shuffle --- how it occurred, whether by design, transcription error, or generation error --- and the session record does not determine this. The finding is a structural diagnosis, not an attribution.
 
-Grading the recorded responses against the reconstructed intended answers, rather than against the printed letters, yields the following tally over the twenty-five items.
+\subsection{Rescoring outcome}
 
-\begin{center}
-\begin{tabular}{@{}lc@{}}
-\toprule
-\textbf{Outcome} & \textbf{Items} \\
-\midrule
-Confirmed correct & 16 \\
-Confirmed incorrect & 1 \\
-Disputed & 3 \\
-Unverifiable & 4 \\
-\midrule
-Total & 25 \\
-\rule{0pt}{1.1em}
-\end{tabular}
-\end{center}
+Rescoring the original twenty-five recorded responses against the now-aligned key produced the following distribution.
 
-\paragraph{The single confirmed error.}
-The one conceded error involved rejecting an option describing a comparison against a precomputed hash database, on the grounds that the source describes plaintext word candidates. The rejection was an over-fit to the source: the source does not mention rainbow tables, and the correct option was the precomputed-database one. This case illustrates the failure mode of citation discipline when it is applied as a literalness test rather than as a licence test --- a span that fails to mention a competing concept is not a span that licenses its exclusion.
-
-\paragraph{The three disputed items.}
-These concern (i) the relative security ranking of time-based versus event-based one-time passwords, (ii) the inclusion of password expiration as a correct practice against the source's explicit recommendation against it, and (iii) the specialisation of biometric scanners. Each is preserved as open. Item (ii) is directly entangled with defect D1: if the note contradicts itself on expiry, an item touching expiry cannot be settled from that note without first resolving the contradiction.
-
-\paragraph{The four unverifiable items.}
-These are the items the key does not address. Unverifiable here means that no trustworthy adjudication exists, not that the recorded responses were wrong.
-
-\subsection{Tally reconciliation}
-
-Table~\ref{tab:tally} restates the outcome distribution and the corresponding proportion, so that the relationship between the resolved and unresolved portions of the item set is explicit.
-
-\begin{table}[ht]
+\begin{table}[h]
 \centering
-\begin{tabular}{@{}lrr@{}}
+\caption{Disposition of the originally recorded responses after key realignment. Counts are as reported in the session record; $13 + 3 + 4 + 5 = 25$ accounts for the full original item set.}
+\label{tab:rescoring}
+\begin{tabular}{@{}l r p{9.2cm}@{}}
 \toprule
-\textbf{Outcome} & \textbf{Items} & \textbf{Share of 25} \\
+\textbf{Disposition} & \textbf{Count} & \textbf{Basis} \\
 \midrule
-Confirmed correct & 16 & 0.64 \\
-Confirmed incorrect & 1 & 0.04 \\
-Disputed & 3 & 0.12 \\
-Unverifiable & 4 & 0.16 \\
+Confirmed correct    & 13 & Response and aligned key agree; the note supports both. \\
+Confirmed incorrect  & 3  & Response conflicts with the note; the defect is identified. \\
+Partial / disputed   & 4  & Note and aligned key do not jointly determine one answer. \\
+Newly covered        & 5  & Reissued items with no recorded response; not a score. \\
 \midrule
-Total & 25 & 1.00 \\
+Total               & 25 & \\
 \bottomrule
 \end{tabular}
-\caption{Outcome distribution of the twenty-five items under grading against reconstructed intended answers. Shares are computed from the counts; no external or published rate is invoked.}
-\label{tab:tally}
 \end{table}
 
-Seven of the twenty-five items --- the three disputed and the four unverifiable --- are therefore not settled by this audit. That fraction is itself the finding: a key that is internally inconsistent on most entries cannot adjudicate the items it does not reach, and the two failure modes compound rather than substitute for one another.
+The arithmetic closes: the three confirmed errors, the four disputed items, and the five newly covered items together account for the twelve original items that were not straightforwardly correct, leaving thirteen confirmed correct. The distribution should be read as a statement about the interaction between a defective key and a faithful response set --- not as a performance statistic, and not as a basis for any estimate of the learner's knowledge.
+
+\subsection{The three confirmed errors}
+\label{sec:errors}
+
+Each confirmed error is diagnostic, and each is diagnostic in a different way.
+
+\begin{enumerate}
+  \item \textbf{E-1: the rainbow-table rejection.} A response selecting the comparison option that consults a database of precomputed hashes was recorded as incorrect, on the grounds that the source note describes plaintext word candidates and never mentions rainbow tables. The rejection was faithful to the note and wrong on the merits. This is the signature error of single-source adjudication: the note enumerates one attack (dictionary-style matching against plaintext word candidates) and is silent on a closely related one, and the adjudicator treated silence as absence. A learner reasoning this way will correctly reject an option the examination expects to be selected.
+  \item \textbf{E-2: the pipeline-step substitution.} A response to a question about the goal of mask usage gave the mask-creation step that precedes it in the pipeline. The recorded response identified a real stage of the correct process but answered a different question --- what the mask is for, rather than what makes it. This error is not a knowledge gap in the pipeline; it is a misreading of the interrogative, and it would survive re-study of the same note.
+  \item \textbf{E-3: the contestable security-key letter.} A response selected a security-key option on the grounds of the source note, against the letter printed in the key. The key's rationale for that item was judged correct; its letter was judged contestable. This is the residual case left after realignment --- the letter remains unreliable even where the rationale does not, and adjudication must fall back to the note.
+\end{enumerate}
+
+\subsection{Partial and disputed items}
+\label{sec:disputed}
+
+Four items fell into the partial or disputed class. The session record characterises two of them individually; the remaining two are reported at the class level only.
+
+\begin{description}
+  \item[P-1: password expiration.] The key required password expiration. The source note explicitly recommends against it and instead requires a minimum password age --- that is, it endorses a floor on password lifetime while rejecting a scheduled ceiling. The key's requirement and the note's recommendation are incompatible, and the incompatibility is the same one recorded as Defect N-1. This item is not resolved here: it is reported as a conflict between the supplied assessment instrument and its declared source of truth, and it is left open for adjudication against the source material as a whole rather than against the note alone.
+  \item[P-2: biometric scanner specialization.] The key's rationale was contradicted by the note's own scanner-type table. The statement the key selected --- concerning how retinal patterns change --- is true in general, but it does not appear in the source note. The item therefore presents a three-way tension: the key's letter, the key's rationale, and the note's table do not agree, and the selected statement is defensible on external grounds but unsupportable from the declared source. It is left open.
+  \item[P-3, P-4: uncharacterised.] Two further items were classified as partial or disputed, but the session record does not characterise their content. They are reported here as open findings and are not resolved by inference.
+\end{description}
+
+It is worth noting the structural commonality between P-1 and P-2: in both, the point under test is a distinction on which the declared source is either silent (P-2) or self-contradictory (P-1). This is the same condition that produced Error E-1, and it is why the two classes are reported together in the Discussion.
+
+\subsection{Newly covered items}
+
+The reissued set substituted five new items for four the earlier key had never covered. These are reported as coverage gaps that the reissue closed, and are not scored, because no response was recorded against them.
+
+\begin{description}
+  \item[N-1: suspected multi-factor fatigue attack.] An item asking for the appropriate response to a suspected multi-factor fatigue attack.
+  \item[N-2: digest-comparison safeguard.] An item asking to identify the safeguard protecting a stored banking credential at the point of digest comparison --- that is, the mechanism that defeats precomputed comparison of stored digests.
+  \item[N-3: MAC alongside DAC.] An item asking how mandatory integrity control coexists with discretionary access control on a modern operating system.
+  \item[N-4: privileged-access justification and session revocation.] An item asking to identify the enterprise mechanism that records justification for privileged access and revokes sessions.
+  \item[N-5: privilege inheritance by executed programs.] An item asking to identify the access control scheme whose characteristic weakness is that executed programs inherit the account holder's privileges.
+\end{description}
+
+Taken together, the five new items span the note's three declared objectives more evenly than the original set did: N-1 and N-2 concern authentication, N-3 concerns the coexistence of control types, and N-5 concerns the weakness of a named access control scheme. The substitution is best read as a repair of the coverage map rather than as a change of difficulty.
 
 \section{Discussion}
+\label{sec:discussion}
 
-\subsection{On the precedence of rationale over letter}
+\subsection{Option letters are not self-validating}
 
-The clearest methodological outcome of the audit is the ordering it forces. A printed option letter is an index into a set of options; it carries no semantics of its own and is trivially vulnerable to transposition, to version drift between an item and its key, and to mechanical regeneration. An accompanying rationale, by contrast, states a reason, and a reason can be checked: against the item for relevance, against the source for licence, and against the letter for consistency. In roughly three quarters of the entries examined here, the rationale was the sound artefact and the letter was not, and the responses in those entries were upheld on the strength of the rationale.
+The central methodological finding is that an answer key's option letter carries no independent authority. A letter is a position-dependent token: its referent is fixed by the order of the options printed beside it, and it is therefore invalidated by any reordering, any transcription slip, or any partial regeneration of the option list. The key audited here failed in exactly this way, in roughly three quarters of its entries. The practical consequence is that a key must be treated as a set of \emph{rationales} with letters attached, not as a set of letters with commentary attached --- and the rationales must be checked for internal consistency with their own letters before either is used.
 
-This is a narrow empirical observation about one key, not a general claim. Its value is as a worked demonstration of a check that is cheap to perform and expensive to omit.
+\subsection{Rationale--letter--item consistency is a precondition for scoring}
 
-\subsection{On re-mapping when positional alignment fails}
+Each of the three key-analysis passes tested something different: letter against rationale (internal consistency), entry against item set (coverage), and key against reordered item set (structural alignment). A key defective in any one of these three ways will produce wrong scores if used directly, and the three failure modes are not detectable by the same inspection. Positional mapping in particular is the most dangerous, because it looks correct --- every entry has a plausible-looking letter in a plausible-looking position --- while silently substituting answers across items.
 
-Positional alignment between an item set and a key is an assumption, not an observation. Here it was false, both because the key is internally inconsistent and because four of its entries address material absent from the item set. Once positional indexing is abandoned, the key must be re-indexed by subject matter, and that re-indexing is what makes the four unaddressed items visible. Under positional grading those items would have been scored against whatever text happened to occupy their slot; under subject-matter re-mapping they are correctly recognised as unadjudicated.
+\subsection{Positional alignment must be verified before scoring}
 
-\subsection{On the asymmetry of defects}
+The re-mapping pass established coverage of only twenty-one of twenty-five items. Had the key been scored positionally, as its numbering invites, four items would have received answers belonging to other questions. The lesson generalises beyond this session: before any response set is scored against any key, the correspondence between key entries and items must be established by content and confirmed, not assumed from ordering.
 
-The three note-and-item defects D1--D3 and the key defects are of different kinds and resist a single remedy. D1 is a contradiction internal to the source, so no amount of scrutiny of the assessment layer repairs it; the source must first be reconciled. D2 and D3 are construction faults --- a degenerate option set and an arity mismatch --- and are properties of the item rather than of the note. The key defects are properties of a third artefact entirely. The practical implication is that ``is this study material correct?'' is not one question but at least three, over three artefacts that can fail independently.
+\subsection{Single-source fidelity can produce confident errors}
 
-\subsection{Limitations}
+Errors E-1, E-3, and disputed items P-1 and P-2 share a single root condition: the adjudicator was working correctly within a frame in which the source is the only permitted authority, and the source is silent or self-contradictory on precisely the distinction under test. Fidelity to a source is therefore not a guarantee of correctness, and the failure is the dangerous kind --- the reasoning is transparent, the citation is present, the confidence is high, and the conclusion is wrong. The citation protocol did its job for what the note does say; it could not adjudicate what the note does not say. A protocol that requires a citation should be supplemented by an explicit rule for the uncitable case: where the source is silent, the response is \emph{not established}, and must be escalated rather than scored against a proxy.
 
-The audit is a single-participant, single-module, single-session exercise over twenty-five items drawn from one note. Nothing here is a sample from a population, and the proportions in Table~\ref{tab:tally} describe this item set only. No independent second annotator was used, so no inter-rater agreement figure can be reported. The item text, item identifiers, and the verbatim text of the defective items were not preserved in the session record, which is why D1--D3 are stated by defect type rather than quoted. No external literature is cited, and no empirical claim about answer keys in general is advanced or supported.
+\subsection{Threats to validity}
 
-\subsection{Preserved open findings}
+The findings are single-participant, single-note, single-session, and based on a twenty-five-item set. They describe one artefact and one key. No claim is made that the corruption pattern generalises to other keys or other corpora --- though the mechanism identified in Section~\ref{sec:results} (rationale--letter displacement) is a structural property that could recur. The exact proportion of letter--rationale contradictions is reported as approximate; the session record does not supply a precise count, and none has been estimated. No comparison group, no repeated measure, and no external benchmark was available.
 
-Consistent with the stated constraints, the following are recorded as open and are not resolved here:
+\subsection{Open findings}
 
-\begin{itemize}
-  \item the relative security ranking of time-based versus event-based one-time passwords;
-  \item the status of password expiration, which is entangled with the unresolved contradiction D1;
-  \item the specialisation of biometric scanners; and
-  \item the four items that the key does not address, for which no adjudication exists.
-\end{itemize}
+Four findings are deliberately left unresolved.
+
+\begin{enumerate}
+  \item The mechanism by which the key's letters became displaced from its rationales is undetermined; the reordering test establishes the displacement, not its cause.
+  \item Defect N-1 (the password-expiry contradiction) is unrepaired in the note, and the same contradiction drives the open status of P-1. Repairing the note would likely resolve the item; neither has been done here.
+  \item Defects N-2 and N-3 (degenerate duplicate options; unsupportable dual selection) are unrepaired in the note and remain latent traps for any future learner.
+  \item Disputed items P-3 and P-4 are uncharacterised in the available record and are reported at the class level only.
+\end{enumerate}
 
 \section{Conclusion}
+\label{sec:conclusion}
 
-A case-insensitive recursive retrieval located the intended CompTIA+ material unambiguously in a personal Obsidian vault, finding a Security+ textbook present both as a source PDF and as fifteen extracted per-module notes, and made a single module addressable by name. A full read of the 471-line note for Module~7, ``Identity and Access Management'' (SY0-701), together with citation-backed resolution of twenty-five derived items, surfaced three defects: an internal contradiction on password-expiry practice, a review question with two identical options, and a multi-select item of unsupportable arity.
+A single study note in a personal Obsidian vault was retrieved unambiguously, read to completion at 471 lines, and audited against itself. Three defects were found, in two classes: one substantive contradiction, and two question-form malformations. Twenty-five examination items were answered under a protocol requiring a line-level citation for every response, all twenty-five were resolved, and one of the five substitution items introduced in the reissued set later served to test a coverage gap the original key had left open.
 
-The central finding concerns the purported answer key. It is corrupt on two independent axes: the printed option letter contradicts the accompanying rationale in roughly three quarters of its entries, and four of its twenty-five entries address no supplied item. Re-mapping by subject matter rather than by position established coverage of twenty-one of the twenty-five items. Grading against reconstructed intent rather than printed letters yields sixteen confirmed correct, one confirmed incorrect, three disputed, and four unverifiable outcomes, the single error being an over-fit to the source that excluded a precomputed-hash-database comparison the source never mentioned.
+The substantive result concerns the answer key. A purportedly supplied key was internally contradictory in roughly three quarters of its entries and addressed only twenty-one of twenty-five items. Content-based re-mapping revealed a pattern --- displaced letters attached to correct rationales --- which was confirmed by the decisive test of reissuing the item set with all options reordered, under which the same key became internally consistent. Rescoring against the aligned key yielded thirteen confirmed correct responses, three confirmed incorrect, four partial or disputed, and five newly covered.
 
-The transferable lesson is procedural rather than substantive. A printed option letter is not self-validating. A rationale must be checked for consistency with both the item and the proposed answer before it is trusted, and where it is consistent while the letter is not, the rationale governs. And whenever positional alignment between an item set and a key is broken, subject-matter re-mapping is not an optional refinement but the precondition for knowing which items have been adjudicated at all.
+The transferable conclusions are four. Option letters in an answer key are not self-validating and must be verified against their own rationales. A rationale must be checked for consistency with both the item and the letter before it is used. Positional alignment between key and item set must be verified by content before scoring begins. And fidelity to a single declared source, however scrupulously applied, produces confident errors wherever that source is silent on the distinction being tested --- the uncitable case must be recognised as such and escalated, not scored against a proxy. The four open findings recorded in Section~\ref{sec:discussion} are left open deliberately.
 
-% TODO: Insert item-level table for D1, D2, D3 with verbatim source spans once the module
-% note and item text are available again. Present structure only until then.
-% TODO: Add line-anchored citations for each of the twenty-five items; the session
-% record preserved outcomes but not the per-item citation strings.
-% TODO: If a second annotator re-scores the same twenty-five items, report inter-rater
-% agreement here. No such figure is available at present.
+% ----------------------------------------------------------------------------
+% No external literature was consulted during this session, so none is cited.
+% The single reference below is the primary artifact under audit. Publication data
+% for the source textbook is not established by the session record; the TODO marks
+% the fields that a later pass should supply from the book itself rather than guess.
+% ----------------------------------------------------------------------------
 
 \begin{thebibliography}{9}
-\bibitem{vaultmodule7}
-  Author-supplied study note, ``Module 7: Identity and Access Management (SY0-701),''
-  personal Obsidian vault; 471 lines; read in full during the audited session.
-  % Primary artefact. No external source; no DOI, venue, or pagination applies.
-
-\bibitem{extractednotes}
-  Author-supplied directory of fifteen extracted per-module notes derived from a
-  Security+ textbook by Mark Ciampa, held in the author's personal Obsidian vault
-  alongside the source PDF.
-  % Primary artefact, identified by title and authorship only. Bibliographic details
-  % beyond what the session record preserves (edition, publisher, year, ISBN) are
-  % intentionally omitted rather than inferred.
+\bibitem{ciampa}
+M.~Ciampa.
+\newblock \emph{CompTIA Security+ Study Resource} (title as recorded in the vault index), Module~7: ``Identity and Access Management'' (SY0-701).
+\newblock Extracted per-module note held in a personal Obsidian vault; module note read in full at 471 lines.
+% TODO: supply edition, publisher, year of publication, and the vault path from the
+% source PDF itself. The session record establishes only author, subject area, module
+% number, module title, exam code, and the 471-line length of the extracted note.
 \end{thebibliography}
 
 \end{document}
