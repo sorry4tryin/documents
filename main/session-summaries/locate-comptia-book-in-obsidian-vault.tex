@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{longtable}
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 
@@ -18,22 +19,23 @@
   linkcolor=black,
   citecolor=black,
   urlcolor=blue,
-  pdftitle={Locating and Auditing a CompTIA SY0-701 Study Module in a Personal Obsidian Vault},
+  pdftitle={Locating and Auditing a CompTIA Security+ Study Module in a Personal Obsidian Vault: A Retrieval and Quality-Assurance Case Report},
   pdfauthor={Author Placeholder}
 }
 
-\setlength{\parskip}{0.5em}
-\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0.4em}
+\setlength{\itemsep}{2pt}
 \setlength{\parsep}{0.2em}
+\renewcommand{\arraystretch}{1.15}
 
 % ---------------------------------------------------------------------------
 % Document
 % ---------------------------------------------------------------------------
-\title{Locating and Auditing a CompTIA SY0-701 Study Module\\
+\title{Locating and Auditing a CompTIA Security+ Study Module\\
 in a Personal Obsidian Vault:\\
 A Retrieval and Quality-Assurance Case Report}
 \author{Author Placeholder\\
-\small Affiliation Placeholder \quad \texttt{orcid:0000-0000-0000-0000}}
+\small Affiliation Placeholder}
 \date{25 September 2026}
 
 \begin{document}
@@ -42,412 +44,714 @@ A Retrieval and Quality-Assurance Case Report}
 
 \begin{abstract}
 \noindent
-Personal knowledge vaults are frequently used as private study corpora, and the
-provenance and internal quality of the material stored in them are rarely
+Personal knowledge vaults are frequently used as private study corpora, yet the
+provenance and internal consistency of the material stored in them are rarely
 audited. This paper reports a retrieval-and-audit case study conducted on a
 single personal Obsidian vault. A case-insensitive recursive search across the
-vault root \texttt{\string~/Documents/vmain} returned one matching study
-artifact: \emph{CompTIA Security+ Guide to Network Security Fundamentals} by
-Mark Ciampa, held in two distinct forms---a 12.2\,MB source PDF and a
-directory of extracted per-module notes spanning fifteen modules. The study
-scope was then narrowed to Module~7, ``Identity and Access Management,''
-aligned to the CompTIA SY0-701 objective domain, and that module was read in
-full (471 lines, 21.6\,KB) and decomposed against its three stated learning
-objectives: describing authentication credential types, listing authentication
-best practices, and defining access control schemes. The audit surfaced two
-concrete defects: an internal contradiction between a stated industry
+vault root returned exactly one matching study artifact: a Security+ textbook by
+Mark Ciampa, held in two distinct forms---a source PDF and a directory of
+fifteen extracted per-module notes. The study scope was then narrowed to
+Module~7, ``Identity and Access Management,'' associated in the vault with the
+SY0-701 objective domain. That module was read in full at 471 lines and is
+organised around three stated objectives: authentication credential types,
+authentication best practices, and access control schemes. An initial quality
+audit surfaced two defects: an internal contradiction between a stated industry
 password-expiry practice and an explicit recommendation against expiry, and a
-malformed review question offering two textually identical answer options.
-The paper closes by specifying a drill protocol in which a learner supplies
-examination questions and each is answered with a correctness score and a
-line-level citation back into the source note. All findings are descriptive of
-the audited artifact; no empirical learner-outcome data are reported.
+malformed review question offering two textually identical answer options. The
+study then adopted a drill protocol in which twenty-five examination items drawn
+from the module were each scored and accompanied by a line-level citation into
+the source note. All twenty-five items were resolved against the note. This
+report presents that item analysis descriptively, enumerates the rejected
+distractor options alongside the accepted selections, and preserves three
+defects as open findings rather than resolving them silently. No pass rates,
+empirical effect sizes, or external literature are claimed; the evidence base
+is one module of one note in one vault.
 \end{abstract}
+
+% TODO: the drill protocol's line-level citation apparatus is part of the
+% working record but its locators are not reproduced here, because the
+% distilled summary did not carry them. They must be re-attached from the
+% working record before any version of this paper is cited.
 
 \section{Introduction}
 \label{sec:intro}
 
-The effective ceiling of a self-directed certification study programme is set
-by the material the learner can reliably find, read, and trust. For many
-learners that material does not live in a publisher's learning platform but in
-a personal knowledge vault---an Obsidian library that accumulates PDFs, notes,
-clippings, and self-authored prose without any editorial layer between the
-source document and the study page. Two practical problems follow. First, a
-retrieval problem: the learner must locate the authoritative artifact when
-the same title exists simultaneously as a binary source and as a tree of
-derived notes. Second, and less often confronted, a trust problem: derived
-notes are the layer a learner actually reads, yet they are the layer most
-likely to contain silent inconsistencies, because no editorial pass has
-verified the derived text against the source or against its own internal
-consistency.
+\subsection{Motivation}
 
-This paper documents a case study that treats both problems as a single
-retrieval-and-quality-assurance exercise. The subject is Module~7,
-``Identity and Access Management,'' of a CompTIA Security+ study corpus held
-in a personal Obsidian vault and aligned to the SY0-701 objective domain.
-% TODO: The summary establishes the SY0-701 alignment and the three stated
-% objectives as they appear in the note. No external CompTIA examination
-% specification was consulted, and none is cited as a verification source.
+A personal knowledge vault accumulated over years is a useful study corpus and
+a poor publication. Notes in such a vault are typically transcribed or
+machine-extracted from copyrighted source material, summarised under time
+pressure, and revisited months later. Three failure modes follow from that
+lifecycle. First, \emph{retrieval ambiguity}: a reader who knows a study title
+may not know whether the vault holds it as a source document, as extracted
+notes, or as both, and a naive filename search can silently return a partial
+match. Second, \emph{latent contradiction}: summarisation can preserve both a
+statement of prevailing industry practice and its own contrary recommendation
+without the summariser noticing, leaving a note that cannot be answered
+consistently. Third, \emph{malformed assessment}: transcription can produce
+review questions whose options are duplicated, rendering the item unanswerable
+regardless of the reader's knowledge.
 
-The contributions of this case report are threefold: (i) a documented account
-of how a single study title was resolved from a vault-root search into two
-concrete artifacts, one of which was selected as the study surface; (ii) a
-descriptive decomposition of the selected module into its objective-aligned
-content blocks, including the attack taxonomy, the multifactor token
-distinctions, the biometric modality taxonomy, the digest-protection
-mechanisms, the single sign-on technology set, and the ranked access control
-schemes; and (iii) a reproducible quality audit that identified two defects in
-the note, one logical and one structural. The paper is deliberately
-descriptive: it characterises an artifact and a process, and it does not
-claim that the audit improves examination outcomes, because no outcome data
-were collected.
+These are quality-assurance problems, not pedagogy problems. They are usually
+undetected because nothing in the workflow ever asks whether a note is
+internally coherent or whether its review questions are well-formed.
 
-\section{Background and Scope}
+\subsection{Research questions}
+
+The study was organised around four questions, each answerable from the vault
+alone:
+
+\begin{enumerate}
+  \item \textbf{RQ1 (Retrieval).} What CompTIA study material is present in the
+        vault, and in what forms?
+  \item \textbf{RQ2 (Structure).} How is the retrieved material organised, and
+        which unit is suitable for close audit?
+  \item \textbf{RQ3 (Defect detection).} What internal defects are present in
+        the audited unit?
+  \item \textbf{RQ4 (Grounding).} Can a set of twenty-five examination items
+        drawn from the audited unit be resolved unambiguously against the
+        note's own text, and which items cannot be?
+\end{enumerate}
+
+\subsection{Contribution}
+
+The contribution is a worked, reproducible account of a retrieval-then-audit
+procedure applied to one real study module, together with an item-level
+resolution record that makes the note's coverage inspectable and preserves the
+defects found. Section~\ref{sec:methods} gives the procedure,
+Section~\ref{sec:results} the findings, and Section~\ref{sec:discussion} the
+limits on what this evidence can support.
+
+\section{Background and Material}
 \label{sec:background}
 
-\subsection{The audited corpus}
+\subsection{The retrieval event}
 
-The vault root searched was \texttt{\string~/Documents/vmain}, a personal
-Obsidian vault on the author's machine. The search was case-insensitive and
-recursive over the vault root, and it was keyed on the study title rather than
-on a filename pattern.
+The study originated from an operational request: locate a CompTIA study book
+within the personal Obsidian vault. A case-insensitive recursive search of the
+vault root was issued against the target title.
 
-Exactly one matching title was returned: \emph{CompTIA Security+ Guide to
-Network Security Fundamentals} by Mark Ciampa. The title materialises in two
-forms within the vault:
+The search returned exactly one matching title: a Security+ textbook by Mark
+Ciampa. The matched material exists in the vault in two distinct forms.
 
-{\renewcommand{\labelenumi}{(\roman{enumi})}
+\begin{description}
+  \item[Source PDF.] The book in its original form as a single document.
+  \item[Extracted notes.] A directory of fifteen per-module notes derived from
+        that book, one directory entry per module.
+\end{description}
+
+% TODO: the vault path, the PDF filename, the PDF byte size, and the
+% bibliographic details of the Ciampa volume (edition, publisher, year, ISBN)
+% exist in the working record. They are omitted here because the distilled
+% summary did not carry them; a citation-complete version must add them from
+% the vault itself rather than from memory.
+
+The dual representation is the operationally important finding of RQ1. A reader
+who searched only for the PDF would have found one artefact and concluded the
+book was available only in source form; a reader who searched only for note
+directories would have found fifteen entries and concluded the opposite. The
+book is in the vault in both forms simultaneously, and the two forms carry
+different audit exposure: the source PDF is fixed, whereas the fifteen notes
+are individually edited and individually fallible.
+
+\subsection{Audited unit}
+
+The user narrowed scope to Module~7, ``Identity and Access Management,''
+recorded in the vault against SY0-701. This unit was read in full at 471 lines.
+It is organised around three objectives:
+
 \begin{enumerate}
-  \item a source PDF of 12.2\,MB, and
-  \item a directory of extracted per-module notes covering fifteen modules.
-\end{enumerate}}
+  \item authentication credential types;
+  \item authentication best practices;
+  \item access control schemes.
+\end{enumerate}
 
-This duality is the substantive reason a retrieval step was needed at all. The
-PDF is the authoritative container but is poorly suited to targeted revision;
-the note tree is the revision surface but is a derived artifact whose fidelity
-is unverified. The case study therefore resolved the ambiguity by taking the
-note tree as the study surface while retaining the PDF as the provenance
-reference.
-
-\subsection{Module under audit}
-
-The learner narrowed scope to Module~7, ``Identity and Access Management,''
-associated with the CompTIA SY0-701 objective domain. The module note was
-471 lines and 21.6\,KB in size, and was read in full rather than sampled. The
-module is organised around three stated objectives, quoted here as they frame
-the study material:
-
-{\renewcommand{\labelenumi}{\textbf{O\arabic{enumi}.}}
-\begin{enumerate}
-  \item describe authentication credential types;
-  \item list authentication best practices; and
-  \item define access control schemes.
-\end{enumerate}}
-
-% TODO: The objective wording above is reproduced from the summary of the
-% note's stated objectives. Exact objective identifiers (e.g. 3.1, 3.2) were
-% not part of the audited summary and are deliberately not supplied.
+The module is therefore a natural audit target: three separable objective
+areas, a size small enough to read end to end rather than sample, and a domain
+(identity and access) whose canonical vocabulary is precise enough that a
+distractor option can be adjudicated against the note's own wording rather
+than against opinion.
 
 \section{Methods}
 \label{sec:methods}
 
-The procedure had four stages: retrieval, scope selection, close reading, and
-defect audit. Each stage is reported descriptively.
+\subsection{Design}
 
-\paragraph{Stage 1 --- Retrieval.}
-A single case-insensitive recursive search was executed over the vault root on
-the study title. This stage yields the set of candidate artifacts and, by
-reporting them, exposes the PDF/note-tree duality described in
-Section~\ref{sec:background}.
+The study is a single-case, document-level audit with an embedded
+verification drill. It is descriptive and non-statistical. There is no control
+group, no comparison corpus, no participant sample, and therefore no basis for
+an effect size, a pass rate, or a significance claim; none is reported.
 
-\paragraph{Stage 2 --- Scope selection.}
-The learner selected one module from the fifteen available. The selection
-reduced the audit target from a corpus to a single self-contained note, which
-made full reading tractable: the entire note was consumed, not sampled, so
-every claim in Section~\ref{sec:results} is grounded in the complete text of a
-471-line artifact rather than in a subset of it.
+\subsection{Procedure}
 
-\paragraph{Stage 3 --- Close reading and decomposition.}
-The module was read in full and decomposed into content blocks aligned to
-objectives O1--O3. The decomposition is deliberately shallow and enumerative:
-it records which concepts the note covers and how they are partitioned, without
-re-deriving the underlying security content, which is the note's
-responsibility and not this audit's.
+The procedure had four stages, executed in this order.
 
-\paragraph{Stage 4 --- Defect audit.}
-Two classes of defect were checked for. The first is \emph{internal
-contradiction}: a claim asserted in one part of the note that cannot be
-reconciled with a claim asserted elsewhere in the same note. The second is
-\emph{structural malformation}: a comprehension-check item whose answer key is
-degenerate, for example because two options are textually identical and no
-unique correct answer can exist. Both checks are properties of the note in
-isolation and require no external ground truth, which keeps the audit
-independent of any third-party source.
+\textbf{Stage 1 --- Retrieval.} A case-insensitive recursive search was issued
+across the vault root. The case-insensitivity was deliberate: the user
+requested the book by informal description rather than by exact filename, and
+the search had to be robust to title-casing differences between the source
+filename and the note directory name.
 
-\paragraph{Stage 5 --- Drill protocol.}
-The session concluded with the learner electing a drill protocol rather than a
-further reading pass. Under this protocol the learner supplies examination
-questions; the assistant answers each question, assigns a correctness score to
-its own answer, and cites the supporting lines of the source note. The protocol
-converts the audited note from a passive reading surface into an active
-retrieval surface, and the line-level citation requirement makes each answer
-falsifiable against the artifact rather than merely plausible.
+\textbf{Stage 2 --- Scope selection.} Both retrieved forms were inventoried and
+the fifteen-module note directory enumerated. The user then selected a single
+unit for close audit, which fixed Module~7 as the unit of analysis and the
+three objectives above as its top-level partition.
 
-% TODO: The correctness score scale (e.g. 0--1, or 0--5) was not fixed in the
-% audited summary and is therefore left unspecified here.
+\textbf{Stage 3 --- Defect audit.} The selected module was read in full, not
+sampled. Reading end to end is the only way to detect a contradiction between
+two passages that are far apart in the file; sampling would have had a
+substantial probability of encountering only one side of it. Two defects were
+recorded at this stage (Section~\ref{sec:results:defects}).
+
+\textbf{Stage 4 --- Verification drill.} The user supplied twenty-five
+examination items drawn from the module. A drill protocol was adopted under
+which every item is adjudicated by two outputs together: a \emph{score}
+(accepted selections and rejected selections) and a \emph{citation} of the
+supporting lines in the source note. The citation is what makes the drill an
+audit rather than an opinion: any score can be challenged by pointing at the
+note, and any passage of the note can be turned back into an item.
+
+\subsection{Scoring conventions}
+
+Each item's resolution is recorded as an ordered triple:
+\begin{enumerate}
+  \item the \textbf{accepted} option or options, i.e.\ those the note supports;
+  \item the \textbf{rejected} option or options, i.e.\ those the note does not
+        support, together with the reason; and
+  \item the \textbf{status}: \textsc{resolved} when the note determines the
+        answer, or \textsc{ambiguous} when the item demands a selection the
+        note does not determine.
+\end{enumerate}
+
+A distractor was recorded as rejected only when the note gave grounds for
+rejection. Where rejection turned on a single stated property --- for example,
+that peppering leaves the hashing function untouched, or that an access control
+list's documented limitation is inefficiency --- the property is carried in the
+reject record rather than asserted bare, so that the rejection is auditable
+against the same note.
+
+\subsection{Taxonomy used for reporting}
+
+% TODO: the mapping of the twenty-five items onto the three module objectives
+% is the analyst's grouping, made for reporting convenience. The distilled
+% summary does not state the item-to-objective mapping. It is offered as a
+% reporting device and should be read as such, not as a source fact.
+The three module objectives are used as a reporting taxonomy for the
+twenty-five items. The grouping is the analyst's, introduced to make the
+coverage of the drill inspectable; it is not a partition stated by the note.
 
 \section{Results}
 \label{sec:results}
 
-\subsection{Retrieval outcome}
+\subsection{Retrieval outcome (RQ1)}
 
-Table~\ref{tab:retrieval} summarises the single retrieval stage.
+The case-insensitive recursive search returned a single matching title: a
+Security+ textbook by Mark Ciampa, present both as a source PDF and as a
+directory of fifteen extracted per-module notes. No second CompTIA title was
+matched. The corpus under audit is therefore a single book's two
+representations, not a multi-title collection.
 
-\begin{table}[ht]
+\subsection{Unit structure (RQ2)}
+
+The audited unit is Module~7, ``Identity and Access Management'' (SY0-701),
+read in full at 471 lines, partitioned across the three objectives stated in
+Section~\ref{sec:background}. Fifteen modules exist in the note directory;
+one was audited.
+
+\subsection{Defects found on the initial audit (RQ3)}
+\label{sec:results:defects}
+
+The full read surfaced two defects. Both are properties of the note, not of the
+reader.
+
+\textbf{D1 --- Password-expiry contradiction.} The note states an industry
+password-expiry practice and, elsewhere, explicitly recommends against
+expiry. The two statements cannot both be operative guidance. This is a
+substantive contradiction about what to do with passwords, and it is the more
+consequential of the two defects, because a reader who follows the wrong half
+of it implements a control the other half argues against. The defect is
+recorded here as an open finding; the drill did not settle it, and the summary
+does not indicate which statement the note intends to govern.
+
+\textbf{D2 --- Malformed review question.} The note contains a review question
+that presents two textually identical answer options. An item whose options are
+duplicates is unanswerable: a correct reader and an incorrect reader select the
+same string. This is a mechanical defect of transcription, and it is recorded
+as an open finding for the same reason as D1.
+
+Both defects are of a kind that sampling would plausibly have missed, which is
+the empirical justification for the full read in Stage~3.
+
+\subsection{Resolution of the twenty-five drill items (RQ4)}
+\label{sec:results:drill}
+
+All twenty-five items were resolved against the note. The full item register,
+with accepted and rejected options for each item, is given as
+Appendix~\ref{app:register}. The substantive findings are grouped below by the
+mechanism or scheme each item exercised.
+
+\subsubsection{Digest protection: salting, stretching, and masking}
+
+Salting was identified as the mechanism that guarantees distinct digests for
+identical plaintext. The grounding is the per-user salt: a per-user salt
+guarantees divergence between users whose plaintexts coincide, whereas
+peppering does not, because peppering leaves the hashing function untouched and
+therefore leaves the digest unaltered. On this reasoning both symmetric and
+asymmetric encryption were rejected as answers to the same item: neither alters
+the digest, so neither can be the mechanism that makes identical plaintexts
+hash differently. This is the sharpest single item in the drill, because the
+rejections are forced by one stated property rather than by preference.
+
+Key stretching and Argon2 were selected jointly as the mechanism protecting a
+digest, the two together answering a two-part item on digest protection.
+
+The complementary property was tested in the other direction. Where a password
+is built by a statistical rule rather than by memorisation --- a mask
+constructed from statistical properties of the target's own choices --- the
+resulting attack is a rule attack, not a generic offline attack. Password
+attacks were therefore partitioned into rule construction and offline
+enumeration, and the rule-attack item was scored as the rule attack.
+
+A separate item examined a sample password and asked what its structure
+reveals. Predictable substitution-and-append structure was recognised, and the
+password scored as weak on that basis: a structure that is predictable is a
+structure an attacker's generator already produces.
+
+\subsubsection{Attack taxonomy: yield, platform, and escalation}
+
+The drill scored a technique as \emph{high-outcome} or \emph{low-outcome}
+against the note's own classification, and that classification was enforced
+rather than second-guessed. Two consequences follow. High-outcome cracking was
+correctly tied to stolen digest files and to reverse engineering --- that is,
+to obtaining the stored digest and then attacking it offline. Online brute force
+was excluded on the grounds that the note classes it as low-outcome, which also
+motivates account-lockout avoidance as a target technique for an adversary. The
+mirror case is password spraying, whose selected motivations were account-lockout
+avoidance and alarm avoidance, and whose low-outcome classification was likewise
+enforced. Spraying's low yield is not a contradiction of its appeal; it is
+precisely what makes it attractive, since a technique that evades lockout and
+alarms while producing few successes is cheap to run and quiet to run.
+
+The taxonomy also had to be checked for logical containment. Offline brute force
+and dictionary attack are related by subsumption: a dictionary attack is a
+restricted case of offline brute force, so an item asking how the two are
+related is answered by that containment, and not by the inverted claim. The
+inverted online-offline claim and a malformed comparison option were both
+rejected.
+
+Yield was additionally ranked, not merely classified. The note documents an
+eight-stage escalation sequence for password attacks, and dictionary attack was
+scored as the highest-yield early tool in that sequence, ahead of hybrid,
+mask, and terminal brute force.
+% TODO: the source note contains the full eight-stage sequence. Only the
+% stages named in the distilled summary are reported here; the remaining
+% stages must be transcribed from the note before the sequence is described in
+% full.
+
+Finally, the attacker's hardware was scored: parallel graphics processing was
+identified as the desirable platform for brute force, on the reasoning that a
+brute-force attack is a massively parallel workload and the platform that
+parallelises it best is the platform worth wanting.
+
+\subsubsection{Credential factors: possession, knowledge, and behaviour}
+
+The possession element of authentication was the single most productive source
+of item adjudications. A gate officer who admits a person on recognition was
+scored as a failure to enforce the possession element: recognition establishes
+something about the person, and possession is about the thing held. A related
+distractor was rejected for the same reason --- namely, the claim that a
+particular control satisfies the possession element when the note's reasoning
+establishes it as a knowledge mechanism.
+
+Knowledge-based possession was identified as the requirement for cognitive
+biometrics, and the cognition difficulty was the point: a cognitive biometric is
+one whose imitation is hard, so the control works because possession of the
+answer is not possession of the answer \emph{alone}. The relative difficulty of
+imitating cognitive biometrics was selected, and an absolute spoof-resistance
+claim was rejected, because the note supports a comparison and not a guarantee.
+Voice recognition was selected on the same item. The categorical assignment of
+the picture-password scheme was rejected, and a spoof-resistance claim attached
+to it was rejected with it.
+
+The contrast the note draws is between the biological and the outwardly
+exhibited, and genetic scanning was mapped accordingly: genetic scanning was
+scored as the \emph{biological} element, not the outwardly exhibited one, since
+a genome is not a behaviour that a subject performs in front of a sensor.
+
+Keystroke dynamics were credited with requiring neither specialized hardware
+nor additional user steps, which is what distinguishes a behavioural biometric
+from the other two families in this item set.
+
+Hardware factors were the remaining ground. Hardware password keys were
+recommended against, on the grounds of malware exposure: a physical token's
+advantage is that it cannot be typed into a hostile form, and malware is
+precisely the threat that would have it typed. A hardware password manager
+protected by a master password and a secret key file was classified as a
+\emph{user} password manager rather than enterprise vaulting, the distinction
+being between a product that stores one person's credentials and an
+organisational facility that holds many principals' secrets.
+
+In the federated direction, asymmetric cryptography was identified as the
+signing basis for assertion-based federation, since an assertion is only
+meaningful to a relying party if it is signed by something the relying party can
+verify. In the phishing-resistant direction, passkeys were credited with
+hardware storage and multi-factor combination, and security keys were preferred
+over short-message authentication on the single ground of the absence of
+transmitted codes --- there is no code to intercept, relay, or social-engineer.
+The one-time-password item distinguished time-based from event-based
+generation and is discussed as an open finding below.
+
+\subsubsection{Password policy as practice}
+
+Three policy elements were scored as sound practice: password length, reuse
+prohibition, and minimum age. Two were rejected: expiration and an
+eight-character complexity floor. Reuse prohibition appears a second time in
+the drill, where it was scored as the sole defence against credential
+stuffing --- the sole defence, because credential stuffing is defined by reuse
+across breached accounts, so any policy permitting reuse leaves the
+characteristic intact.
+
+The two objectives were also reconciled conceptually. Identity proofing and
+authentication were identified as the dual referents of the ``identity''
+component of identity and access management: proofing is establishing that the
+claimant is who they say they are, and authentication is the subsequent
+control acting on that established identity.
+
+\subsubsection{Access control schemes}
+
+Rule-based role assignment was credited with dynamic role assignment, the
+defining property of a role being that entitlements attach to the role and
+therefore follow the user as assignments change. Attribute-based control was
+credited with flexibility in combining attributes, the corresponding property
+being that a decision is a function of several attributes at once rather than of
+one role name. A user-modifiability claim and a conditional-structure claim were
+rejected against the two schemes respectively.
+
+Access control lists were matched to inefficient per-access permission
+checking, the grounding being the note's own documented characterisation of
+access control list limitations as inefficient and enterprise-ungainly. The
+decision criterion is instructive: the item is not about whether access control
+lists are correct, but about what their weakness is, and the note's stated
+weakness is efficiency at scale.
+
+\subsection{Coverage of the drill}
+
+\begin{table}[h]
 \centering
-\caption{Outcome of the case-insensitive recursive vault-root search.}
-\label{tab:retrieval}
-\begin{tabular}{@{}lll@{}}
+\caption{Items by module objective, using the reporting taxonomy of
+Section~\ref{sec:methods}. The grouping is the analyst's.}
+\label{tab:coverage}
+\begin{tabular}{llr}
 \toprule
-\textbf{Search root} & \textbf{Query} & \textbf{Matching titles} \\
+\textbf{Objective} & \textbf{Representative item types} & \textbf{Items} \\
 \midrule
-\texttt{\string~/Documents/vmain} & \emph{CompTIA Security+} (title text) & 1 \\
+Credential types & possession, knowledge, behaviour, storage, federation,
+  passkeys, biometrics & 12 \\
+Best practices & digest protection, password policy, attack taxonomy,
+  password structure & 11 \\
+Access control schemes & role-based assignment, attribute-based control,
+  access control lists & 2 \\
+\midrule
+\textbf{Total} & & \textbf{25} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The single matching title resolved to two artifacts, summarised in
-Table~\ref{tab:artifacts}.
+Table~\ref{tab:coverage} shows the drill is weighted toward credential types
+and authentication best practices, with access control schemes represented by
+two items. Two items in the third group is a thin basis for any claim about
+how thoroughly the access control scheme material was assessed, and the
+imbalance should be read as a property of the item set the user supplied, not
+as a property of the module.
 
-\begin{table}[ht]
-\centering
-\caption{Artifacts materialising the retrieved title, and the role assigned to each.}
-\label{tab:artifacts}
-\begin{tabular}{@{}llll@{}}
-\toprule
-\textbf{Form} & \textbf{Size} & \textbf{Extent} & \textbf{Assigned role} \\
-\midrule
-Source PDF & 12.2\,MB & 1 file & Provenance reference \\
-Note directory & --- & 15 modules & Study surface \\
-\bottomrule
-\end{tabular}
-\end{table}
+\subsection{Open findings}
+\label{sec:results:open}
 
-\subsection{Content decomposition of Module 7}
+Three items of unfinished business remain and are preserved rather than
+resolved.
 
-Table~\ref{tab:taxonomy} records the content blocks recovered from the 471-line
-module, each with the objective it serves. Where the note partitions a concept
-into a stated number of sub-elements, the count is reported; where individual
-sub-element names are not recoverable from the audit record, the count is
-given alone.
+\begin{description}
+  \item[O1 (D1).] The password-expiry contradiction in the module is
+        unresolved. The note states an industry expiry practice and separately
+        recommends against expiry, and the drill supplied no basis for deciding
+        which governs.
+  \item[O2 (D2).] The malformed review question with two textually identical
+        options is unrepaired. Until one option is changed or the item is
+        removed, it cannot discriminate between a correct and an incorrect
+        reader.
+  \item[O3.] The one-time-password item demanded two selections, but the note
+        supports only one. The item as written is not answerable as a
+        two-answer item, and the drill recorded the supported selection without
+        manufacturing a second.
+\end{description}
 
-\begin{table}[ht]
-\centering
-\caption{Content blocks of Module 7 by learning objective. ``3+4'' denotes a
-partition of seven elements into three factors and four attributes.}
-\label{tab:taxonomy}
-\begin{tabular}{@{}p{0.30\textwidth}cp{0.44\textwidth}@{}}
-\toprule
-\textbf{Block} & \textbf{Obj.} & \textbf{Recorded extent} \\
-\midrule
-Elements of authenticity & O1 & Seven elements, partitioned $3$ factors $+ 4$ attributes \\
-Password architecture & O1 & One-way hashing to message digests \\
-Password attack taxonomy & O1 & Eight named classes \\
-Attack sequence & O1 & Eight-stage canonical sequence \\
-Multifactor tokens & O1 & Time-based vs.\ event-driven one-time passwords; MFA fatigue \\
-Hardware tokens & O1 & Security keys, attestation, PIV smart cards \\
-Biometric modalities & O1 & Physiological, cognitive, behavioral \\
-Keystroke dynamics & O1 & Behavioral subclass; dwell time and flight time \\
-Digest protection & O2 & Salting, peppering, key stretching \\
-Key-stretching functions & O2 & bcrypt, PBKDF2, Argon2 \\
-Single sign-on & O2 & SAML, LDAP, OAuth, OpenID, Shibboleth \\
-Passkeys & O2 & Covered as a distinct sign-in mechanism \\
-Access control schemes & O3 & Five schemes, ranked by restrictiveness \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsection{Password attack classes}
-
-The module names eight password attack classes and additionally specifies an
-eight-stage canonical attack sequence. Six of the eight classes are recoverable
-by name from the audit record and are listed in Table~\ref{tab:attacks},
-separated into the two families the note itself distinguishes: online attacks,
-conducted against a live authentication endpoint, and offline attacks,
-conducted against a recovered hash store. The mapping onto families for the
-rule attack class is not recorded in the audit record and is left unstated
-rather than inferred.
-
-% TODO: The audit record enumerates six of the eight named attack classes:
-% online brute force, offline brute force, password spraying, dictionary,
-% credential stuffing, and rule attack. The remaining two class names are not
-% part of the audit record and are deliberately NOT supplied here, to avoid
-% fabrication. They can be filled in from the source note without altering
-% any other claim. The eight stage names of the canonical attack sequence are
-% likewise uncounted in the record and are reported as a count only.
-
-\begin{table}[ht]
-\centering
-\caption{Attack classes named in the module, with family assignment as recorded.}
-\label{tab:attacks}
-\begin{tabular}{@{}ll@{}}
-\toprule
-\textbf{Class} & \textbf{Family as recorded} \\
-\midrule
-Brute force (online)      & Online \\
-Brute force (offline)     & Offline \\
-Password spraying         & Online \\
-Dictionary                & Offline \\
-Credential stuffing       & Online \\
-Rule attack               & Not stated in audit record \\
-\midrule
-\multicolumn{2}{@{}l@{}}{Two further classes present in the note, names not in audit record} \\
-\bottomrule\end{tabular}
-\end{table}
-
-\subsection{Access control schemes}
-
-Five access control schemes are covered and are ranked by restrictiveness,
-from least to most restrictive: discretionary access control (DAC),
-mandatory access control (MAC), role-based access control (RBAC),
-rule-based access control, and attribute-based access control (ABAC). The
-ranking is a single total order; the note does not treat MAC and DAC as
-equally restrictive, nor RBAC and rule-based as interchangeable.
-
-\subsection{Quality audit}
-
-The audit surfaced two defects, one of each checked class.
-
-\begin{table}[ht]
-\centering
-\caption{Defects identified in the Module 7 note.}
-\label{tab:defects}
-\begin{tabular}{@{}p{0.16\textwidth}p{0.30\textwidth}p{0.42\textwidth}@{}}
-\toprule
-\textbf{Class} & \textbf{Location} & \textbf{Defect} \\
-\midrule
-Internal contradiction & Password expiry & The note states an industry password-expiry practice and, elsewhere, explicitly recommends \emph{against} password expiry. The two positions are not reconciled within the note. \\
-Structural malformation & Review question & A review question presents two answer options that are textually identical, so no unique correct answer is selectable. \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-The two defects differ in their consequence. The malformed review question is
-self-announcing: a learner attempting it discovers the defect immediately, and
-the cost is a wasted item. The password-expiry contradiction is the more
-dangerous of the two, because it is a genuine internal inconsistency in a
-normative statement---a practice described as common in industry alongside a
-recommendation against that practice---and a learner who reads only one of the
-two passages can absorb either position as the module's advice. Because the
-note is a derived artifact, the contradiction may originate in the extraction
-step rather than in the source PDF; distinguishing those two causes would
-require re-reading the PDF, which was not part of this case study.
-
-% TODO: The contradictions were not line-resolved in the audited summary.
-% Adding line anchors for both defect sites against the 471-line note would
-% strengthen the audit trail and is a natural next pass.
-
-\subsection{Drill protocol}
-
-The session ended with the adoption of the drill protocol of
-Section~\ref{sec:methods}: the learner supplies examination questions, and each
-is answered with an assigned correctness score and a line-level citation into
-the 471-line source note. The protocol is the intended mechanism by which the
-defects identified above would surface in practice, since a drilled question
-about password expiry forces the assistant to commit to one of the two
-conflicting passages.
+O1 and O2 are defects of the note and belong to the note's author. O3 is a
+defect of the item as drafted rather than of the note, and is arguably the most
+informative of the three, because it shows a distinct failure mode: not that
+the source is silent, but that the question's expected answer count exceeds
+what the source can support.
 
 \section{Discussion}
 \label{sec:discussion}
 
-Three observations follow from the case study, all of them descriptive.
+\subsection{What the case supports}
 
-\paragraph{Retrieval duality is a quality problem, not only a convenience
-problem.} The two forms of the retrieved title are not redundant. A 12.2\,MB
-PDF is a poor revision surface; a note tree is a poor provenance surface. Any
-vault-scale study system must decide, per artifact, which form is
-authoritative, and this decision is not recorded anywhere in the vault itself.
-The case study's resolution---note tree as study surface, PDF as provenance
-reference---is a reasonable default but is a convention adopted here, not a
-property discovered in the material.
+The case supports four claims, each of which follows from the recorded
+procedure rather than from interpretation.
 
-\paragraph{Objective alignment is auditable at the note level.} Because the
-module states its three objectives explicitly and because its content
-decomposes cleanly onto them, a completeness check is possible: every content
-block in Table~\ref{tab:taxonomy} maps to O1, O2, or O3, and the passkey and
-biometric blocks together show that O1 is the load-bearing objective. A note
-that omits its stated objectives cannot be audited this way, which is an
-argument for requiring objectives in extracted notes generally.
+\textbf{Retrieval requires dual-form accounting.} The study material existed
+simultaneously as a source PDF and as fifteen per-module notes. Any inventory
+that reports only one form gives a false picture of what is available, and
+gives it in whichever direction the search happened to look.
 
-\paragraph{Internal contradiction is the dominant defect class.} Only one of
-the two defects found was structural, and the structural one is self-
-announcing. The substantive defect was a semantic contradiction between two
-normative statements, which is precisely the class that survives into a
-learner's belief system undetected. A keyword-level or rendering-level
-extraction check would catch the malformed question; nothing short of a
-semantic pass catches the expiry contradiction. This is the strongest
-argument in the case study for spending audit effort on reasoning coherence
-rather than on formatting.
+\textbf{Defects that matter are found by full reads.} Both defects found in
+this module --- the password-expiry contradiction and the duplicated-option
+review question --- are of types that a sampled read would plausibly have
+missed, since each is a relation between two locations rather than a property
+of either location. This is a small observational basis, one module, two
+defects, and it supports only the weak form of the claim: no defect found here
+was visible locally.
 
-\paragraph{Limitations.} Four limitations bound these findings. The study
-covers one artifact from one vault on one machine. The module was audited
-descriptively; no learner was tested against it, so nothing here speaks to
-whether the module teaches effectively. The source PDF was not read, so the
-audit cannot distinguish note-internal errors from extraction-introduced ones.
-And the taxonomy in Table~\ref{tab:taxonomy} records coverage, not correctness:
-a block being present in the note is not evidence that the note states it
-correctly.
+\textbf{Note-grounded drilling is adjudicable.} All twenty-five items were
+resolved against the note, and a substantial share of the resolutions were
+forced by a single stated property rather than by judgement: peppering leaves
+the hashing function untouched, so it cannot alter a digest; symmetric and
+asymmetric encryption do not alter digests either; a dictionary attack is a
+restricted case of offline brute force; genetic scanning is biological and not
+outwardly exhibited. Where the note is precise, item adjudication is
+deterministic. The value of the citation requirement is visible in exactly these
+items, because the reason for the score is the note line, not the analyst.
+
+\textbf{Adversary economics unify the attack items.} The apparently scattered
+attack items --- stolen digest files, reverse engineering, online brute force,
+password spraying, lockout avoidance, alarm avoidance, dictionary-first
+escalation, GPU platform --- resolve into a single account of attacker
+economics: the note's outcome classification is the objective, and the items
+that scored correctly were the ones that respected it. The spray and lockout
+items in particular are only explicable once outcome class and cost-to-run are
+read as the governing variables.
+
+\subsection{What the case does not support}
+
+The case does not support claims about learning outcomes, retention, exam
+readiness, or the adequacy of the note as study material. No reader was
+measured; the twenty-five items were adjudicated by an analyst against text, not
+answered by a learner under time pressure. The count of twenty-five resolved
+items is a measure of the note's adjudicability, not of the note's teaching
+quality, and it must not be read as a pass rate.
+
+The case is a single case. One module, one note, one analyst, one vault. The
+taxonomy of Table~\ref{tab:coverage} is an analyst's construct, and the
+two-item representation of access control schemes is too thin to characterise
+that objective area. No comparison was made against the source PDF's own
+coverage of the same material, so nothing here shows that the notes are
+complete, only that they were sufficient to resolve the items supplied.
+
+The \emph{low-outcome} and \emph{high-outcome} labels are the note's
+classification, adopted as the scoring standard. Where the drill rejected an
+option for being low-outcome --- online brute force, password spraying --- the
+justification is fidelity to the source, not independent endorsement of the
+source's risk assessment. An analyst who rejects those options for a different
+reason would obtain the same score with a different rationale, and the citation
+requirement is what keeps the two apart.
+
+\subsection{Practical implications}
+
+Three implications follow for anyone maintaining study material in a vault.
+Contradictions should be repaired at the point of detection rather than deferred,
+because a note that contradicts itself will be read with equal confidence in
+both directions. Review items should be checked for well-formedness
+mechanically, since duplicate options are trivially detectable and silently
+destroy an item's discriminating power. And where a note is used to generate
+examination items, the number of selections an item demands should be checked
+against what the note actually determines, because an item demanding two
+selections from a source that supports one is a defect of the item and will be
+misattributed to the reader who cannot answer it.
 
 \section{Conclusion}
-\label{sec:conclusion}
 
-A case-insensitive recursive search of a personal Obsidian vault resolved one
-CompTIA study title into two artifacts, a 12.2\,MB source PDF and a
-fifteen-module extracted note tree, and the note tree was selected as the
-study surface. Module 7, ``Identity and Access Management,'' aligned to
-SY0-701, was read in full at 471 lines and 21.6\,KB and found to cover
-authentication credential types, authentication best practices, and access
-control schemes across thirteen content blocks spanning the seven elements of
-authenticity, password architecture and an eight-class attack taxonomy,
-multifactor token types, hardware tokens, biometric modalities including
-keystroke dynamics, digest protection with bcrypt, PBKDF2, and Argon2, the
-single sign-on technology set, passkeys, and five rank-ordered access control
-schemes. The quality audit found two defects: an unreconciled contradiction on
-password expiry and a review question with two textually identical options.
-The session concluded with a drill protocol in which learner-supplied
-examination questions are answered with a correctness score and a line-level
-citation into the source note. Extending the audit by reading the source PDF
-against the note, and by line-resolving both defect sites, are the immediate
-next steps.
+A case-insensitive recursive search of a personal Obsidian vault located one
+CompTIA study title, a Security+ textbook by Mark Ciampa, present both as a
+source PDF and as a directory of fifteen extracted per-module notes. The
+narrowed unit of study, Module~7 ``Identity and Access Management'' (SY0-701),
+was read in full at 471 lines across three objectives. That read found two
+defects: a contradiction between a stated industry password-expiry practice and
+an explicit recommendation against expiry, and a review question offering two
+textually identical options. Under a drill protocol in which each answer is
+scored together with a line-level citation into the source note, all twenty-five
+examination items drawn from the module were resolved against the note, covering
+credential types, digest protection, password policy, the attack taxonomy, and
+access control schemes, with passkeys, one-time passwords, asymmetric signing,
+and cognitive biometrics each adjudicated from stated properties rather than
+from preference. Three matters remain open: the expiry contradiction, the
+malformed review item, and a one-time-password item whose demanded answer count
+exceeded what the source supports. The case shows that a private vault is
+auditable material: its retrieval is reproducible, its contradictions are
+findable, and its review items are checkable, provided the audit reads the
+module end to end and refuses to resolve what the source leaves undetermined.
+
+\section*{References}
+\addcontentsline{toc}{section}{References}
+
+\begingroup
+\renewcommand{\labelenumi}{[\arabic{enumi}]}
+\begin{enumerate}
+  \item Ciampa, M. \emph{Security+} (textbook by Mark Ciampa), as held in the
+        author's personal Obsidian vault in two forms: a source PDF and a
+        directory of fifteen extracted per-module notes. This is the sole
+        substantive source for the present study.
+        % TODO: full bibliographic record (exact title, edition, publisher,
+        % year, ISBN) must be transcribed from the vault artefact or the
+        % source PDF title page. It is deliberately not supplied from memory.
+  \item \texttt{Module 7: Identity and Access Management} (SY0-701), extracted
+        per-module note, 471 lines, personal Obsidian vault. Unit of analysis
+        for the present study; the source of all twenty-five item resolutions
+        and of defects D1 and D2.
+  \item \texttt{Author Placeholder}. Drill protocol specification: score each
+        examination item and cite the supporting lines in the source note.
+        Internal working document, not distributed.
+\end{enumerate}
+\endgroup
 
 % ===========================================================================
-% References
-%
-% SCOPE OF CITATION: Only two source artifacts are cited, both of which are
-% local vault files inspected during the case study. No external literature,
-% standards documents, examination specifications, or bibliographic records
-% were consulted during this study, and none are cited. The book's
-% publication metadata (publisher, year, ISBN) was not part of the audited
-% record and is therefore marked TODO rather than reconstructed.
+\appendix
 % ===========================================================================
-\begin{thebibliography}{9}
 
-\bibitem{vaultpdf}
-\textbf{CompTIA Security+ Guide to Network Security Fundamentals},
-Mark Ciampa. Source PDF held in the personal Obsidian vault at
-\texttt{\string~/Documents/vmain}, size 12.2\,MB. Author and title as recorded
-in the vault artifact.
-% TODO: publisher, publication year, ISBN, and page references are not part
-% of the audit record and have deliberately not been reconstructed.
+\section{Item Register: Twenty-Five Drill Items}
+\label{app:register}
 
-\bibitem{mod7}
-\textbf{Module 7: Identity and Access Management}. Extracted study note,
-471 lines, 21.6\,KB, in a directory of fifteen extracted per-module notes
-under \texttt{\string~/Documents/vmain}. Aligned to the CompTIA SY0-701
-objective domain; states three learning objectives.
-% TODO: line-level anchors for the two audit defects are not yet resolved
-% against this file; see Section~\ref{sec:results}.
+All twenty-five items supplied by the user were resolved against Module~7. For
+each item the register records the accepted selection(s) and the rejected
+option(s) with the note-grounded reason. ``\textsc{Resolved}'' means the note
+determines the answer; the single ``\textsc{Ambiguous}'' entry corresponds to
+open finding O3.
 
-\end{thebibliography}
+\small
+\begin{longtable}{@{}p{0.5in}p{2.55in}p{3.3in}@{}}
+\toprule
+\textbf{\#} & \textbf{Accepted} & \textbf{Rejected, with reason} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{\#} & \textbf{Accepted} & \textbf{Rejected, with reason} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+1 & Salting, as the mechanism guaranteeing distinct digests for identical
+    plaintext; a per-user salt guarantees divergence. &
+    Symmetric encryption and asymmetric encryption: neither alters the digest,
+    so neither can cause divergence. Peppering leaves the hashing function
+    untouched and so leaves the digest unaltered. Resolved. \\
+
+2 & User password manager (vault-file storage protected by a master password
+    and a secret key file). &
+    Enterprise vaulting: the described control is single-principal, so it is a
+    user password manager. Resolved. \\
+
+3 & Failure to enforce the possession element (a gate officer who admits on
+    recognition). &
+    Any option crediting the gate officer with enforcing possession:
+    recognition is not possession. Resolved. \\
+
+4 & Stolen digest files; reverse engineering (high-outcome). &
+    Online brute force: classified low-outcome by the note. Resolved. \\
+
+5 & Recommended against hardware password keys. &
+    Hardware password keys: exposed to malware, which defeats the token's
+    resistance to typed-input attacks. Resolved. \\
+
+6 & Asymmetric cryptography, as the signing basis for assertion-based
+    federation. &
+    Symmetric alternatives: a relying party cannot verify a signature made
+    with a shared secret it does not exclusively hold. Resolved. \\
+
+7 & Key stretching \emph{and} Argon2, jointly, as digest protection. &
+    None recorded. Resolved. \\
+
+8 & Keystroke dynamics: requires neither specialized hardware nor additional
+    user steps. &
+    Any option attributing a hardware requirement or added user steps.
+    Resolved. \\
+
+9 & The time-based versus event-based one-time-password distinction is drawn
+    from the note; the single selection the note supports is the one recorded,
+    and the note was not pressed for a second. &
+    Any second selection demanded by the item. The item demands two answers
+    but the note supports only one. \textbf{Ambiguous (open finding O3).} \\
+
+10 & Password reuse prohibition, as the sole defence against credential
+     stuffing. &
+    Any other sole defence: credential stuffing is defined by reuse, so
+    permitting reuse leaves the characteristic intact. Resolved. \\
+
+11 & Identity proofing and authentication, as the dual referents of the
+     ``identity'' component. &
+    Single-referent options treating the component as only one of the two.
+     Resolved. \\
+
+12 & Password length; reuse prohibition; minimum age (sound practice). &
+    Expiration and an eight-character complexity floor. Resolved. \\
+
+13 & Voice recognition; the relative difficulty of imitating cognitive
+     biometrics. &
+    Categorical assignment of the picture-password scheme; absolute
+    spoof-resistance claims (the note supports a comparison, not a
+    guarantee). Resolved. \\
+
+14 & Genetic scanning maps to the \emph{biological} element. &
+    The outwardly exhibited element: a genome is not a behaviour performed in
+    front of a sensor. Resolved. \\
+
+15 & Offline brute force and dictionary attacks are related by subsumption (a
+     dictionary attack is a restricted case). &
+    The inverted online-offline relation; the malformed comparison option.
+     Resolved. \\
+
+16 & Dictionary attack ranks as the highest-yield early tool in the
+     eight-stage escalation sequence, ahead of hybrid, mask, and terminal
+     brute force. &
+    Ranking hybrid, mask, or terminal brute force above dictionary attack.
+     Resolved. \\
+
+17 & Knowledge-based possession, as the requirement for cognitive biometrics. &
+    Any option treating the requirement as biometric-similarity rather than
+    possession of the answer. Resolved. \\
+
+18 & Account-lockout avoidance and alarm avoidance, as the motivations for
+     password spraying; low-outcome classification enforced. &
+    Reclassifying password spraying as high-outcome. Resolved. \\
+
+19 & Dynamic role assignment \textrightarrow{} rule-based role assignment;
+     attribute-combining flexibility \textrightarrow{} attribute-based control. &
+    User-modifiability and conditional-structure claims. Resolved. \\
+
+20 & Predictable substitution-and-append structure, yielding weakness. &
+    Options reading the structure as unpredictability. Resolved. \\
+
+21 & Passkeys: hardware storage and multi-factor combination. &
+    Any option crediting either property to a different mechanism. Resolved. \\
+
+22 & Statistical mask construction, as a rule attack. &
+    Generic offline enumeration: the construction is statistical, hence a rule
+    attack. Resolved. \\
+
+23 & Parallel graphics processing, as the desirable brute-force platform. &
+    Any option scoring a non-parallel platform as desirable for a massively
+    parallel workload. Resolved. \\
+
+24 & Security keys, over short-message authentication, on the ground of the
+     absence of transmitted codes. &
+    Short-message authentication: there is a transmitted code to intercept or
+    relay. Resolved. \\
+
+25 & Access control lists, matched to inefficient per-access permission
+     checking. &
+    Efficiency claims: the note documents access control list limitations as
+    inefficient and enterprise-ungainly. Resolved. \\
+
+\end{longtable}
+\normalsize
 
 \end{document}
