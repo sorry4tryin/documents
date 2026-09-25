@@ -1,0 +1,227 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+
+\title{Locating Executable Files in an Extracted Cyberpunk~2077 Installation:\\ A Recursive Glob Audit of the Game Tree and Redist Folder}
+\author{[Author placeholder]\\ \texttt{[author@example.com]}}
+\date{September 24, 2026}
+
+% TODO: Replace the author placeholder with the actual author name and affiliation.
+% TODO: The source session cited no external literature; the References section
+% therefore contains only an internal pointer to the prior session work. Do not
+% add external citations without grounding them in the session summary.
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper documents a systematic audit of executable (``.exe'') files within
+an extracted Cyberpunk~2077 game installation located at
+\texttt{/Volumes/One Touch/mdata/games/cbp/Cyberpunk 2077/}. The installation
+was previously extracted from a zstd-compressed ZIP archive in prior session
+work. A recursive glob search with the pattern \texttt{**/*.exe} was executed
+over the game tree and, separately, over the \texttt{Redist} folder. The audit
+identified 12 executables in total: 7 game-related binaries within the game
+tree and 5 redistributable runtime installers within \texttt{Redist/}. The
+observed layout is consistent with a standard pre-installed Cyberpunk~2077
+repack, with game binaries under \texttt{bin/x64}, modding tools under
+\texttt{tools/redmod/bin}, and redistributable runtimes under
+\texttt{Redist/}. The primary launcher of interest is
+\texttt{Cyberpunk2077.exe}, with \texttt{Run Me!.bat} available for the setup
+steps.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:introduction}
+
+Pre-installed (``repacked'') game distributions are typically delivered as a
+single archive that, once extracted, must be verified before use: the user
+needs to confirm that the installation is complete, identify which executable
+launches the game, and distinguish game binaries from the runtime dependencies
+that merely support them. After a large game archive has been extracted, a
+first-order integrity check is to enumerate the executable files present in the
+installation tree and to map them to their roles.
+
+This paper reports such an audit for a Cyberpunk~2077 installation that was
+extracted from a zstd-compressed ZIP archive in prior session work (see
+Section~\ref{sec:background}). The extracted game tree resides at
+\texttt{/Volumes/One Touch/mdata/games/cbp/Cyberpunk 2077/}. The session that
+produced this paper pursued the following research questions:
+
+\begin{enumerate}
+  \item \textbf{RQ1.} Which executable (``.exe'') files are present in the
+        extracted installation, and where are they located?
+  \item \textbf{RQ2.} Which of these executables are game binaries, and which
+        are redistributable runtime dependencies?
+  \item \textbf{RQ3.} Which executable serves as the primary launcher of the
+        game?
+\end{enumerate}
+
+The remainder of this paper is organized as follows.
+Section~\ref{sec:background} summarizes the prior extraction work that produced
+the installation under audit. Section~\ref{sec:methods} describes the search
+procedure. Section~\ref{sec:results} reports the executables found, and
+Section~\ref{sec:discussion} interprets the resulting layout.
+Section~\ref{sec:conclusion} concludes.
+
+\section{Background}
+\label{sec:background}
+
+The installation under audit was produced in prior session work, in which the
+Cyberpunk~2077 game archive was extracted from a zstd-compressed ZIP archive.
+The extraction target was
+\texttt{/Volumes/One Touch/mdata/games/cbp/Cyberpunk 2077/} on an external
+drive. The present session is a follow-up: it does not re-examine the
+extraction itself, but audits the resulting installation tree to locate all
+executable files and to identify the launcher.
+
+\section{Methods}
+\label{sec:methods}
+
+\subsection{Search procedure}
+\label{sec:procedure}
+
+Executable files were located by recursive glob search using the pattern
+\texttt{**/*.exe}, which matches every file whose name ends in
+\texttt{.exe} at any depth of the directory tree. Two searches were performed:
+
+\begin{itemize}
+  \item \textbf{Game tree.} A recursive glob search over the full game tree at
+        \texttt{/Volumes/One Touch/mdata/games/cbp/Cyberpunk 2077/}.
+  \item \textbf{Redist folder.} A separate recursive glob search over the
+        \texttt{Redist} folder, which in pre-installed distributions typically
+        holds redistributable runtime installers rather than game binaries.
+\end{itemize}
+
+\subsection{Scope and limitations}
+\label{sec:scope}
+
+The audit is limited to filename-based enumeration: it establishes the
+presence and location of executable files but performs no binary inspection,
+no integrity verification, and no execution of any of the files found. The
+classification of executables into roles (game binary, launcher, modding tool,
+runtime dependency) is based on their paths and names within the standard
+installation layout.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Executables in the game tree}
+\label{sec:game-tree}
+
+The recursive glob search over the game tree returned 7 executables. They are
+listed in Table~\ref{tab:game-tree}, grouped by their role.
+
+\begin{table}[htbp]
+\centering
+\caption{Executables found in the game tree (7 files).}
+\label{tab:game-tree}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Executable} & \textbf{Location} & \textbf{Role} \\
+\midrule
+\texttt{Cyberpunk2077.exe} & \texttt{bin/x64/} & Main game executable (launcher of interest) \\
+\texttt{REDprelauncher.exe} & game root & Launcher \\
+\texttt{REDEngineErrorReporter.exe} & \texttt{bin/x64/} & Error reporting \\
+\texttt{CrashReporter.exe} & \texttt{bin/x64/CrashReporter/} & Crash reporting \\
+\texttt{7za.exe} & \texttt{bin/x64/CrashReporter/} & Archive utility \\
+\texttt{redMod.exe} & \texttt{tools/redmod/bin/} & Modding tool \\
+\texttt{scc.exe} & \texttt{tools/redmod/bin/} & Modding tool \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Executables in the Redist folder}
+\label{sec:redist}
+
+The separate search over the \texttt{Redist} folder returned 5 executables.
+These are runtime dependencies rather than game binaries. They are listed in
+Table~\ref{tab:redist}.
+
+\begin{table}[htbp]
+\centering
+\caption{Executables found in the \texttt{Redist} folder (5 files).}
+\label{tab:redist}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Executable} & \textbf{Location} & \textbf{Role} \\
+\midrule
+\texttt{vc\_redist.x64.exe} & \texttt{Redist/} & Visual C++ runtime (x64) \\
+\texttt{vcredist\_x86.exe} & \texttt{Redist/} & Visual C++ runtime (x86) \\
+\texttt{PhysX\_9.08.14\_9.09.0814\_SystemSoftware.exe} & \texttt{Redist/} & PhysX system software \\
+\texttt{DXWebSetup.exe} & \texttt{Redist/} & DirectX web installer \\
+\texttt{DXSETUP.exe} & \texttt{Redist/DirectX/} & DirectX setup \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Summary}
+\label{sec:summary}
+
+In total, the audit located 12 executable files: 7 within the game tree and 5
+within the \texttt{Redist} folder. The launcher of interest is
+\texttt{Cyberpunk2077.exe} (located at \texttt{bin/x64/Cyberpunk2077.exe});
+for the setup steps, \texttt{Run Me!.bat} is available.
+
+\section{Discussion}
+\label{sec:discussion}
+
+The observed executable layout matches the convention of a standard
+pre-installed Cyberpunk~2077 repack. Three structural observations follow.
+
+First, the game binaries are concentrated under \texttt{bin/x64}: the main
+executable \texttt{Cyberpunk2077.exe}, the error reporter, and the crash
+reporter all reside there, with the launcher \texttt{REDprelauncher.exe} at the
+game root. This separation of launcher and game binary is typical of
+CD~Projekt~RED's distribution layout.
+
+Second, the modding toolchain is isolated under
+\texttt{tools/redmod/bin}, containing \texttt{redMod.exe} and
+\texttt{scc.exe}. Their presence confirms that the repack ships the REDmod
+tooling alongside the game rather than requiring a separate download.
+
+Third, the \texttt{Redist} folder contains only runtime dependencies---Visual
+C++ redistributables, the PhysX system software, and DirectX installers---and
+no game code. These files support the game's execution but are not part of the
+game itself, which is consistent with the role of a redistributables folder in
+pre-installed distributions.
+
+The identification of \texttt{Cyberpunk2077.exe} as the launcher of interest
+answers RQ3 directly; \texttt{Run Me!.bat} serves the setup steps that precede
+first launch. The primary limitation of this study is that it is a single
+instance: the findings describe one installation on one volume and were
+obtained by filename enumeration only, without integrity or execution checks.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+This paper documented a recursive glob audit of executable files in an
+extracted Cyberpunk~2077 installation. The audit located 12 executables in
+total: 7 game-related binaries in the game tree and 5 redistributable runtime
+installers in the \texttt{Redist} folder. The layout is consistent with a
+standard pre-installed repack, with game binaries under \texttt{bin/x64},
+modding tools under \texttt{tools/redmod/bin}, and runtime dependencies under
+\texttt{Redist/}. The primary launcher of interest is
+\texttt{Cyberpunk2077.exe}, with \texttt{Run Me!.bat} available for the setup
+steps.
+
+\begin{thebibliography}{9}
+
+\bibitem{priorsession}
+Prior session work (unpublished session notes): extraction of the
+Cyberpunk~2077 game archive from a zstd-compressed ZIP archive to
+\texttt{/Volumes/One Touch/mdata/games/cbp/Cyberpunk 2077/}.
+% TODO: The source session cited no external literature. This bibliography
+% contains only an internal pointer to the prior session work; any additional
+% entries must be grounded in the session summary before being added.
+
+\end{thebibliography}
+
+\end{document}

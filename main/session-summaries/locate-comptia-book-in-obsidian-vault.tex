@@ -1,0 +1,453 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------------------------------------------------------------------------
+% Preamble
+% ---------------------------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue,
+  pdftitle={Locating and Auditing a CompTIA SY0-701 Study Module in a Personal Obsidian Vault},
+  pdfauthor={Author Placeholder}
+}
+
+\setlength{\parskip}{0.5em}
+\setlength{\itemsep}{0pt}
+\setlength{\parsep}{0.2em}
+
+% ---------------------------------------------------------------------------
+% Document
+% ---------------------------------------------------------------------------
+\title{Locating and Auditing a CompTIA SY0-701 Study Module\\
+in a Personal Obsidian Vault:\\
+A Retrieval and Quality-Assurance Case Report}
+\author{Author Placeholder\\
+\small Affiliation Placeholder \quad \texttt{orcid:0000-0000-0000-0000}}
+\date{25 September 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent
+Personal knowledge vaults are frequently used as private study corpora, and the
+provenance and internal quality of the material stored in them are rarely
+audited. This paper reports a retrieval-and-audit case study conducted on a
+single personal Obsidian vault. A case-insensitive recursive search across the
+vault root \texttt{\string~/Documents/vmain} returned one matching study
+artifact: \emph{CompTIA Security+ Guide to Network Security Fundamentals} by
+Mark Ciampa, held in two distinct forms---a 12.2\,MB source PDF and a
+directory of extracted per-module notes spanning fifteen modules. The study
+scope was then narrowed to Module~7, ``Identity and Access Management,''
+aligned to the CompTIA SY0-701 objective domain, and that module was read in
+full (471 lines, 21.6\,KB) and decomposed against its three stated learning
+objectives: describing authentication credential types, listing authentication
+best practices, and defining access control schemes. The audit surfaced two
+concrete defects: an internal contradiction between a stated industry
+password-expiry practice and an explicit recommendation against expiry, and a
+malformed review question offering two textually identical answer options.
+The paper closes by specifying a drill protocol in which a learner supplies
+examination questions and each is answered with a correctness score and a
+line-level citation back into the source note. All findings are descriptive of
+the audited artifact; no empirical learner-outcome data are reported.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+The effective ceiling of a self-directed certification study programme is set
+by the material the learner can reliably find, read, and trust. For many
+learners that material does not live in a publisher's learning platform but in
+a personal knowledge vault---an Obsidian library that accumulates PDFs, notes,
+clippings, and self-authored prose without any editorial layer between the
+source document and the study page. Two practical problems follow. First, a
+retrieval problem: the learner must locate the authoritative artifact when
+the same title exists simultaneously as a binary source and as a tree of
+derived notes. Second, and less often confronted, a trust problem: derived
+notes are the layer a learner actually reads, yet they are the layer most
+likely to contain silent inconsistencies, because no editorial pass has
+verified the derived text against the source or against its own internal
+consistency.
+
+This paper documents a case study that treats both problems as a single
+retrieval-and-quality-assurance exercise. The subject is Module~7,
+``Identity and Access Management,'' of a CompTIA Security+ study corpus held
+in a personal Obsidian vault and aligned to the SY0-701 objective domain.
+% TODO: The summary establishes the SY0-701 alignment and the three stated
+% objectives as they appear in the note. No external CompTIA examination
+% specification was consulted, and none is cited as a verification source.
+
+The contributions of this case report are threefold: (i) a documented account
+of how a single study title was resolved from a vault-root search into two
+concrete artifacts, one of which was selected as the study surface; (ii) a
+descriptive decomposition of the selected module into its objective-aligned
+content blocks, including the attack taxonomy, the multifactor token
+distinctions, the biometric modality taxonomy, the digest-protection
+mechanisms, the single sign-on technology set, and the ranked access control
+schemes; and (iii) a reproducible quality audit that identified two defects in
+the note, one logical and one structural. The paper is deliberately
+descriptive: it characterises an artifact and a process, and it does not
+claim that the audit improves examination outcomes, because no outcome data
+were collected.
+
+\section{Background and Scope}
+\label{sec:background}
+
+\subsection{The audited corpus}
+
+The vault root searched was \texttt{\string~/Documents/vmain}, a personal
+Obsidian vault on the author's machine. The search was case-insensitive and
+recursive over the vault root, and it was keyed on the study title rather than
+on a filename pattern.
+
+Exactly one matching title was returned: \emph{CompTIA Security+ Guide to
+Network Security Fundamentals} by Mark Ciampa. The title materialises in two
+forms within the vault:
+
+{\renewcommand{\labelenumi}{(\roman{enumi})}
+\begin{enumerate}
+  \item a source PDF of 12.2\,MB, and
+  \item a directory of extracted per-module notes covering fifteen modules.
+\end{enumerate}}
+
+This duality is the substantive reason a retrieval step was needed at all. The
+PDF is the authoritative container but is poorly suited to targeted revision;
+the note tree is the revision surface but is a derived artifact whose fidelity
+is unverified. The case study therefore resolved the ambiguity by taking the
+note tree as the study surface while retaining the PDF as the provenance
+reference.
+
+\subsection{Module under audit}
+
+The learner narrowed scope to Module~7, ``Identity and Access Management,''
+associated with the CompTIA SY0-701 objective domain. The module note was
+471 lines and 21.6\,KB in size, and was read in full rather than sampled. The
+module is organised around three stated objectives, quoted here as they frame
+the study material:
+
+{\renewcommand{\labelenumi}{\textbf{O\arabic{enumi}.}}
+\begin{enumerate}
+  \item describe authentication credential types;
+  \item list authentication best practices; and
+  \item define access control schemes.
+\end{enumerate}}
+
+% TODO: The objective wording above is reproduced from the summary of the
+% note's stated objectives. Exact objective identifiers (e.g. 3.1, 3.2) were
+% not part of the audited summary and are deliberately not supplied.
+
+\section{Methods}
+\label{sec:methods}
+
+The procedure had four stages: retrieval, scope selection, close reading, and
+defect audit. Each stage is reported descriptively.
+
+\paragraph{Stage 1 --- Retrieval.}
+A single case-insensitive recursive search was executed over the vault root on
+the study title. This stage yields the set of candidate artifacts and, by
+reporting them, exposes the PDF/note-tree duality described in
+Section~\ref{sec:background}.
+
+\paragraph{Stage 2 --- Scope selection.}
+The learner selected one module from the fifteen available. The selection
+reduced the audit target from a corpus to a single self-contained note, which
+made full reading tractable: the entire note was consumed, not sampled, so
+every claim in Section~\ref{sec:results} is grounded in the complete text of a
+471-line artifact rather than in a subset of it.
+
+\paragraph{Stage 3 --- Close reading and decomposition.}
+The module was read in full and decomposed into content blocks aligned to
+objectives O1--O3. The decomposition is deliberately shallow and enumerative:
+it records which concepts the note covers and how they are partitioned, without
+re-deriving the underlying security content, which is the note's
+responsibility and not this audit's.
+
+\paragraph{Stage 4 --- Defect audit.}
+Two classes of defect were checked for. The first is \emph{internal
+contradiction}: a claim asserted in one part of the note that cannot be
+reconciled with a claim asserted elsewhere in the same note. The second is
+\emph{structural malformation}: a comprehension-check item whose answer key is
+degenerate, for example because two options are textually identical and no
+unique correct answer can exist. Both checks are properties of the note in
+isolation and require no external ground truth, which keeps the audit
+independent of any third-party source.
+
+\paragraph{Stage 5 --- Drill protocol.}
+The session concluded with the learner electing a drill protocol rather than a
+further reading pass. Under this protocol the learner supplies examination
+questions; the assistant answers each question, assigns a correctness score to
+its own answer, and cites the supporting lines of the source note. The protocol
+converts the audited note from a passive reading surface into an active
+retrieval surface, and the line-level citation requirement makes each answer
+falsifiable against the artifact rather than merely plausible.
+
+% TODO: The correctness score scale (e.g. 0--1, or 0--5) was not fixed in the
+% audited summary and is therefore left unspecified here.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Retrieval outcome}
+
+Table~\ref{tab:retrieval} summarises the single retrieval stage.
+
+\begin{table}[ht]
+\centering
+\caption{Outcome of the case-insensitive recursive vault-root search.}
+\label{tab:retrieval}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Search root} & \textbf{Query} & \textbf{Matching titles} \\
+\midrule
+\texttt{\string~/Documents/vmain} & \emph{CompTIA Security+} (title text) & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The single matching title resolved to two artifacts, summarised in
+Table~\ref{tab:artifacts}.
+
+\begin{table}[ht]
+\centering
+\caption{Artifacts materialising the retrieved title, and the role assigned to each.}
+\label{tab:artifacts}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Form} & \textbf{Size} & \textbf{Extent} & \textbf{Assigned role} \\
+\midrule
+Source PDF & 12.2\,MB & 1 file & Provenance reference \\
+Note directory & --- & 15 modules & Study surface \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Content decomposition of Module 7}
+
+Table~\ref{tab:taxonomy} records the content blocks recovered from the 471-line
+module, each with the objective it serves. Where the note partitions a concept
+into a stated number of sub-elements, the count is reported; where individual
+sub-element names are not recoverable from the audit record, the count is
+given alone.
+
+\begin{table}[ht]
+\centering
+\caption{Content blocks of Module 7 by learning objective. ``3+4'' denotes a
+partition of seven elements into three factors and four attributes.}
+\label{tab:taxonomy}
+\begin{tabular}{@{}p{0.30\textwidth}cp{0.44\textwidth}@{}}
+\toprule
+\textbf{Block} & \textbf{Obj.} & \textbf{Recorded extent} \\
+\midrule
+Elements of authenticity & O1 & Seven elements, partitioned $3$ factors $+ 4$ attributes \\
+Password architecture & O1 & One-way hashing to message digests \\
+Password attack taxonomy & O1 & Eight named classes \\
+Attack sequence & O1 & Eight-stage canonical sequence \\
+Multifactor tokens & O1 & Time-based vs.\ event-driven one-time passwords; MFA fatigue \\
+Hardware tokens & O1 & Security keys, attestation, PIV smart cards \\
+Biometric modalities & O1 & Physiological, cognitive, behavioral \\
+Keystroke dynamics & O1 & Behavioral subclass; dwell time and flight time \\
+Digest protection & O2 & Salting, peppering, key stretching \\
+Key-stretching functions & O2 & bcrypt, PBKDF2, Argon2 \\
+Single sign-on & O2 & SAML, LDAP, OAuth, OpenID, Shibboleth \\
+Passkeys & O2 & Covered as a distinct sign-in mechanism \\
+Access control schemes & O3 & Five schemes, ranked by restrictiveness \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Password attack classes}
+
+The module names eight password attack classes and additionally specifies an
+eight-stage canonical attack sequence. Six of the eight classes are recoverable
+by name from the audit record and are listed in Table~\ref{tab:attacks},
+separated into the two families the note itself distinguishes: online attacks,
+conducted against a live authentication endpoint, and offline attacks,
+conducted against a recovered hash store. The mapping onto families for the
+rule attack class is not recorded in the audit record and is left unstated
+rather than inferred.
+
+% TODO: The audit record enumerates six of the eight named attack classes:
+% online brute force, offline brute force, password spraying, dictionary,
+% credential stuffing, and rule attack. The remaining two class names are not
+% part of the audit record and are deliberately NOT supplied here, to avoid
+% fabrication. They can be filled in from the source note without altering
+% any other claim. The eight stage names of the canonical attack sequence are
+% likewise uncounted in the record and are reported as a count only.
+
+\begin{table}[ht]
+\centering
+\caption{Attack classes named in the module, with family assignment as recorded.}
+\label{tab:attacks}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Class} & \textbf{Family as recorded} \\
+\midrule
+Brute force (online)      & Online \\
+Brute force (offline)     & Offline \\
+Password spraying         & Online \\
+Dictionary                & Offline \\
+Credential stuffing       & Online \\
+Rule attack               & Not stated in audit record \\
+\midrule
+\multicolumn{2}{@{}l@{}}{Two further classes present in the note, names not in audit record} \\
+\bottomrule\end{tabular}
+\end{table}
+
+\subsection{Access control schemes}
+
+Five access control schemes are covered and are ranked by restrictiveness,
+from least to most restrictive: discretionary access control (DAC),
+mandatory access control (MAC), role-based access control (RBAC),
+rule-based access control, and attribute-based access control (ABAC). The
+ranking is a single total order; the note does not treat MAC and DAC as
+equally restrictive, nor RBAC and rule-based as interchangeable.
+
+\subsection{Quality audit}
+
+The audit surfaced two defects, one of each checked class.
+
+\begin{table}[ht]
+\centering
+\caption{Defects identified in the Module 7 note.}
+\label{tab:defects}
+\begin{tabular}{@{}p{0.16\textwidth}p{0.30\textwidth}p{0.42\textwidth}@{}}
+\toprule
+\textbf{Class} & \textbf{Location} & \textbf{Defect} \\
+\midrule
+Internal contradiction & Password expiry & The note states an industry password-expiry practice and, elsewhere, explicitly recommends \emph{against} password expiry. The two positions are not reconciled within the note. \\
+Structural malformation & Review question & A review question presents two answer options that are textually identical, so no unique correct answer is selectable. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The two defects differ in their consequence. The malformed review question is
+self-announcing: a learner attempting it discovers the defect immediately, and
+the cost is a wasted item. The password-expiry contradiction is the more
+dangerous of the two, because it is a genuine internal inconsistency in a
+normative statement---a practice described as common in industry alongside a
+recommendation against that practice---and a learner who reads only one of the
+two passages can absorb either position as the module's advice. Because the
+note is a derived artifact, the contradiction may originate in the extraction
+step rather than in the source PDF; distinguishing those two causes would
+require re-reading the PDF, which was not part of this case study.
+
+% TODO: The contradictions were not line-resolved in the audited summary.
+% Adding line anchors for both defect sites against the 471-line note would
+% strengthen the audit trail and is a natural next pass.
+
+\subsection{Drill protocol}
+
+The session ended with the adoption of the drill protocol of
+Section~\ref{sec:methods}: the learner supplies examination questions, and each
+is answered with an assigned correctness score and a line-level citation into
+the 471-line source note. The protocol is the intended mechanism by which the
+defects identified above would surface in practice, since a drilled question
+about password expiry forces the assistant to commit to one of the two
+conflicting passages.
+
+\section{Discussion}
+\label{sec:discussion}
+
+Three observations follow from the case study, all of them descriptive.
+
+\paragraph{Retrieval duality is a quality problem, not only a convenience
+problem.} The two forms of the retrieved title are not redundant. A 12.2\,MB
+PDF is a poor revision surface; a note tree is a poor provenance surface. Any
+vault-scale study system must decide, per artifact, which form is
+authoritative, and this decision is not recorded anywhere in the vault itself.
+The case study's resolution---note tree as study surface, PDF as provenance
+reference---is a reasonable default but is a convention adopted here, not a
+property discovered in the material.
+
+\paragraph{Objective alignment is auditable at the note level.} Because the
+module states its three objectives explicitly and because its content
+decomposes cleanly onto them, a completeness check is possible: every content
+block in Table~\ref{tab:taxonomy} maps to O1, O2, or O3, and the passkey and
+biometric blocks together show that O1 is the load-bearing objective. A note
+that omits its stated objectives cannot be audited this way, which is an
+argument for requiring objectives in extracted notes generally.
+
+\paragraph{Internal contradiction is the dominant defect class.} Only one of
+the two defects found was structural, and the structural one is self-
+announcing. The substantive defect was a semantic contradiction between two
+normative statements, which is precisely the class that survives into a
+learner's belief system undetected. A keyword-level or rendering-level
+extraction check would catch the malformed question; nothing short of a
+semantic pass catches the expiry contradiction. This is the strongest
+argument in the case study for spending audit effort on reasoning coherence
+rather than on formatting.
+
+\paragraph{Limitations.} Four limitations bound these findings. The study
+covers one artifact from one vault on one machine. The module was audited
+descriptively; no learner was tested against it, so nothing here speaks to
+whether the module teaches effectively. The source PDF was not read, so the
+audit cannot distinguish note-internal errors from extraction-introduced ones.
+And the taxonomy in Table~\ref{tab:taxonomy} records coverage, not correctness:
+a block being present in the note is not evidence that the note states it
+correctly.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+A case-insensitive recursive search of a personal Obsidian vault resolved one
+CompTIA study title into two artifacts, a 12.2\,MB source PDF and a
+fifteen-module extracted note tree, and the note tree was selected as the
+study surface. Module 7, ``Identity and Access Management,'' aligned to
+SY0-701, was read in full at 471 lines and 21.6\,KB and found to cover
+authentication credential types, authentication best practices, and access
+control schemes across thirteen content blocks spanning the seven elements of
+authenticity, password architecture and an eight-class attack taxonomy,
+multifactor token types, hardware tokens, biometric modalities including
+keystroke dynamics, digest protection with bcrypt, PBKDF2, and Argon2, the
+single sign-on technology set, passkeys, and five rank-ordered access control
+schemes. The quality audit found two defects: an unreconciled contradiction on
+password expiry and a review question with two textually identical options.
+The session concluded with a drill protocol in which learner-supplied
+examination questions are answered with a correctness score and a line-level
+citation into the source note. Extending the audit by reading the source PDF
+against the note, and by line-resolving both defect sites, are the immediate
+next steps.
+
+% ===========================================================================
+% References
+%
+% SCOPE OF CITATION: Only two source artifacts are cited, both of which are
+% local vault files inspected during the case study. No external literature,
+% standards documents, examination specifications, or bibliographic records
+% were consulted during this study, and none are cited. The book's
+% publication metadata (publisher, year, ISBN) was not part of the audited
+% record and is therefore marked TODO rather than reconstructed.
+% ===========================================================================
+\begin{thebibliography}{9}
+
+\bibitem{vaultpdf}
+\textbf{CompTIA Security+ Guide to Network Security Fundamentals},
+Mark Ciampa. Source PDF held in the personal Obsidian vault at
+\texttt{\string~/Documents/vmain}, size 12.2\,MB. Author and title as recorded
+in the vault artifact.
+% TODO: publisher, publication year, ISBN, and page references are not part
+% of the audit record and have deliberately not been reconstructed.
+
+\bibitem{mod7}
+\textbf{Module 7: Identity and Access Management}. Extracted study note,
+471 lines, 21.6\,KB, in a directory of fifteen extracted per-module notes
+under \texttt{\string~/Documents/vmain}. Aligned to the CompTIA SY0-701
+objective domain; states three learning objectives.
+% TODO: line-level anchors for the two audit defects are not yet resolved
+% against this file; see Section~\ref{sec:results}.
+
+\end{thebibliography}
+
+\end{document}
