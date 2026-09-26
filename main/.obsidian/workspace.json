@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/maximizing agent spawning and delegation.md",
+                "file": "quick notes/alias extension.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "maximizing agent spawning and delegation"
+              "title": "alias extension"
             }
           },
           {
@@ -335,8 +335,9 @@
   },
   "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
-    "quick notes/automation.md",
     "quick notes/maximizing agent spawning and delegation.md",
+    "quick notes/alias extension.md",
+    "quick notes/automation.md",
     "documents/Game Theory/game theory notes.md",
     "quick notes/Create Artificial Intelligence autonomously conscious.md",
     "quick notes/summary agent collection.md",
@@ -370,7 +371,6 @@
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
     "quick notes/implement autoload prompt via opencode and pi.dev.md",
-    "weave/schema-version.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
