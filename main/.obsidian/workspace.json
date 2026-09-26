@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/Game Theory/game theory notes.md",
+                "file": "quick notes/maximizing agent spawning and delegation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "game theory notes"
+              "title": "maximizing agent spawning and delegation"
             }
           },
           {
@@ -335,10 +335,11 @@
   },
   "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
+    "quick notes/automation.md",
+    "quick notes/maximizing agent spawning and delegation.md",
+    "documents/Game Theory/game theory notes.md",
     "quick notes/Create Artificial Intelligence autonomously conscious.md",
     "quick notes/summary agent collection.md",
-    "quick notes/maximizing agent spawning and delegation.md",
-    "quick notes/automation.md",
     "quick notes/observer.md",
     "session-summaries/testing-session-paper-plugin-demo.pdf",
     "session-summaries/unzip-cyberpunk-2077-archive.pdf",
@@ -353,7 +354,6 @@
     "quick notes/sat prep framework.md",
     "quick notes/stock topics to research.md",
     "quick notes/make a youtube short account using ai tools (make profit).md",
-    "documents/Game Theory/game theory notes.md",
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
     "templates/documentnote.md",
