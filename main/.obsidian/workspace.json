@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/maximizing agent spawning and delegation.md",
+                "file": "documents/Game Theory/game theory notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "maximizing agent spawning and delegation"
+              "title": "game theory notes"
             }
           },
           {
@@ -145,14 +145,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "session-summaries/testing-session-paper-plugin-demo.pdf"
+                "file": "session-summaries/unzip-cyberpunk-2077-archive.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "testing-session-paper-plugin-demo"
+              "title": "unzip-cyberpunk-2077-archive"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -333,18 +333,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a7ab62e3abb6d26",
+  "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
+    "quick notes/Create Artificial Intelligence autonomously conscious.md",
+    "quick notes/summary agent collection.md",
+    "quick notes/maximizing agent spawning and delegation.md",
+    "quick notes/automation.md",
+    "quick notes/observer.md",
+    "session-summaries/testing-session-paper-plugin-demo.pdf",
     "session-summaries/unzip-cyberpunk-2077-archive.pdf",
     "session-summaries/locate-comptia-book-in-obsidian-vault.pdf",
-    "session-summaries/testing-session-paper-plugin-demo.pdf",
     "session-summaries/2026-09-16-latex-paper-writer-vault-integration.pdf",
     "quick notes/trading overview.md",
     "session-summaries/testing-session-paper-plugin-demo.tex",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "projects/Beginner Trading Knowledge System.md",
     "questions/unconscious contentment personal issues.md",
-    "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/schedule 1.md",
     "quick notes/sat prep framework.md",
     "quick notes/stock topics to research.md",
@@ -353,7 +357,6 @@
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
     "templates/documentnote.md",
-    "quick notes/summary agent collection.md",
     "documents/Game Theory/Game Theory.pdf",
     "templates/quicknote.md",
     "templates/Untitled.md",
@@ -361,13 +364,10 @@
     "documents/Discovering Computers/Module 1/Module 1 - Being a Digital Citizen.md",
     "documents/Discovering Computers/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Game Theory",
-    "session-summaries/2026-09-16-latex-paper-writer-vault-integration.tex",
     "quick notes/agent spawning.md",
     "web-clips/Struggling Grad Student – Natural Born Talent vs Practice.md",
     "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md",
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
-    "quick notes/automation.md",
-    "quick notes/observer.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
     "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "weave/schema-version.md",
