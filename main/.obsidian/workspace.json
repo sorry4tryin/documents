@@ -73,30 +73,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/automation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "automation"
-            }
-          },
-          {
-            "id": "8898bf02ed0e5b73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "documents/Game Theory/game theory notes.md",
                 "mode": "source",
                 "source": false,
@@ -113,6 +89,18 @@
               },
               "icon": "lucide-file",
               "title": "game theory notes"
+            }
+          },
+          {
+            "id": "8898bf02ed0e5b73",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/Game Theory/Game Theory.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Game Theory"
             }
           },
           {
@@ -225,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -335,11 +324,11 @@
   },
   "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
-    "documents/Game Theory/Game Theory.pdf",
     "documents/Game Theory/game theory notes.md",
+    "documents/Game Theory/Game Theory.pdf",
+    "quick notes/automation.md",
     "quick notes/alias extension.md",
     "quick notes/maximizing agent spawning and delegation.md",
-    "quick notes/automation.md",
     "quick notes/Create Artificial Intelligence autonomously conscious.md",
     "quick notes/summary agent collection.md",
     "quick notes/observer.md",
