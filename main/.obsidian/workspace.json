@@ -95,12 +95,24 @@
             "id": "8898bf02ed0e5b73",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Game Theory/Game Theory.pdf"
+                "file": "documents/Game Theory/game theory notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Game Theory"
+              "icon": "lucide-file",
+              "title": "game theory notes"
             }
           },
           {
@@ -213,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -324,6 +335,7 @@
   },
   "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
+    "documents/Game Theory/Game Theory.pdf",
     "quick notes/alias extension.md",
     "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/automation.md",
@@ -347,7 +359,6 @@
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
     "templates/documentnote.md",
-    "documents/Game Theory/Game Theory.pdf",
     "templates/quicknote.md",
     "templates/Untitled.md",
     "templates/Untitled 1.md",
@@ -359,7 +370,6 @@
     "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md",
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Module 6 - Mobile and Embedded Device Security.md",
-    "quick notes/implement autoload prompt via opencode and pi.dev.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
