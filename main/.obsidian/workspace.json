@@ -95,24 +95,12 @@
             "id": "8898bf02ed0e5b73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "quick notes/alias extension.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Game Theory/Game Theory.pdf"
               },
-              "icon": "lucide-file",
-              "title": "alias extension"
+              "icon": "lucide-file-text",
+              "title": "Game Theory"
             }
           },
           {
@@ -333,10 +321,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
-    "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/alias extension.md",
+    "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/automation.md",
     "documents/Game Theory/game theory notes.md",
     "quick notes/Create Artificial Intelligence autonomously conscious.md",
