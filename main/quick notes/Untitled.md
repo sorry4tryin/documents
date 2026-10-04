@@ -6,7 +6,7 @@ aliases:
 tags:
   - thoughts
 created: 2026-10-04 01:36
-modified: 2026-10-04 02:30
+modified: 2026-10-04 02:33
 ---
 - suppose an individual doesn't know how to control their won destiny
 	- why: suppose the remaining belief consist of rejection. though you may also suppose that is consist of consequences not yet conceptualized.
@@ -15,5 +15,5 @@ modified: 2026-10-04 02:30
 			- sculpturing
 			- [[Learned Helplessness at FiftyInsights From Neuroscience..pdf|learned helplessness]]
 				- helplessness: the belief that nothing one does matters
-					- objective: occurs when the subject does not provide a response since the probabilities of an important outcome differ
-					- subjective:
+					- objective: the subject does not provide a response since the probabilities of an important outcome differ
+					- subjective: 
