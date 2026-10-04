@@ -213,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -322,7 +321,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8898bf02ed0e5b73",
+  "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
     "documents/Game Theory/game theory notes.md",
     "documents/Game Theory/Game Theory.pdf",
