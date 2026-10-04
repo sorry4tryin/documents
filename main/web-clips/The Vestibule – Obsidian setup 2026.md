@@ -2,7 +2,6 @@
 title: Obsidian setup 2026
 author:
   - "[[The Vestibule]]"
-published: 2026-04-07
 source: "[Obsidian setup 2026](https://www.youtube.com/watch?v=3Y6shfFtKtY&t=469s)"
 clipped: 2026-04-29
 tags:

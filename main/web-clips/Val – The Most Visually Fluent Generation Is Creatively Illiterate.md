@@ -2,7 +2,6 @@
 title: The Most Visually Fluent Generation Is Creatively Illiterate
 author:
   - "[[Val]]"
-published: 2026-04-28
 source: "[The Most Visually Fluent Generation Is Creatively Illiterate](https://www.youtube.com/watch?v=T3Ne2kAmW4g)"
 clipped: 2026-05-03
 tags:

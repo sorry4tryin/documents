@@ -2,11 +2,10 @@
 title: "Unlocking Your Intuition: How to Solve Hard Problems Easily"
 author:
   - "[[Colin Galen]]"
-published: 2022-11-09
 source: "[Unlocking Your Intuition: How to Solve Hard Problems Easily](https://www.youtube.com/watch?v=1f6N2UrCK6o)"
 clipped: 2026-05-06
 tags:
-  - "youtube/video"
+  - youtube/video
 ---
 ## notes
 - intuition is the fast, most effective function of the brain
@@ -18,7 +17,7 @@ tags:
 		- reasoning
 		- conscious thinking
 		- insight
-			- similar to intuition, though insight is the ability to create new solutions off of new knowledge.
+			- similar to intuition–insight is the ability to create new solutions off of new knowledge.
 	- fast brain (completely unconscious): 
 		- intuition
 			- functions off of past knowledge. this knowledge includes the knowledge of the problem (what occurs in the situation, the current aspects, and relations to other concepts).

@@ -2,7 +2,6 @@
 title: Natural Born Talent vs Practice
 author:
   - "[[Struggling Grad Student]]"
-published: 2024-01-25
 source: "[Natural Born Talent vs Practice](https://www.youtube.com/watch?v=AqK1YwBy1MI)"
 clipped: 2026-05-03
 tags:

@@ -1,12 +1,11 @@
 ---
-title: "1,000 hours of productivity advice in 28 minutes (science backed)"
+title: 1,000 hours of productivity advice in 28 minutes (science backed)
 author:
   - "[[Daniel Barada]]"
-published: 2026-05-12
 source: "[1,000 hours of productivity advice in 28 minutes (science backed)](https://www.youtube.com/watch?v=CHMSbPpKVoQ)"
 clipped: 2026-05-12
 tags:
-  - "youtube/video"
+  - youtube/video
 ---
 # notes
 - the market delivers the false feeling of productivity, knowing that we wont actually demonstrate that action because we have stuck in a loop hole.
