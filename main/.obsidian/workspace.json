@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/Untitled.md",
+                "file": "quick notes/help.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "help"
             }
           },
           {
@@ -333,10 +333,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8898bf02ed0e5b73",
+  "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
-    "quick notes/Untitled.md",
+    "quick notes/help.md",
     "documents/Game Theory/Untitled 1.md",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience",
     "documents/Game Theory/Game Theory.pdf",
