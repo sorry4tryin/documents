@@ -6,7 +6,7 @@ aliases:
 tags:
   - thoughts
 created: 2026-10-04 01:36
-modified: 2026-10-04 02:07
+modified: 2026-10-04 02:19
 ---
 - suppose an individual doesn't know how to control their won destiny
 	- why: suppose the remaining belief consist of rejection. though you may also suppose that is consist of consequences not yet conceptualized.
@@ -14,3 +14,5 @@ modified: 2026-10-04 02:07
 			- habits
 			- sculpturing
 			- learned helplessness
+				- helplessness: the belief that nothing one does matters
+					- objective: occurs when the important outcome 
