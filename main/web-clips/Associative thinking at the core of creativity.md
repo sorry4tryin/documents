@@ -10,5 +10,5 @@ tags:
   - thoughts/creativity
 ---
 ## notes
-- creativity involves associative thinking
+- strong creativity involves associative thinking–moreover, it is the basis of how creativity works
 	- where concepts are linked from semantic memory
