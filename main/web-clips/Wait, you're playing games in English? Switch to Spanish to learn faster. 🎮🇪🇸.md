@@ -9,4 +9,4 @@ tags:
 ## notes
 - switch video game language
 	- helps learn language faster
-	- helps work on accent 
+	- helps work on accent xx
