@@ -8,5 +8,6 @@ tags:
 ---
 ## notes
 - switch video game language
-	- helps learn language faster
-	- helps work on accent xx
+	- assists learning experience
+		- language
+		- accent
