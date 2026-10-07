@@ -7,5 +7,5 @@ clipped: 2026-10-06
 tags:
 ---
 ## notes
-- follows around keeping things simple, often referred to as minimalism. 
+- claim: less provides a better foundation than doing more.
 - 
