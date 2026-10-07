@@ -1,0 +1,53 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+views:
+  - type: table
+    name: topics
+    filters:
+      and:
+        - file.inFolder("topics")
+    order:
+      - file.name
+      - stage
+      - created
+      - tags
+  - type: table
+    name: open questions
+    filters:
+      and:
+        - file.inFolder("questions")
+        - 'status == "open"'
+    order:
+      - file.name
+      - status
+      - topic
+      - created
+  - type: table
+    name: problems
+    filters:
+      and:
+        - file.inFolder("problems")
+    order:
+      - file.name
+      - status
+      - topic
+  - type: table
+    name: sources
+    filters:
+      and:
+        - file.inFolder("sources")
+    order:
+      - file.name
+      - status
+      - author
+      - year
+  - type: table
+    name: projects
+    filters:
+      and:
+        - file.inFolder("projects")
+    order:
+      - file.name
+      - status
+      - topic
