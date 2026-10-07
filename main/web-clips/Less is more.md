@@ -8,4 +8,4 @@ tags:
 ---
 ## notes
 - claim: less provides a better foundation than doing more.
-- 
+>
