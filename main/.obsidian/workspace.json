@@ -92,30 +92,6 @@
             }
           },
           {
-            "id": "8898bf02ed0e5b73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "web-clips/Less is more.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Less is more"
-            }
-          },
-          {
             "id": "9c10340809f951df",
             "type": "leaf",
             "state": {
@@ -143,12 +119,10 @@
             "id": "4a7ab62e3abb6d26",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "session-summaries/unzip-cyberpunk-2077-archive.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "unzip-cyberpunk-2077-archive"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -333,10 +307,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "active": "9c10340809f951df",
   "lastOpenFiles": [
-    "web-clips/Less is more 1.md",
+    "templates/documentnote.md",
     "web-clips/Less is more.md",
+    "web-clips/Less is more 1.md",
     "documents/Game Theory/game theory notes.md",
     "web-clips/Chilon of Sparta.md",
     "quick notes/help.md",
@@ -368,7 +343,6 @@
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "projects/Beginner Trading Knowledge System.md",
     "questions/unconscious contentment personal issues.md",
-    "quick notes/schedule 1.md",
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
     "systems/dig. notes system.canvas",
