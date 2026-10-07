@@ -373,19 +373,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 1440,
+        "x": 940,
         "y": 41,
-        "width": 356,
+        "width": 256,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
       }
     ]
   },
-  "active": "8898bf02ed0e5b73",
+  "active": "3074a752d170b29b",
   "lastOpenFiles": [
-    "documents/Game Theory/game theory notes.md",
     "web-clips/Less is more.md",
+    "documents/Game Theory/game theory notes.md",
     "web-clips/Chilon of Sparta.md",
     "quick notes/help.md",
     "quick notes/chilon of sparta.md",
