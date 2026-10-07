@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/documentnote.md",
+                "file": "web-clips/Less is more.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "documentnote"
+              "title": "Less is more"
             }
           },
           {

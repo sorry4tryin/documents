@@ -4,12 +4,11 @@
   "createdPropertyName": "created",
   "modifiedPropertyName": "modified",
   "dateFormat": "YYYY-MM-DD HH:mm",
-  "allowNonEmptyNewFile": true,
+  "allowNonEmptyNewFile": false,
   "delayAddingTimestamps": 1000,
   "delayModifiedUpdate": 1000,
   "excludedFolders": [
-    "web-clips",
-    "templates"
+    "web-clips"
   ],
   "customCommand": "",
   "debug": false

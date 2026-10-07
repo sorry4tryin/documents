@@ -8,7 +8,32 @@
   "jump_to_cursor_after_file_name": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "topics",
+      "template": "templates/topicnote.md"
+    },
+    {
+      "folder": "concepts",
+      "template": "templates/conceptnote.md"
+    },
+    {
+      "folder": "questions",
+      "template": "templates/questionnote.md"
+    },
+    {
+      "folder": "problems",
+      "template": "templates/problemnote.md"
+    },
+    {
+      "folder": "sources",
+      "template": "templates/sourcenote.md"
+    },
+    {
+      "folder": "projects",
+      "template": "templates/projectnote.md"
+    }
+  ],
   "file_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
