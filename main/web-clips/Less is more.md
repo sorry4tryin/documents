@@ -7,14 +7,5 @@ clipped: 2026-10-06
 tags:
 ---
 ## notes
-
-`main topic of the following`
-$$
-\begin{array}{|c|c|c|c|}
-\hline
-\text{name} & \text{create} & \text{up (description for edits)}  \\
-\hline \\
-\hline \\
-
-\end{array}
-$$
+- follows around keeping things simple, often referred to as minimalism. 
+- 
