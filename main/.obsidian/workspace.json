@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web-clips/Wait, you're playing games in English? Switch to Spanish to learn faster. 🎮🇪🇸.md",
+                "file": "web-clips/Less is more.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -107,12 +107,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
+                  "backlinkCollapsed": true,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Wait, you're playing games in English? Switch to Spanish to learn faster. 🎮🇪🇸"
+              "title": "Less is more"
             }
           },
           {
@@ -333,22 +333,74 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "floating": {
+    "id": "9431c499378b3444",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4fae5488da30425d",
+        "type": "window",
+        "children": [
+          {
+            "id": "2f6a8728b3999e7b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3074a752d170b29b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "documents/Game Theory/game theory notes.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "game theory notes"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1440,
+        "y": 41,
+        "width": 356,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
   "active": "8898bf02ed0e5b73",
   "lastOpenFiles": [
-    "web-clips/Associative thinking at the core of creativity.md",
+    "documents/Game Theory/game theory notes.md",
+    "web-clips/Less is more.md",
+    "web-clips/Chilon of Sparta.md",
+    "quick notes/help.md",
+    "quick notes/chilon of sparta.md",
     "web-clips/Wait, you're playing games in English? Switch to Spanish to learn faster. 🎮🇪🇸.md",
+    "web-clips/Associative thinking at the core of creativity.md",
     "web-clips/Val – The Most Visually Fluent Generation Is Creatively Illiterate.md",
     "web-clips/rotational kinetic energy to gravitational potential energy under rotational.md",
     "web-clips/The Vestibule – Obsidian setup 2026.md",
     "web-clips/Struggling Grad Student – Natural Born Talent vs Practice.md",
     "web-clips/Daniel Barada – 1,000 hours of productivity advice in 28 minutes (science backed).md",
     "web-clips/Colin Galen – Unlocking Your Intuition How to Solve Hard Problems Easily.md",
-    "quick notes/help.md",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "documents/Game Theory/Untitled 1.md",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience",
     "documents/Game Theory/Game Theory.pdf",
-    "documents/Game Theory/game theory notes.md",
     "quick notes/automation.md",
     "quick notes/alias extension.md",
     "quick notes/maximizing agent spawning and delegation.md",
@@ -366,11 +418,8 @@
     "questions/unconscious contentment personal issues.md",
     "quick notes/schedule 1.md",
     "quick notes/sat prep framework.md",
-    "quick notes/stock topics to research.md",
-    "quick notes/make a youtube short account using ai tools (make profit).md",
     "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 6/Case Project 6-9 - Mobile Device Security (BPRS).pptx",
-    "templates/documentnote.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
