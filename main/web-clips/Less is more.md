@@ -11,6 +11,6 @@ tags:
 - definition
 - minimalism: the reduction of objects to their basic functions and essentials
 > proverb: "Το λακωνίζειν εστί φιλοσοφείν", which may be roughly translated as "philosophers keep it brief" (lit. make it laconic).
-- we as thinkers, therefore philosophers must keep things in few words. 
+- we are thinkers, therefore philosophers must keep things in few words. 
 > superfluous elements enhances the clarity
-- treat it as your where cleaning a piece of equipment via computer. each dirt needs to be removed to better the performance
+- treat it as if your were cleaning a piece of equipment via computer. suppose, dirt needs to be removed to better the performance. we can classify dirt as useless words. therefore, remove the useless words to gain clarity.
