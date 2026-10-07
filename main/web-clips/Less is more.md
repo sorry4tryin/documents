@@ -14,6 +14,7 @@ $$
 \hline
 \text{name} & \text{create} & \text{up (description for edits)}  \\
 \hline \\
-\hline
+\hline \\
+
 \end{array}
 $$
