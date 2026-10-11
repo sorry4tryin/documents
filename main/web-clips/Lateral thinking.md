@@ -24,3 +24,22 @@ tags:
 > thinking forward to new ideas
 > movement techniques
 > produce as many alternatives as possible
+> produce many possible solutions to problems that seemed to only have one possible solution
+> extract a principle, focus on the difference, moment to moment, positive aspects or special circumstances
+> ask the question, "Why?", in a non-threatening way
+> naturally leads to new ideas
+> challenge anything at all
+> concepts
+> expands the range and number 
+> ideas
+> majority is always wrong
+> question it, take an opposite view, and try to convincingly disprove it
+> reasons to be cautious
+> create alternative perceptions of problems and solutions
+> taking the commonplace view of the situation and breaking it into multiple alternative situations in order to break away from the fixed view
+> see
+> different angles
+> generation of multiple
+> more comprehensive answers
+> finding out what caused the problem
+> then figuring out ways to fix the problem
