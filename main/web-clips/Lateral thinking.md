@@ -9,8 +9,11 @@ tags:
 ## notes
 
 > solving problems using an indirect and creative approach
-- 
+- indirect: not direct
+- example: can come from associating thoughts not similar to the topic
+
 > only traditional step-by-step logic
+- 
 > Lateral thinking deliberately distances itself from vertical thinking
 > lateral thinking entails a switch-over from a familiar pattern to a new, unexpected one
 > humour
