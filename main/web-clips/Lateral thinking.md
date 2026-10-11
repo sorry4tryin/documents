@@ -44,3 +44,5 @@ tags:
 > finding out what caused the problem
 > then figuring out ways to fix the problem
 > Ideas as to why this happened and solutions...must be thought of
+> more lateral thinking were able to solve the problems much quicker and more accurately
+> 
