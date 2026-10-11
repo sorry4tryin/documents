@@ -45,4 +45,5 @@ tags:
 > then figuring out ways to fix the problem
 > Ideas as to why this happened and solutions...must be thought of
 > more lateral thinking were able to solve the problems much quicker and more accurately
+> can often highlight problems people never knew they had, or solve simple problems that have huge impacts
 > 
