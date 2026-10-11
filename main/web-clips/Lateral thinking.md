@@ -9,6 +9,7 @@ tags:
 ## notes
 
 > solving problems using an indirect and creative approach
+- 
 > only traditional step-by-step logic
 > Lateral thinking deliberately distances itself from vertical thinking
 > lateral thinking entails a switch-over from a familiar pattern to a new, unexpected one
@@ -46,4 +47,4 @@ tags:
 > Ideas as to why this happened and solutions...must be thought of
 > more lateral thinking were able to solve the problems much quicker and more accurately
 > can often highlight problems people never knew they had, or solve simple problems that have huge impacts
-> 
+> in order to solve complex problems
