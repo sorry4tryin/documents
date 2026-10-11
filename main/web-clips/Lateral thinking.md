@@ -13,10 +13,15 @@ tags:
 - example: can come from associating thoughts not similar to the topic
 
 > only traditional step-by-step logic
-- 
+- step-by-step logic provides a straightforward answers and is limited to what is known, not on what needs to be found
 > Lateral thinking deliberately distances itself from vertical thinking
+- what distance look like?
+- vertical thinking: 
 > lateral thinking entails a switch-over from a familiar pattern to a new, unexpected one
+- 
 > humour
+- to laugh is to express
+	- is expression considered a thought?
 > Critical thinking is primarily concerned with judging the true value of statements and seeking errors
 > uses lateral thinking to move from one known idea to new ideas
 > break current thinking patterns
