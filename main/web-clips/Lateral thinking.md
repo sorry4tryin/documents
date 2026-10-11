@@ -11,3 +11,4 @@ tags:
 - lateral thinking
 	- *solving problems using an indirect and creative approach
 	- involves ideas with the use of *only traditional step-by-step logic
+	- 
