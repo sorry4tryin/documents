@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web-clips/Less is more.md",
+                "file": "web-clips/Lateral thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Less is more"
+              "title": "Lateral thinking"
             }
           },
           {
@@ -307,10 +307,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "active": "9c10340809f951df",
   "lastOpenFiles": [
-    "web-clips/Lateral thinking.md",
     "web-clips/Less is more.md",
+    "web-clips/Lateral thinking.md",
     "quick notes/recreate orgo ai computer setup.md",
     "documents/Introduction to Criminal Justice.pdf",
     "documents/Game Theory/game theory notes.md",
