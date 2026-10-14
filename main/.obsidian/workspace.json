@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web-clips/Lateral thinking.md",
+                "file": "web-clips/how to become smarter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lateral thinking"
+              "title": "how to become smarter"
             }
           },
           {
@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -310,8 +309,9 @@
   },
   "active": "9c10340809f951df",
   "lastOpenFiles": [
-    "web-clips/Less is more.md",
     "web-clips/Lateral thinking.md",
+    "web-clips/how to become smarter.md",
+    "web-clips/Less is more.md",
     "quick notes/recreate orgo ai computer setup.md",
     "documents/Introduction to Criminal Justice.pdf",
     "documents/Game Theory/game theory notes.md",
@@ -342,7 +342,6 @@
     "concepts",
     "topics",
     "templates/documentnote.md",
-    "web-clips/Less is more 1.md",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience",
     "documents/Game Theory/Game Theory.pdf",
