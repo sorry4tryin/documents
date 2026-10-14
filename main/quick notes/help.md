@@ -5,8 +5,9 @@ aliases:
   - logic
 tags:
   - thoughts
+  - note/quick
 created: 2026-10-04 01:36
-modified: 2026-10-13 22:45
+modified: 2026-10-14 01:03
 ---
 - suppose an individual doesn't know how to control their own destiny
 	- why: suppose the remaining belief consist of rejection. though you may also suppose that it consist of consequences not yet conceptualized.

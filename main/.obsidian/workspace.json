@@ -97,31 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quick notes/help.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "help"
-            }
-          },
-          {
-            "id": "2d570dc7b6467179",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quick notes/how to become smarter.md",
+                "file": "mini-essays/how to become smarter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -140,6 +116,30 @@
             }
           },
           {
+            "id": "2d570dc7b6467179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/quicknote.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "quicknote"
+            }
+          },
+          {
             "id": "4a7ab62e3abb6d26",
             "type": "leaf",
             "state": {
@@ -150,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -331,43 +331,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d570dc7b6467179",
+  "active": "9c10340809f951df",
   "lastOpenFiles": [
+    "quick notes/trading overview.md",
+    "quick notes/Create Artificial Intelligence autonomously conscious.md",
+    "quick notes/alias extension.md",
     "quick notes/help.md",
-    "quick notes/how to become smarter.md",
+    "templates/quicknote.md",
+    "templates/documentnote.md",
+    "templates/sourcenote.md",
+    "templates/projectnote.md",
+    "templates/problemnote.md",
+    "templates/topicnote.md",
+    "templates/questionnote.md",
+    "templates/conceptnote.md",
+    "problems/verify hline collapse end to end.md",
+    "topics/math typesetting in obsidian.md",
+    "concepts/mathjax vs latex.md",
+    "concepts/latex suite snippets.md",
+    "concepts/array rules in mathjax.md",
+    "mini-essays/how to become smarter.md",
+    "mini-essays",
+    "quick notes/maximizing agent spawning and delegation.md",
+    "quick notes/automation.md",
+    "quick notes/sat prep framework.md",
+    "quick notes/schedule 1.md",
+    "quick notes/stock topics to research.md",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "web-clips/Lateral thinking.md",
     "web-clips/Less is more.md",
     "quick notes/recreate orgo ai computer setup.md",
     "documents/Introduction to Criminal Justice.pdf",
-    "documents/Game Theory/game theory notes.md",
-    "quick notes/observer.md",
     "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf",
-    "projects/latex snippet config.md",
-    "questions/shortest safe way to type array rules.md",
-    "problems/verify hline collapse end to end.md",
-    "questions/does hl render in obsidian.md",
-    "sources/soul highlight command.md",
-    "sources/mathjax supported commands.md",
-    "sources/latex suite docs.md",
-    "concepts/array rules in mathjax.md",
-    "concepts/latex suite snippets.md",
-    "topics/math typesetting in obsidian.md",
-    "concepts/mathjax vs latex.md",
-    "Home.md",
-    "math macros.md",
     "knowledge base.base",
-    "templates/conceptnote.md",
-    "templates/questionnote.md",
-    "templates/topicnote.md",
-    "templates/projectnote.md",
-    "templates/sourcenote.md",
     "sources",
     "problems",
     "concepts",
     "topics",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience",
-    "documents/Game Theory/Game Theory.pdf",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]

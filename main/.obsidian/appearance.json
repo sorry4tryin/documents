@@ -9,5 +9,7 @@
     "obsidian",
     "hide-titlebar"
   ],
-  "translucency": false
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }
