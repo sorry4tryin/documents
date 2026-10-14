@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mini-essays/how to become smarter.md",
+                "file": "web-clips/The Vestibule – Obsidian setup 2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "how to become smarter"
+              "title": "The Vestibule – Obsidian setup 2026"
             }
           },
           {
@@ -333,6 +333,7 @@
   },
   "active": "9c10340809f951df",
   "lastOpenFiles": [
+    "mini-essays/how to become smarter.md",
     "quick notes/trading overview.md",
     "quick notes/Create Artificial Intelligence autonomously conscious.md",
     "quick notes/alias extension.md",
@@ -350,7 +351,6 @@
     "concepts/mathjax vs latex.md",
     "concepts/latex suite snippets.md",
     "concepts/array rules in mathjax.md",
-    "mini-essays/how to become smarter.md",
     "mini-essays",
     "quick notes/maximizing agent spawning and delegation.md",
     "quick notes/automation.md",
