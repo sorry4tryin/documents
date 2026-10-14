@@ -97,7 +97,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web-clips/how to become smarter.md",
+                "file": "quick notes/help.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "help"
+            }
+          },
+          {
+            "id": "2d570dc7b6467179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "quick notes/how to become smarter.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -126,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -307,10 +331,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c10340809f951df",
+  "active": "2d570dc7b6467179",
   "lastOpenFiles": [
+    "quick notes/help.md",
+    "quick notes/how to become smarter.md",
+    "documents/Learned Helplessness at Fifty- Insights From Neuroscience/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "web-clips/Lateral thinking.md",
-    "web-clips/how to become smarter.md",
     "web-clips/Less is more.md",
     "quick notes/recreate orgo ai computer setup.md",
     "documents/Introduction to Criminal Justice.pdf",
@@ -336,13 +362,10 @@
     "templates/topicnote.md",
     "templates/projectnote.md",
     "templates/sourcenote.md",
-    "templates/problemnote.md",
     "sources",
     "problems",
     "concepts",
     "topics",
-    "templates/documentnote.md",
-    "documents/Learned Helplessness at Fifty- Insights From Neuroscience/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience",
     "documents/Game Theory/Game Theory.pdf",
     "systems/dig. notes system.canvas",

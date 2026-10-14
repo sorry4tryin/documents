@@ -6,10 +6,10 @@ aliases:
 tags:
   - thoughts
 created: 2026-10-04 01:36
-modified: 2026-10-04 02:42
+modified: 2026-10-13 22:45
 ---
 - suppose an individual doesn't know how to control their own destiny
-	- why: suppose the remaining belief consist of rejection. though you may also suppose that is consist of consequences not yet conceptualized.
+	- why: suppose the remaining belief consist of rejection. though you may also suppose that it consist of consequences not yet conceptualized.
 		- many individuals have a scream that haunts their logic; referenced from Kendrick Lamar's song "FEEL" on his album "DAMN."
 			- habits
 			- sculpturing
