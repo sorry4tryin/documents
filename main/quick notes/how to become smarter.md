@@ -5,7 +5,8 @@ aliases:
   - smart
   - learning
 tags:
-modified: 2026-10-14 00:11
+  - essay/mini
+modified: 2026-10-14 00:17
 ---
 - to be smart, an individual must be practical
 	- information without practicality is a delusion
