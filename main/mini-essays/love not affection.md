@@ -7,6 +7,6 @@ aliases:
 tags:
   - essay/mini
 created: 2026-10-14 22:18
-modified: 2026-10-14 22:58
+modified: 2026-10-14 23:08
 ---
-- what does love mean to the average individual? modern society has defined love as something use to show our affection to a significant other–primarily in a sexual way. we can define affection as a feeling that attracts one individual deeply to another individual. though, i disagree with this idea that love is a way we just show affection alone. suppose that individuals have close relatives they display deep affection for 
+- what does love mean to the average individual? modern society has defined love as something use to show our sexual affection to a significant other. we can define affection as a feeling that attracts one individual deeply to another individual, not a sexually based. suppose an individual has a close relative, like a parent or guardian, they love. furthermore, this affection stems from a desire to experience life with that person in order to gain peace. d
