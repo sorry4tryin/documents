@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web-clips/Essay.md",
+                "file": "mini-essays/love not affection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,7 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Essay"
+              "title": "love not affection"
             }
           },
           {
@@ -333,9 +333,10 @@
   },
   "active": "9c10340809f951df",
   "lastOpenFiles": [
-    "web-clips/The Vestibule – Obsidian setup 2026.md",
-    "web-clips/Essay.md",
     "mini-essays/how to become smarter.md",
+    "mini-essays/love not affection.md",
+    "web-clips/Essay.md",
+    "web-clips/The Vestibule – Obsidian setup 2026.md",
     "quick notes/trading overview.md",
     "quick notes/Create Artificial Intelligence autonomously conscious.md",
     "quick notes/alias extension.md",
@@ -360,7 +361,6 @@
     "quick notes/schedule 1.md",
     "quick notes/stock topics to research.md",
     "documents/Learned Helplessness at Fifty- Insights From Neuroscience/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
-    "web-clips/Lateral thinking.md",
     "documents/Introduction to Criminal Justice.pdf",
     "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf",
     "knowledge base.base",
