@@ -7,10 +7,10 @@ aliases:
 tags:
   - essay/mini
 created: 2026-10-14 22:18
-modified: 2026-10-14 23:43
+modified: 2026-10-19 17:52
 ---
 - what does love mean to the average individual? 
-	- modern society has classified love as a feeling towards a significant other. 
+	- modern society has classified love as a romantic feeling towards a significant other. 
 		- define affection as a deep feeling that is often expressed by one to another. affection can be expressed through the following gestures: words, physical touch, attention, or caring acts. 
 			- suppose interest and affection contain different aspects. because affection comes from repetition, while interest comes from curiosity, affection takes more time than interest. 
 				- define interest as a feeling that comes from being curious about something that mainly correlates with self-interest.
