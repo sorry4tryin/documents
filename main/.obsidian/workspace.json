@@ -95,24 +95,12 @@
             "id": "9c10340809f951df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "mini-essays/love not affection.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
-              "icon": "lucide-file",
-              "title": "love not affection"
+              "icon": "lucide-file-text",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
@@ -333,9 +321,9 @@
   },
   "active": "9c10340809f951df",
   "lastOpenFiles": [
+    "mini-essays/love not affection.md",
     "web-clips/Essay.md",
     "mini-essays/how to become smarter.md",
-    "mini-essays/love not affection.md",
     "web-clips/The Vestibule – Obsidian setup 2026.md",
     "quick notes/trading overview.md",
     "quick notes/Create Artificial Intelligence autonomously conscious.md",
