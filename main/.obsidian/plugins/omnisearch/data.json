@@ -25,7 +25,7 @@
   "showPreviousQueryResults": true,
   "simpleSearch": false,
   "tokenizeUrls": false,
-  "fuzziness": "1",
+  "fuzziness": "0",
   "weightBasename": 10,
   "weightDirectory": 7,
   "weightH1": 6,
