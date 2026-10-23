@@ -116,6 +116,54 @@
             }
           },
           {
+            "id": "6ded2ef3164cc15b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+            }
+          },
+          {
+            "id": "76dc1e2fcc7de6cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+            }
+          },
+          {
             "id": "2d570dc7b6467179",
             "type": "leaf",
             "state": {
@@ -150,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -332,14 +380,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "676ecf9cefb6beb1",
+  "floating": {
+    "id": "19ed3eff84523eb7",
+    "type": "floating",
+    "children": [
+      {
+        "id": "cdc320e06153851e",
+        "type": "window",
+        "children": [
+          {
+            "id": "ea065bf81dd75ba5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b9a44fc9269cb964",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 902,
+        "y": 41,
+        "width": 894,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "b9a44fc9269cb964",
   "lastOpenFiles": [
-    "documents/Game Theory.pdf",
-    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
+    "documents/com.md",
     "documents/game theory notes.md",
+    "documents/Game Theory.pdf",
+    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
+    "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "documents/Introduction to Criminal Justice.pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",

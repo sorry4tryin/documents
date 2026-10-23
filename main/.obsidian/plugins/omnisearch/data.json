@@ -1,7 +1,7 @@
 {
   "useCache": true,
   "hideExcluded": false,
-  "recencyBoost": "0",
+  "recencyBoost": "1",
   "downrankedFoldersFilters": [],
   "ignoreDiacritics": true,
   "ignoreArabicDiacritics": false,
