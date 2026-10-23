@@ -71,12 +71,24 @@
             "id": "7f5bd065778deb2f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf"
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Learned Helplessness at FiftyInsights From Neuroscience."
+              "icon": "lucide-file",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
             }
           },
           {
@@ -323,18 +335,32 @@
                 "id": "71e044297e02333e",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "CompTIA Security+ Guide to Network Security Fundamentals"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
+        "x": 902,
+        "y": 41,
         "width": 894,
         "height": 1125,
         "maximize": false,
@@ -342,14 +368,15 @@
       }
     ]
   },
-  "active": "71e044297e02333e",
+  "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
-    "documents/Game Theory.pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
+    "documents/Game Theory.pdf",
     "documents/game theory notes.md",
     "documents/Introduction to Criminal Justice.pdf",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
@@ -373,13 +400,10 @@
     "topics/math typesetting in obsidian.md",
     "concepts/mathjax vs latex.md",
     "concepts/latex suite snippets.md",
-    "concepts/array rules in mathjax.md",
     "mini-essays",
-    "quick notes/maximizing agent spawning and delegation.md",
     "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf",
     "knowledge base.base",
     "sources",
-    "problems",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]

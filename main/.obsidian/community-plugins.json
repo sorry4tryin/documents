@@ -13,5 +13,6 @@
   "mermaid-tools",
   "todoist-sync-plugin",
   "hide-traffic-lights",
-  "front-matter-timestamps"
+  "front-matter-timestamps",
+  "text-extractor"
 ]

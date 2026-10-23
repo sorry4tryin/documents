@@ -26,14 +26,6 @@
       "key": "V"
     }
   ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": " "
-    }
-  ],
   "editor:open-search": [],
   "pomodoro-timer:toggle-timer-panel": [
     {
@@ -173,6 +165,14 @@
         "Alt"
       ],
       "key": "1"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": " "
     }
   ]
 }
