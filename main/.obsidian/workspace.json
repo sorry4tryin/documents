@@ -548,19 +548,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 902,
-        "y": 41,
-        "width": 895,
-        "height": 1125,
+        "x": 962,
+        "y": 32,
+        "width": 954,
+        "height": 1045,
         "maximize": false,
         "zoom": -0.5
       }
     ]
   },
-  "active": "b8dcdf00dcb328eb",
+  "active": "efd677bc5f71f16a",
   "lastOpenFiles": [
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "quick notes/help.md",
     "documents/com.md",
     "documents/game theory notes.md",
