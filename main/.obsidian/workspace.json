@@ -511,6 +511,18 @@
                 "id": "3c1dcfb87e426d8e",
                 "type": "leaf",
                 "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
+                }
+              },
+              {
+                "id": "b8dcdf00dcb328eb",
+                "type": "leaf",
+                "state": {
                   "type": "markdown",
                   "state": {
                     "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
@@ -532,12 +544,12 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
+        "x": 902,
+        "y": 41,
         "width": 895,
         "height": 1125,
         "maximize": false,
@@ -545,10 +557,10 @@
       }
     ]
   },
-  "active": "efd677bc5f71f16a",
+  "active": "b8dcdf00dcb328eb",
   "lastOpenFiles": [
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "quick notes/help.md",
     "documents/com.md",
     "documents/game theory notes.md",
