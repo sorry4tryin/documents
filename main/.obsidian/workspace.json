@@ -68,12 +68,36 @@
             }
           },
           {
-            "id": "7f5bd065778deb2f",
+            "id": "9c10340809f951df",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li"
+            }
+          },
+          {
+            "id": "1aaaa435fa2f20de",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/Game Theory.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Game Theory"
+            }
+          },
+          {
+            "id": "676ecf9cefb6beb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "file": "documents/game theory notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,19 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
-            }
-          },
-          {
-            "id": "9c10340809f951df",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li"
+              "title": "game theory notes"
             }
           },
           {
@@ -138,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -319,64 +331,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "aebb416c15146e0a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "34f5a4e6fe64321f",
-        "type": "window",
-        "children": [
-          {
-            "id": "ad94ea27683ef6d9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "71e044297e02333e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CompTIA Security+ Guide to Network Security Fundamentals"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 902,
-        "y": 41,
-        "width": 894,
-        "height": 1125,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "93dbc99a3abe6893",
+  "active": "676ecf9cefb6beb1",
   "lastOpenFiles": [
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-    "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "documents/Game Theory.pdf",
+    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "documents/game theory notes.md",
     "documents/Introduction to Criminal Justice.pdf",
-    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
