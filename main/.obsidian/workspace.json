@@ -167,12 +167,24 @@
             "id": "efd677bc5f71f16a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "notes/Reading List-Introduction into Lateral Thinking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "icon": "lucide-file",
+              "title": "Reading List-Introduction into Lateral Thinking"
             }
           },
           {
@@ -392,14 +404,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "efd677bc5f71f16a",
+  "floating": {
+    "id": "19ed3eff84523eb7",
+    "type": "floating",
+    "children": [
+      {
+        "id": "04ed344a2bec9859",
+        "type": "window",
+        "children": [
+          {
+            "id": "21ca444c5bc12256",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "453b2c76e7815da8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 643,
+        "y": 32,
+        "width": 633,
+        "height": 1045,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "453b2c76e7815da8",
   "lastOpenFiles": [
-    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/Reading List-Introduction into Lateral Thinking.md",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "quick notes/help.md",
+    "notes/help.md",
     "documents/com.md",
     "documents/game theory notes.md",
     "documents/Game Theory.pdf",
@@ -413,10 +463,10 @@
     "web-clips/Essay.md",
     "mini-essays/how to become smarter.md",
     "web-clips/The Vestibule – Obsidian setup 2026.md",
-    "quick notes/trading overview.md",
-    "quick notes/Create Artificial Intelligence autonomously conscious.md",
-    "quick notes/alias extension.md",
-    "templates/quicknote.md",
+    "notes/trading overview.md",
+    "notes/Create Artificial Intelligence autonomously conscious.md",
+    "notes/alias extension.md",
+    "templates/note.md",
     "templates/documentnote.md",
     "templates/sourcenote.md",
     "templates/projectnote.md",
@@ -427,9 +477,7 @@
     "problems/verify hline collapse end to end.md",
     "topics/math typesetting in obsidian.md",
     "concepts/mathjax vs latex.md",
-    "concepts/latex suite snippets.md",
     "mini-essays",
-    "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
