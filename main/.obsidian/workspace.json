@@ -37,10 +37,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Introduction to Criminal Justice.pdf"
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Introduction to Criminal Justice"
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
@@ -71,12 +71,24 @@
             "id": "9c10340809f951df",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf"
+                "file": "notes/Annotated Bibliography-The Mechanism of Mind.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li"
+              "icon": "lucide-file",
+              "title": "Annotated Bibliography-The Mechanism of Mind"
             }
           },
           {
@@ -85,58 +97,34 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Game Theory.pdf"
+                "file": "documents/Section 3.1 Narrative Strategy from Successful College Composition reduced and optimized.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Game Theory"
+              "title": "Section 3.1 Narrative Strategy from Successful College Composition reduced and optimized"
             }
           },
           {
             "id": "676ecf9cefb6beb1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "documents/game theory notes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
-              "icon": "lucide-file",
-              "title": "game theory notes"
+              "icon": "lucide-file-text",
+              "title": "Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
             "id": "6ded2ef3164cc15b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+              "icon": "lucide-file-text",
+              "title": "Section 3.5 Definition Strategy from Successful College Composition"
             }
           },
           {
@@ -179,24 +167,12 @@
             "id": "5b8b1efa5ec14f06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "notes/Reading List-Introduction into Lateral Thinking.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Section 3.4 Process Strategy from Successful College Composition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Reading List-Introduction into Lateral Thinking"
+              "icon": "lucide-file-text",
+              "title": "Section 3.4 Process Strategy from Successful College Composition"
             }
           },
           {
@@ -234,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -307,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -444,8 +419,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 3,
-        "y": 41,
+        "x": 1799,
+        "y": 1137,
         "width": 894,
         "height": 1125,
         "maximize": false,
@@ -455,21 +430,24 @@
   },
   "active": "453b2c76e7815da8",
   "lastOpenFiles": [
-    "notes/Reading List-Introduction into Lateral Thinking.md",
-    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Criminal Procedure-Third Edition.pdf",
-    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/game theory notes.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "notes/Annotated Bibliography-The Mechanism of Mind.md",
+    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/Reading List-Introduction into Lateral Thinking.md",
+    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/Criminal Procedure-Third Edition.pdf",
+    "documents/Introduction to Criminal Justice.pdf",
+    "documents/Section 3.1 Narrative Strategy from Successful College Composition reduced and optimized.pdf",
+    "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
+    "documents/Game Theory.pdf",
+    "documents/Section 3.4 Process Strategy from Successful College Composition.pdf",
+    "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
+    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "notes/game theory notes.md",
     "notes/help.md",
     "documents/com.md",
-    "documents/game theory notes.md",
-    "documents/Game Theory.pdf",
-    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
-    "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
-    "documents/Introduction to Criminal Justice.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
     "mini-essays/love not affection.md",
@@ -487,9 +465,6 @@
     "templates/topicnote.md",
     "templates/questionnote.md",
     "templates/conceptnote.md",
-    "problems/verify hline collapse end to end.md",
-    "topics/math typesetting in obsidian.md",
-    "concepts/mathjax vs latex.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
