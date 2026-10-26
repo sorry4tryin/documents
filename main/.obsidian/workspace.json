@@ -169,10 +169,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "title": "The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
@@ -394,9 +394,10 @@
   },
   "active": "efd677bc5f71f16a",
   "lastOpenFiles": [
+    "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "quick notes/help.md",
     "documents/com.md",
@@ -429,7 +430,6 @@
     "concepts/latex suite snippets.md",
     "mini-essays",
     "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf",
-    "knowledge base.base",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
