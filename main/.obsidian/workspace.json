@@ -420,9 +420,9 @@
           }
         ],
         "direction": "vertical",
-        "x": 902,
+        "x": 603,
         "y": 41,
-        "width": 894,
+        "width": 593,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
@@ -548,8 +548,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 962,
-        "y": 32,
+        "x": 846,
+        "y": 39,
         "width": 954,
         "height": 1045,
         "maximize": false,
@@ -557,7 +557,7 @@
       }
     ]
   },
-  "active": "b8dcdf00dcb328eb",
+  "active": "b9a44fc9269cb964",
   "lastOpenFiles": [
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
