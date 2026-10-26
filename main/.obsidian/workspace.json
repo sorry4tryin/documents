@@ -169,10 +169,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "title": "Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
@@ -392,143 +392,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "19ed3eff84523eb7",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ca5d229cbbaf5584",
-        "type": "window",
-        "children": [
-          {
-            "id": "471072c01d4f7ed2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e81a26f9b6914a31",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
-                }
-              },
-              {
-                "id": "78ddecfd289d2985",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CompTIA Security+ Guide to Network Security Fundamentals"
-                }
-              },
-              {
-                "id": "e68dcff92cbe2346",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "quick notes/help.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "help"
-                }
-              },
-              {
-                "id": "a6c6c61e00fd569d",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
-                }
-              },
-              {
-                "id": "3c1dcfb87e426d8e",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
-                }
-              },
-              {
-                "id": "b8dcdf00dcb328eb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "CompTIA Security+ Guide to Network Security Fundamentals"
-                }
-              }
-            ],
-            "currentTab": 5
-          }
-        ],
-        "direction": "vertical",
-        "x": 1201,
-        "y": 41,
-        "width": 595,
-        "height": 1125,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
   "active": "efd677bc5f71f16a",
   "lastOpenFiles": [
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "quick notes/help.md",
     "documents/com.md",
@@ -562,7 +429,6 @@
     "mini-essays",
     "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf",
     "knowledge base.base",
-    "sources",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
