@@ -450,42 +450,12 @@
         "height": 1045,
         "maximize": false,
         "zoom": -0.5
-      },
-      {
-        "id": "4134de8c4de355cd",
-        "type": "window",
-        "children": [
-          {
-            "id": "826681c6de027aa9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9026cf97ad964f0a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "documents/Criminal Procedure-Third Edition.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Criminal Procedure-Third Edition"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1103,
-        "y": 32,
-        "width": 814,
-        "height": 1045,
-        "maximize": false,
-        "zoom": -0.5
       }
     ]
   },
-  "active": "9026cf97ad964f0a",
+  "active": "453b2c76e7815da8",
   "lastOpenFiles": [
+    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/Reading List-Introduction into Lateral Thinking.md",
     "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -500,7 +470,6 @@
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "documents/Introduction to Criminal Justice.pdf",
-    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
     "mini-essays/love not affection.md",
