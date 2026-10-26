@@ -392,6 +392,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "floating": {
+    "id": "19ed3eff84523eb7",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0617c0a72b1172c5",
+        "type": "window",
+        "children": [
+          {
+            "id": "f3ee9a0ea928408b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1b934bb9895ee39f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1201,
+        "y": 41,
+        "width": 596,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
   "active": "efd677bc5f71f16a",
   "lastOpenFiles": [
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
