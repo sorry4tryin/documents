@@ -71,24 +71,12 @@
             "id": "9c10340809f951df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "notes/Reading List-Introduction into Lateral Thinking.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Reading List-Introduction into Lateral Thinking"
+              "icon": "lucide-file-text",
+              "title": "The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
@@ -409,13 +397,81 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "documents/The Cambridge Handbook of Cognitive Development.pdf"
+                    "file": "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
                   },
                   "icon": "lucide-file-text",
-                  "title": "The Cambridge Handbook of Cognitive Development"
+                  "title": "The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
                 }
               }
             ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 603,
+        "y": 41,
+        "width": 593,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      },
+      {
+        "id": "acb6c5a6aa680c8f",
+        "type": "window",
+        "children": [
+          {
+            "id": "8105c827d0f18f64",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3b8c7ed65a71b3b3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/Introduction into Lateral Thinking.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Introduction into Lateral Thinking"
+                }
+              },
+              {
+                "id": "3e274ed174ef8c7f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/Introduction into Lateral Thinking.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Introduction into Lateral Thinking"
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
@@ -428,22 +484,24 @@
       }
     ]
   },
-  "active": "9c10340809f951df",
+  "active": "3e274ed174ef8c7f",
   "lastOpenFiles": [
+    "documents/The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/The Mechanism of Mind.md",
+    "notes/Introduction into Lateral Thinking.md",
+    "notes/The Mechanism of Mind-An Annotated Bibliography.md",
+    "notes/The Mchanism of Mind-An Annotated Biliography.md",
     "documents/The Cambridge Handbook of Cognitive Development.pdf",
-    "notes/Reading List-Introduction into Lateral Thinking.md",
+    "documents/Unconfirmed 542613.crdownload",
     "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "mini-essays/how to become smarter.md",
     "documents/De ",
     "documents/ ",
     "mini-essays/love not affection.md",
     "documents/“Development of Qualitative Thinking- Language and Categorization.” The Cambridge Handbook of Cognitive Development.pdf ",
-    "documents/“Development of Qualitative Thinking- Language and Categorization.” The Cambridge Handbook of Cognitive Development. ",
-    "documents/Unconfirmed 579982.crdownload",
-    "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "templates/ab.md",
     "templates/rrl.md",
     "templates/note.md",
@@ -463,8 +521,6 @@
     "templates/sourcenote.md",
     "templates/projectnote.md",
     "templates/problemnote.md",
-    "templates/topicnote.md",
-    "templates/questionnote.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]

@@ -4,9 +4,9 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-26 16:20
-modified: 2026-10-27 10:50
+modified: 2026-10-27 11:14
 ---
-**Research Reading List: Introduction into Lateral Thinking 
+**Research Reading List: [[Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf|Introduction into Lateral Thinking]] 
 
 ***General** 
 - De Bono, Edward. Lateral Thinking for Management: A Handbook. Harper and Row, 1971.
