@@ -109,10 +109,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "title": "The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
@@ -396,30 +396,30 @@
     "type": "floating",
     "children": [
       {
-        "id": "04ed344a2bec9859",
+        "id": "a243e8ba3a90570d",
         "type": "window",
         "children": [
           {
-            "id": "21ca444c5bc12256",
+            "id": "7745366ebf0d9f96",
             "type": "tabs",
             "children": [
               {
-                "id": "453b2c76e7815da8",
+                "id": "9e40ef6335ef7e2a",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                    "file": "documents/The Cambridge Handbook of Cognitive Development.pdf"
                   },
                   "icon": "lucide-file-text",
-                  "title": "The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+                  "title": "The Cambridge Handbook of Cognitive Development"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 3,
+        "x": 902,
         "y": 41,
         "width": 894,
         "height": 1125,
@@ -430,8 +430,19 @@
   },
   "active": "9c10340809f951df",
   "lastOpenFiles": [
-    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The Cambridge Handbook of Cognitive Development.pdf",
     "notes/Reading List-Introduction into Lateral Thinking.md",
+    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "mini-essays/how to become smarter.md",
+    "documents/De ",
+    "documents/ ",
+    "mini-essays/love not affection.md",
+    "documents/“Development of Qualitative Thinking- Language and Categorization.” The Cambridge Handbook of Cognitive Development.pdf ",
+    "documents/“Development of Qualitative Thinking- Language and Categorization.” The Cambridge Handbook of Cognitive Development. ",
+    "documents/Unconfirmed 579982.crdownload",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "templates/ab.md",
     "templates/rrl.md",
@@ -439,24 +450,13 @@
     "notes/alias extension.md",
     "documents/game theory notes.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Criminal Procedure-Third Edition.pdf",
-    "documents/Introduction to Criminal Justice.pdf",
-    "documents/Section 3.1 Narrative Strategy from Successful College Composition reduced and optimized.pdf",
-    "documents/Section 3.3 Classification Strategy from Successful College Composition.pdf",
-    "documents/Game Theory.pdf",
-    "documents/Section 3.4 Process Strategy from Successful College Composition.pdf",
-    "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/game theory notes.md",
     "notes/help.md",
     "documents/com.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
-    "mini-essays/love not affection.md",
     "web-clips/Essay.md",
-    "mini-essays/how to become smarter.md",
     "web-clips/The Vestibule – Obsidian setup 2026.md",
     "notes/trading overview.md",
     "notes/Create Artificial Intelligence autonomously conscious.md",
