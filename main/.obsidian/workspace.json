@@ -145,10 +145,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Section 3.1 Narrative Strategy from Successful College Composition reduced and optimized.pdf"
+                "file": "documents/Game Theory.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Section 3.1 Narrative Strategy from Successful College Composition reduced and optimized"
+              "title": "Game Theory"
             }
           },
           {
@@ -167,12 +167,24 @@
             "id": "6ded2ef3164cc15b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Section 3.5 Definition Strategy from Successful College Composition.pdf"
+                "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Section 3.5 Definition Strategy from Successful College Composition"
+              "icon": "lucide-file",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
             }
           },
           {
@@ -217,10 +229,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/Section 3.4 Process Strategy from Successful College Composition.pdf"
+                "file": "documents/Learned Helplessness at FiftyInsights From Neuroscience..pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Section 3.4 Process Strategy from Successful College Composition"
+              "title": "Learned Helplessness at FiftyInsights From Neuroscience."
             }
           },
           {
@@ -632,19 +644,49 @@
           }
         ],
         "direction": "vertical",
-        "x": 902,
-        "y": 41,
-        "width": 895,
+        "x": 1799,
+        "y": 1137,
+        "width": 894,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      },
+      {
+        "id": "abc8c5613fd71e57",
+        "type": "window",
+        "children": [
+          {
+            "id": "3e95dc0fea600212",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9b5bbccc21cdf3d5",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1799,
+        "y": 1137,
+        "width": 894,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
       }
     ]
   },
-  "active": "6d4802d61c746561",
+  "active": "9b5bbccc21cdf3d5",
   "lastOpenFiles": [
-    "notes/Creative and Lateral Thinking- Edward de Bono.md",
+    "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
+    "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "notes/Introduction into Lateral Thinking.md",
     "notes/The Mechanism of Mind.md",
     "templates/ab.md",
