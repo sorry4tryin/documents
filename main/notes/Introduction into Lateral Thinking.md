@@ -4,11 +4,11 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-26 16:20
-modified: 2026-10-27 11:38
+modified: 2026-10-27 14:07
 ---
-**Research Reading List: [[Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf|Introduction into Lateral Thinking]] 
+**Research Reading List: Introduction into Lateral Thinking
 
-***General** 
+***General
 - De Bono, Edward. Lateral Thinking for Management: A Handbook. Harper and Row, 1971.
 	- De Bono, Edward. “The Way the Mind Works” (Chapter 1). Lateral Thinking for Management: A Handbook. Harper and Row, 1971. (pp. 26-27)
 	- De Bono, Edward. “Difference Between Lateral and Vertical Thinking” (Chapter 2). Lateral Thinking for Management: A Handbook. Harper and Row, 1971. (pp. 39-46); (p. 45)
@@ -51,6 +51,6 @@ modified: 2026-10-27 11:38
 
 ***Republic
 - Duman, Burcu, et al. “The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students: A Path Analysis.” European Journal of Education, vol. 59, no. 3, Sept. 2024, EBSCOhost, https://doi.org/10.1111/ejed.12673. (pp. 1–22)
-- Burgh, Gilbert."Creative and Lateral Thinking: Edward de Bono." Encyclopedia of Educational Theory and Philosophy. Vol. 2. Thousand Oaks,: SAGE Publications, Inc., 2014, Sage Knowledge, doi: https://doi.org/10.4135/9781483346229.n86. (pp. 187-88)
+- Burgh, Gilbert."Creative and Lateral Thinking: Edward de Bono." Encyclopedia of Educational Theory and Philosophy. Vol. 2. Thousand Oaks,: SAGE Publications, Inc., 2014, Sage Knowledge, doi: https://doi.org/10.4135/9781483346229.n86. (pp. 187-188)
 - Cimpian, Andrei, and Erika Salomon. “The Inherence Heuristic: An Intuitive Means of Making Sense of the World, and a Potential Precursor to Psychological Essentialism.” Behavioral & Brain Sciences, vol. 37, no. 5, Oct. 2014, EBSCOhost, https://doi.org/10.1017/S0140525X13002197. (pp. 461–80)
 - John-Steiner, Vera P. “Vygotsky on Thinking and Speaking.” [[The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf|The Cambridge Companion to Vygotsky]]. Ed. Harry Daniels, Michael Cole, and James V. Wertsch. Cambridge: Cambridge University Press, 2007. (pp. 136–152)

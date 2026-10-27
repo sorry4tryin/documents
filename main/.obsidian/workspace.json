@@ -95,12 +95,48 @@
             "id": "8d0c790d624e6e44",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Encyclopedia of Educational Theory and Philosophy.pdf"
+                "file": "notes/Creative and Lateral Thinking- Edward de Bono.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Encyclopedia of Educational Theory and Philosophy"
+              "icon": "lucide-file",
+              "title": "Creative and Lateral Thinking- Edward de Bono"
+            }
+          },
+          {
+            "id": "a6d19238ad38aac1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/ab.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ab"
             }
           },
           {
@@ -505,9 +541,93 @@
                   "icon": "lucide-file",
                   "title": "Introduction into Lateral Thinking"
                 }
+              },
+              {
+                "id": "81c2f0fb4bf10b90",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/The Mechanism of Mind.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "The Mechanism of Mind"
+                }
+              },
+              {
+                "id": "50daaf2a3fc65a92",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/Introduction into Lateral Thinking.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Introduction into Lateral Thinking"
+                }
+              },
+              {
+                "id": "bfd002020de32b7b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/The Mechanism of Mind.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "The Mechanism of Mind"
+                }
+              },
+              {
+                "id": "6d4802d61c746561",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/Encyclopedia of Educational Theory and Philosophy.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Encyclopedia of Educational Theory and Philosophy"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 6
           }
         ],
         "direction": "vertical",
@@ -520,12 +640,15 @@
       }
     ]
   },
-  "active": "93dbc99a3abe6893",
+  "active": "6d4802d61c746561",
   "lastOpenFiles": [
-    "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf",
-    "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "notes/Introduction into Lateral Thinking.md",
     "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
+    "notes/The Mechanism of Mind.md",
+    "templates/ab.md",
+    "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf",
+    "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Unconfirmed 949944.crdownload",
     "documents/Serious creativity  using the power of lateral thinking to create new ideas (De Bono, Edward, 1933-) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -533,12 +656,10 @@
     "documents/The inherence heuristic- An intuitive means of making sense of the world, and a potential precursor to psychological essentialism.pdf",
     "documents/Unconfirmed 57502.crdownload",
     "documents/Unconfirmed 836211.crdownload",
-    "notes/The Mechanism of Mind.md",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "notes/The Mchanism of Mind-An Annotated Biliography.md",
     "mini-essays/how to become smarter.md",
     "mini-essays/love not affection.md",
-    "templates/ab.md",
     "templates/rrl.md",
     "templates/note.md",
     "notes/alias extension.md",
@@ -556,7 +677,6 @@
     "notes/Create Artificial Intelligence autonomously conscious.md",
     "templates/sourcenote.md",
     "templates/projectnote.md",
-    "templates/problemnote.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
