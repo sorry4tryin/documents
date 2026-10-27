@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Annotated Bibliography-The Mechanism of Mind.md",
+                "file": "notes/Reading List-Introduction into Lateral Thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,7 +88,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Annotated Bibliography-The Mechanism of Mind"
+              "title": "Reading List-Introduction into Lateral Thinking"
             }
           },
           {
@@ -419,8 +419,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
+        "x": 3,
+        "y": 41,
         "width": 894,
         "height": 1125,
         "maximize": false,
@@ -430,11 +430,12 @@
   },
   "active": "453b2c76e7815da8",
   "lastOpenFiles": [
+    "notes/Reading List-Introduction into Lateral Thinking.md",
+    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/The Mechanism of Mind-An Annotated Bibliography.md",
+    "notes/alias extension.md",
     "documents/game theory notes.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-    "notes/Annotated Bibliography-The Mechanism of Mind.md",
-    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "notes/Reading List-Introduction into Lateral Thinking.md",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
@@ -456,7 +457,6 @@
     "web-clips/The Vestibule – Obsidian setup 2026.md",
     "notes/trading overview.md",
     "notes/Create Artificial Intelligence autonomously conscious.md",
-    "notes/alias extension.md",
     "templates/note.md",
     "templates/documentnote.md",
     "templates/sourcenote.md",
