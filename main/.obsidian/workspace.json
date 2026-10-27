@@ -95,6 +95,18 @@
             "id": "8d0c790d624e6e44",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
+            }
+          },
+          {
+            "id": "995135b4f9df43c1",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "notes/Creative and Lateral Thinking- Edward de Bono.md",
@@ -167,24 +179,12 @@
             "id": "6ded2ef3164cc15b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
-              "icon": "lucide-file",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+              "icon": "lucide-file-text",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
             }
           },
           {
@@ -217,10 +217,58 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "title": "The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+            }
+          },
+          {
+            "id": "08421d7f4ebc1154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Discovering Computers-Digital Technology, Data, and Devices"
+            }
+          },
+          {
+            "id": "781408b492c4d3d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Creative and Lateral Thinking- Edward de Bono.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Creative and Lateral Thinking- Edward de Bono"
             }
           },
           {
@@ -270,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -343,8 +391,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -480,9 +527,9 @@
           }
         ],
         "direction": "vertical",
-        "x": 603,
+        "x": 364,
         "y": 41,
-        "width": 593,
+        "width": 354,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
@@ -644,49 +691,99 @@
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
-        "width": 894,
+        "x": 723,
+        "y": 41,
+        "width": 354,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
       },
       {
-        "id": "abc8c5613fd71e57",
+        "id": "03f55e80a7ceec3d",
         "type": "window",
         "children": [
           {
-            "id": "3e95dc0fea600212",
+            "id": "c02b250a23198fe0",
             "type": "tabs",
             "children": [
               {
-                "id": "9b5bbccc21cdf3d5",
+                "id": "9c67f546bb39a7e9",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
-        "width": 894,
+        "x": 1082,
+        "y": 41,
+        "width": 354,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      },
+      {
+        "id": "f21fa447e8b86387",
+        "type": "window",
+        "children": [
+          {
+            "id": "02307f98f8fd6f77",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6c68b8ad599ca32e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Discovering Computers-Digital Technology, Data, and Devices"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1440,
+        "y": 41,
+        "width": 356,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
       }
     ]
   },
-  "active": "9b5bbccc21cdf3d5",
+  "active": "6c68b8ad599ca32e",
   "lastOpenFiles": [
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
-    "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
+    "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
+    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
+    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/Introduction into Lateral Thinking.md",
     "notes/The Mechanism of Mind.md",
     "templates/ab.md",
@@ -695,10 +792,6 @@
     "documents/Unconfirmed 949944.crdownload",
     "documents/Serious creativity  using the power of lateral thinking to create new ideas (De Bono, Edward, 1933-) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/The inherence heuristic- An intuitive means of making sense of the world, and a potential precursor to psychological essentialism.pdf",
-    "documents/Unconfirmed 57502.crdownload",
-    "documents/Unconfirmed 836211.crdownload",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "notes/The Mchanism of Mind-An Annotated Biliography.md",
     "mini-essays/how to become smarter.md",
@@ -708,7 +801,6 @@
     "notes/alias extension.md",
     "documents/game theory notes.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
-    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/game theory notes.md",
     "notes/help.md",
     "documents/com.md",
@@ -719,7 +811,6 @@
     "notes/trading overview.md",
     "notes/Create Artificial Intelligence autonomously conscious.md",
     "templates/sourcenote.md",
-    "templates/projectnote.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
