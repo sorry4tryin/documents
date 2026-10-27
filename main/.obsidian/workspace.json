@@ -331,7 +331,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -633,18 +634,18 @@
         "direction": "vertical",
         "x": 902,
         "y": 41,
-        "width": 894,
+        "width": 895,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
       }
     ]
   },
-  "active": "6d4802d61c746561",
+  "active": "8d0c790d624e6e44",
   "lastOpenFiles": [
+    "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "notes/Introduction into Lateral Thinking.md",
-    "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
     "notes/The Mechanism of Mind.md",
     "templates/ab.md",
     "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf",
