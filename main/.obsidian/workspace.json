@@ -450,6 +450,18 @@
                 "id": "3e274ed174ef8c7f",
                 "type": "leaf",
                 "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk)"
+                }
+              },
+              {
+                "id": "91a8610ffabae0b5",
+                "type": "leaf",
+                "state": {
                   "type": "markdown",
                   "state": {
                     "file": "notes/Introduction into Lateral Thinking.md",
@@ -471,12 +483,12 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical",
-        "x": 902,
-        "y": 41,
+        "x": 1799,
+        "y": 1137,
         "width": 894,
         "height": 1125,
         "maximize": false,
@@ -484,8 +496,10 @@
       }
     ]
   },
-  "active": "3e274ed174ef8c7f",
+  "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
+    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/Introduction into Lateral Thinking.md",
     "documents/The inherence heuristic- An intuitive means of making sense of the world, and a potential precursor to psychological essentialism.pdf",
     "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Unconfirmed 57502.crdownload",
@@ -495,12 +509,10 @@
     "documents/The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/The Mechanism of Mind.md",
-    "notes/Introduction into Lateral Thinking.md",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "notes/The Mchanism of Mind-An Annotated Biliography.md",
     "documents/The Cambridge Handbook of Cognitive Development.pdf",
     "documents/Unconfirmed 542613.crdownload",
-    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "mini-essays/how to become smarter.md",
     "mini-essays/love not affection.md",
     "templates/ab.md",
