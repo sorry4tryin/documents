@@ -419,8 +419,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
+        "x": 3,
+        "y": 41,
         "width": 894,
         "height": 1125,
         "maximize": false,
@@ -428,11 +428,14 @@
       }
     ]
   },
-  "active": "9c10340809f951df",
+  "active": "453b2c76e7815da8",
   "lastOpenFiles": [
-    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/Reading List-Introduction into Lateral Thinking.md",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
+    "templates/ab.md",
+    "templates/rrl.md",
+    "templates/note.md",
+    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/alias extension.md",
     "documents/game theory notes.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
@@ -457,14 +460,11 @@
     "web-clips/The Vestibule – Obsidian setup 2026.md",
     "notes/trading overview.md",
     "notes/Create Artificial Intelligence autonomously conscious.md",
-    "templates/note.md",
-    "templates/documentnote.md",
     "templates/sourcenote.md",
     "templates/projectnote.md",
     "templates/problemnote.md",
     "templates/topicnote.md",
     "templates/questionnote.md",
-    "templates/conceptnote.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
