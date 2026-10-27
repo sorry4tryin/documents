@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-26 16:20
-modified: 2026-10-26 22:06
+modified: 2026-10-26 22:09
 ---
 **Research Reading List: Introduction into Lateral Thinking 
 
@@ -41,7 +41,8 @@ modified: 2026-10-26 22:06
 	- De Bono, Edward (January 1969). (Chapter 30) The Mechanism of Mind. Jonathan Cape. (pp. 197-199)
 	- De Bono, Edward (January 1969). (Chapter 31) The Mechanism of Mind. Jonathan Cape. (pp. 200-204)
 	- De Bono, Edward (January 1969). (Chapter 33) The Mechanism of Mind. Jonathan Cape. (pp. 210-218)
-	- De Bono, Edward (January 1969). The Mechanism of Mind. Jonathan Cape. (pp. 220-199)
+	- De Bono, Edward (January 1969). The Mechanism of Mind. Jonathan Cape. (pp. 220-223)
+	- De Bono, Edward (January 1969). The Mechanism of Mind. Jonathan Cape. (p. 227)
 - De Bono, Edward (1992). Serious creativity: using the power of lateral thinking to create new ideas. HarperBusiness. ISBN 9780887305665. (p. 145)
 - Rational Choice Theory. United Kingdom, E. Elgar, 1991. (p. 147)
 - Gelman, Susan A. “Development of Qualitative Thinking: Language and Categorization.” The Cambridge Handbook of Cognitive Development. Ed. Olivier Houdé and Grégoire Borst. Cambridge: Cambridge University Press, 2022. Print. Cambridge Handbooks in Psychology. (pp. 341–360)
