@@ -73,10 +73,34 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "title": "The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis"
+            }
+          },
+          {
+            "id": "c813d4e03aa8b2f8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis"
+            }
+          },
+          {
+            "id": "8d0c790d624e6e44",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/Encyclopedia of Educational Theory and Philosophy.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Encyclopedia of Educational Theory and Philosophy"
             }
           },
           {
@@ -198,7 +222,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -487,8 +511,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
+        "x": 902,
+        "y": 41,
         "width": 894,
         "height": 1125,
         "maximize": false,
@@ -498,21 +522,20 @@
   },
   "active": "93dbc99a3abe6893",
   "lastOpenFiles": [
-    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "notes/Introduction into Lateral Thinking.md",
-    "documents/The inherence heuristic- An intuitive means of making sense of the world, and a potential precursor to psychological essentialism.pdf",
+    "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf",
     "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Unconfirmed 57502.crdownload",
-    "documents/Euro J of Education - 2024 - Duman - The relation between lateral thinking and inquiry skills of higher education students .pdf",
+    "notes/Introduction into Lateral Thinking.md",
+    "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
+    "documents/Unconfirmed 949944.crdownload",
     "documents/Serious creativity  using the power of lateral thinking to create new ideas (De Bono, Edward, 1933-) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Unconfirmed 836211.crdownload",
     "documents/The Cambridge Handbook of Cognitive Development (Olivier Houdé, Grégoire Borst) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The inherence heuristic- An intuitive means of making sense of the world, and a potential precursor to psychological essentialism.pdf",
+    "documents/Unconfirmed 57502.crdownload",
+    "documents/Unconfirmed 836211.crdownload",
     "notes/The Mechanism of Mind.md",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "notes/The Mchanism of Mind-An Annotated Biliography.md",
-    "documents/The Cambridge Handbook of Cognitive Development.pdf",
-    "documents/Unconfirmed 542613.crdownload",
     "mini-essays/how to become smarter.md",
     "mini-essays/love not affection.md",
     "templates/ab.md",

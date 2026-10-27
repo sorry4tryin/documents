@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-26 16:20
-modified: 2026-10-27 11:14
+modified: 2026-10-27 11:38
 ---
 **Research Reading List: [[Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf|Introduction into Lateral Thinking]] 
 
@@ -47,7 +47,7 @@ modified: 2026-10-27 11:14
 	- De Bono, Edward (January 1969). The Mechanism of Mind. Jonathan Cape. (pp. 240-241)
 	- De Bono, Edward (January 1969). The Mechanism of Mind. Jonathan Cape. (pp. 243-246)
 - De Bono, Edward (1992). Serious creativity: using the power of lateral thinking to create new ideas. HarperBusiness. ISBN 9780887305665. (p. 145)
-- Gelman, Susan A. “Development of Qualitative Thinking: Language and Categorization.” The Cambridge Handbook of Cognitive Development. Ed. Olivier Houdé and Grégoire Borst. Cambridge: Cambridge University Press, 2022. Print. Cambridge Handbooks in Psychology. (pp. 341–360)
+- Gelman, Susan A. “Development of Qualitative Thinking: Language and Categorization” (Chapter 15). The Cambridge Handbook of Cognitive Development. Ed. Olivier Houdé and Grégoire Borst. Cambridge: Cambridge University Press, 2022. Print. Cambridge Handbooks in Psychology. (pp. 341–360)
 
 ***Republic
 - Duman, Burcu, et al. “The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students: A Path Analysis.” European Journal of Education, vol. 59, no. 3, Sept. 2024, EBSCOhost, https://doi.org/10.1111/ejed.12673. (pp. 1–22)
