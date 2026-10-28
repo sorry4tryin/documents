@@ -1,6 +1,6 @@
 ---
 created: 2026-10-23 08:41
-modified: 2026-10-28 14:08
+modified: 2026-10-28 14:20
 ---
 toc
 wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=359&selection=78,0,78,3|p. 339]]
@@ -24,43 +24,43 @@ wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamen
 		- int^ = internet
 		- pub^ = public
 		- bt^ = bluetooth
-	- describe the different types of wireless network attacks
-		- cellular: through telecommunication service provides (tsp), it offers a fixed wireless service for int. connectivity.
-		- bluetooth: wireless technology using short-range radio frequency (RF) transmissions for short distance communication; 
-			- attacks: bluejacking, which involves unsolicited messages being sent to bt^-enabled devices (like images, sounds, or text messages); bluesnarfing, which involves the access of unauthorized information through wireless devices to bt^-enabled devices.
+	- describe the different types of wireless net^ attacks
+		- cellular: through telecommunication service provides (tsp), it offers a fixed wireless service for int^ connectivity.
+		- bluetooth: wireless technology using short-range radio freq^ (RF) transmissions for short distance communication; 
+			- attacks: bluejacking, which involves unsolicited messages being sent to bt^-enabled devices (like images, sounds, or text messages); bluesnarfing, which involves the access of unauthorized info^ through wireless devices to bt^-enabled devices.
 		- near field communication (nfc): a way of communication between devices in close proximity; leads to major vulnerabilities like eavesdropping, data theft, man-in-the-middle attack, and device theft
-		- radio frequency identification (rfid): ability to transmit information between employee identification badges, inventory tags, book labels, and other paper-based tags that can be detected by a proximity reader; attacks include: unauthorized tag access,  fake tags, eavesdropping, and rfid cloning
-		- wlan: a replacement for a wired local area network; the process: there is a wireless client network interface card (wireless adapter) which sends and receives signals through airwaves—similar to a wired adapter; there is an access point (AP) at the center of the wlan device that sends and receives wireless signals—there are fat aps (or autonomous aps; specifically used for authentication, encryption, and other functions for wireless client devices), thin aps (they do not manage or configure functions), controller aps (managed through a specific wireless lan controller 'wlc'), and a captive portal ap (a user signs their agreement to a policy in order to receive information or to present valid login credentials).
-		- wlan enterprise: there are well-defined boundaries (or "hard edges") in order to protect data—types of hard edges: network and a second (which makes up the structure for the enterprise)—although these are recently known as "blurred edges". data can be intercepted, which means a users radio frequency can be accessed through an open or misconfigured ap. more attacks: (1) there are wireless denial attacks (wdas) that include rf jamming (the use of a rf interface to flood the rf spectrum fully, to prevent a device communication with the ap), and a disassociation attack (refers to the use of false deauth^ or disassociation management creation cloaked as another device, to remove the client from the ap ). (2) there are wireless consumer attacks (wcas) that include the failed configuration over security allowing the attacker to compromise the device.
-			- more ap attacks: rogue ap^. (rap; invalid ap that allows the attacker to bypass network security configs), and evil twin (et; ap configured by an attacker in order to mimic an authorized one or capture transmissions)
-				- rap. identification is a rap. sys. detection (rasd). rasd. includes four probes to monitor airwaves for traffic: (1) wireless device, (2) desktop, (3) ap., (4) dedicated. when a suspicious signal is found by a select probe, the info. is sent to a db. for comparison 
-	- list the vulnerabilities of wlan security
-		- wired equivalent privacy (wep) starts with an IEEE 802.11 protocol ensuring authorized access to view encrypted transmissions; vulnerable because of the following: restricted to 64 or 128-bit encryption, and includes a detectable pattern. wi-fi protected setup (wps) uses a pin or a push method for security configuration; vulnerable because of the following: excess time, last character includes a checksum, and the lack of pin combination (meaning the first and second halves of the pin are reported separately). media access control (mac) address filtering permits or blocks devices based on the mac address; vulnerable because of the following: attacker substitution through address visibility (**exchanged unencrypted**), and large amounts of addresses. wi-fi protected access (wpa) uses wep without extensive hardware updates—includes wpa personal (wpap) and enterprise (wpae). wi-fi protected access personal (wpap) uses preshared keys (psk) to create a secret value (sv) into the ap and wireless device—with the sv the device is auth. automatically by the ap; vulnerable since its improved one part of a wep.
-	- explain the solutions for securing a wireless network
-		- wpa2 is based on ieee 802.11i standard (includes wpa2p for personal actions and wpa2e. for more business/coporate actions), that provides encryption and auth. wpa2. en. uses counter mode with cipher block chaining message auth. code protocol (ccmp), through the use of aes, to provide data integrity and auth. (cipher block chaining message auth. code=cbc-mac). auth. for wpa2e uses the ieee 802.1x standard for port-based auth. to transport auth. protocol wpa2. uses extensible auth. protocol (eap), which is designed to format messages by packet names: request, response, success, and failure. eap.'s protocol is protected eap. (peap), which simiplifies deployment of 802.1x using microsoft windows logins and passwords; creating an en. channel between client and auth. servers. more eap. includes: eap-tls (digital certs. for auth.), eap-ttls (client pswd. auth. through transport layer security (tls) recs.)
-		- wpa3. is a new gen. wpa that uses simultaneous auth. of equals (sae) to increase security during key exchanges. wpa3. ens. user data through the use of public nets.
-		- more solutions: (1) when setting up a wlan for an org., make sure each area has wireless coverage and reasonable bandwidth; (2) make sure ap conf. is set to prevent a wireless rf. signal from being accessible to outsiders; (3) ap.'s allow lan. power level adjustments for transmissions; (4) ap.'s allow freq. spec. sets. that include: freq. band, channel selection, and channel width; (5) set up ap. on a high secured wall to reduce sign obstruction and theft.
+		- radio freq^ identification (rfid): ability to transmit info^ between employee identification badges, inventory tags, book labels, and other paper-based tags that can be detected by a proximity reader; attacks include: unauthorized tag access,  fake tags, eavesdropping, and rfid^ cloning
+		- wlan: a replacement for a wired local area net^; the process: there is a wireless client net^ interface card (wireless adapter) which sends and receives signals through airwaves—similar to a wired adapter; there is an access point (AP) at the center of the wlan^ device that sends and receives wireless signals—there are fat ap^s (or autonomous ap^s; specifically used for auth^, en^, and other functions for wireless client devices), thin ap^s (they do not manage or configure functions), controller ap^s (managed through a specific wireless lan^ controller 'wlc'), and a captive portal ap^ (a user signs their agreement to a policy in order to receive info^ or to present valid login credentials).
+		- wlan^ enterprise: there are well-defined boundaries (or "hard edges") in order to protect data—types of hard edges: net^ and a second (which makes up the structure for the enterprise)—although these are recently known as "blurred edges". data can be intercepted, which means a users radio freq^ can be accessed through an open or misconfigured ap^. more attacks: (1) there are wireless denial attacks (wdas) that include rf^ jamming (the use of a rf^ interface to flood the rf^ spec^ fully, to prevent a device communication with the ap^), and a disassociation attack (refers to the use of false deauth^ or disassociation management creation cloaked as another device, to remove the client from the ap^ ). (2) there are wireless consumer attacks (wcas) that include the failed conf^ over sec^ allowing the attacker to compromise the device.
+			- more ap^ attacks: rogue ap^. (rap; invalid ap^ that allows the attacker to bypass net^ sec^ conf^s), and evil twin (et; ap^ configured by an attacker in order to mimic an authorized one or capture transmissions)
+				- rap^ identification is a rap^ sys^ detection (rasd). rasd^ includes four probes to monitor airwaves for traffic: (1) wireless device, (2) desktop, (3) ap^, (4) dedicated. when a suspicious signal is found by a select probe, the info^ is sent to a db^ for comparison 
+	- list the vulnerabilities of wlan^ sec^
+		- wired equivalent privacy (wep) starts with an IEEE 802.11 protocol ensuring authorized access to view en^ transmissions; vulnerable because of the following: restricted to 64 or 128-bit en^, and includes a detectable pattern. wi-fi protected setup (wps) uses a pin or a push method for sec^ conf^; vulnerable because of the following: excess time, last character includes a checksum, and the lack of pin combination (meaning the first and second halves of the pin are reported separately). media access control (mac) address filtering permits or blocks devices based on the mac^ address; vulnerable because of the following: attacker substitution through address visibility (**exchanged un-en^**), and large amounts of addresses. wi-fi protected access (wpa) uses wep^ without extensive hardware updates—includes wpa^ personal (wpap) and enterprise (wpae). wi-fi protected access personal (wpap) uses preshared keys (psk) to create a secret value (sv) into the ap^ and wireless device—with the sv^ the device is auth^ automatically by the ap^; vulnerable since its improved one part of a wep^.
+	- explain the solutions for securing a wireless net^
+		- wireless protected access, second gen^(wpa2), is based on ieee 802.11i standard (includes wpa2p for personal actions and wpa2e. for more business/coporate actions), that provides en^ and auth^. wpa2^ en^ uses counter mode with cipher block chaining message auth^ code protocol (ccmp), through the use of aes, to provide data integrity and auth^ (cipher block chaining message auth^ code=cbc-mac). auth^ for wpa2e^ uses the ieee 802.1x standard for port-based auth^ to transport auth^ protocol wpa2^ uses extensible auth^ protocol (eap), which is designed to format messages by packet names: request, response, success, and failure. eap^'s protocol is protected eap^ (peap), which simiplifies deployment of 802.1x using microsoft windows logins and pswd^s; creating an en^ channel between client and auth^ servers. more eap^ includes: eap^-tls (digital certs. for auth^), eap^-ttls (client pswd^ auth^ through transport layer sec^ (tls) recs.)
+		- wpa3 is a new gen^ wpa^ that uses simultaneous auth^ of equals (sae) to increase sec^ during key exchanges. wpa3^ ens^ user data through the use of pub^ nets^.
+		- more solutions: (1) when setting up a wlan^ for an org^, make sure each area has wireless coverage and reasonable bandwidth; (2) make sure ap^ conf^ is set to prevent a wireless rf^ signal from being accessible to outsiders; (3) ap^'s allow lan^ power level adjustments for transmissions; (4) ap^'s allow freq^ spec^ sets^ that include: freq^ band, channel selection, and channel width; (5) set up ap^ on a high secured wall to reduce sign obstruction and theft.
 	- *blurt list
-		- describe the different types of wireless network attacks
+		- describe the different types of wireless net^ attacks
 			- cellular
 			- bluejacking
 			- bluesnarfing
-			- nfc
-			- rfid
-			- wlan
+			- nfc^
+			- rfid^
+			- wlan^
 			- wireless adapter
-			- ap
-			- fat ap
-			- thin ap
-			- controller ap
-				- what manages the controller ap?
-			- captive portal ap 
-			- rogue ap
+			- ap^
+			- fat ap^
+			- thin ap^
+			- controller ap^
+				- what manages the controller ap^?
+			- captive portal ap^ 
+			- rogue ap^
 			- evil twin
-			- wdas
-				- rf jamming
+			- wdas^
+				- rf^ jamming
 				- disassociation attack
-			- wcas
-			- wlan enterprise
-		- list the vulnerabilities of WLAN security 
-		- explain the solutions for securing a wireless networks
+			- wcas^
+			- wlan^ enterprise
+		- list the vulnerabilities of wlan^ sec^ 
+		- explain the solutions for securing a wireless nets^
