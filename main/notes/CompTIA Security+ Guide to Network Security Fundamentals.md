@@ -1,12 +1,12 @@
 ---
 created: 2026-10-23 08:41
-modified: 2026-10-28 12:28
+modified: 2026-10-28 12:32
 ---
 toc
 wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=359&selection=78,0,78,3|p. 339]]
 
 - mod. 10
-	- codes: **anytime a period is used in indicates a code or acronym is being used
+	- codes: **anytime a caret (^) is used in indicates a code or acronym is being used
 		- auth^ = authentication or authenticated
 		- en^ = encryption or encrypted; ens^ = encryptions
 		- gen^ = generation
@@ -23,10 +23,11 @@ wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamen
 		- db^= database
 		- int^ = internet
 		- pub^ = public
+		- bt^ = bluetooth
 	- describe the different types of wireless network attacks
 		- cellular: through telecommunication service provides (tsp), it offers a fixed wireless service for int. connectivity.
 		- bluetooth: wireless technology using short-range radio frequency (RF) transmissions for short distance communication; 
-			- attacks: bluejacking, which involves unsolicited messages being sent to bluetooth-enabled devices (like images, sounds, or text messages); bluesnarfing, which involves the access of unauthorized information through wireless devices to bluetooth-enabled devices.
+			- attacks: bluejacking, which involves unsolicited messages being sent to bt^-enabled devices (like images, sounds, or text messages); bluesnarfing, which involves the access of unauthorized information through wireless devices to bt^-enabled devices.
 		- near field communication (nfc): a way of communication between devices in close proximity; leads to major vulnerabilities like eavesdropping, data theft, man-in-the-middle attack, and device theft
 		- radio frequency identification (rfid): ability to transmit information between employee identification badges, inventory tags, book labels, and other paper-based tags that can be detected by a proximity reader; attacks include: unauthorized tag access,  fake tags, eavesdropping, and rfid cloning
 		- wlan: a replacement for a wired local area network; the process: there is a wireless client network interface card (wireless adapter) which sends and receives signals through airwaves—similar to a wired adapter; there is an access point (AP) at the center of the wlan device that sends and receives wireless signals—there are fat aps (or autonomous aps; specifically used for authentication, encryption, and other functions for wireless client devices), thin aps (they do not manage or configure functions), controller aps (managed through a specific wireless lan controller 'wlc'), and a captive portal ap (a user signs their agreement to a policy in order to receive information or to present valid login credentials).
