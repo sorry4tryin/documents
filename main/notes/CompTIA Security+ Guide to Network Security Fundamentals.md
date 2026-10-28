@@ -1,27 +1,28 @@
 ---
 created: 2026-10-23 08:41
-modified: 2026-10-28 11:49
+modified: 2026-10-28 12:28
 ---
 toc
 wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=359&selection=78,0,78,3|p. 339]]
 
 - mod. 10
 	- codes: **anytime a period is used in indicates a code or acronym is being used
-		- auth. = authentication or authenticated
-		- en. = encryption or encrypted; ens. = encryptions
-		- gen. = generation
-		- pswd. = password
-		- sec. = security
-		- net. = network; nets. = networks
-		- org. = organization
-		- freq. = frequency
-		- spec. = spectrum
-		- sets. = settings
-		- conf. = configuration
-		- sys. = system
-		- info. = information
-		- db. = database
-		- int. = internet
+		- auth^ = authentication or authenticated
+		- en^ = encryption or encrypted; ens^ = encryptions
+		- gen^ = generation
+		- pswd^ = password
+		- sec^ = security
+		- net^ = network; nets^ = networks
+		- org^ = organization
+		- freq^ = frequency
+		- spec^ = spectrum
+		- sets^ = settings
+		- conf^ = configuration
+		- sys^ = system
+		- info^ = information
+		- db^= database
+		- int^ = internet
+		- pub^ = public
 	- describe the different types of wireless network attacks
 		- cellular: through telecommunication service provides (tsp), it offers a fixed wireless service for int. connectivity.
 		- bluetooth: wireless technology using short-range radio frequency (RF) transmissions for short distance communication; 
