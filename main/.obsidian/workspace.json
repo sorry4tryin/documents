@@ -624,8 +624,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 3,
-        "y": 41,
+        "x": 1799,
+        "y": 1137,
         "width": 895,
         "height": 1125,
         "maximize": false,
@@ -633,10 +633,10 @@
       }
     ]
   },
-  "active": "1376668abff7a880",
+  "active": "1e07c26b2803f8b0",
   "lastOpenFiles": [
-    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "mini-essays/love not affection.md",
