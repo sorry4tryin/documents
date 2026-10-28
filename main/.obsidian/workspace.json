@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "file": "notes/Security Pro.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+              "title": "Security Pro"
             }
           },
           {
@@ -525,8 +525,9 @@
   },
   "active": "1e07c26b2803f8b0",
   "lastOpenFiles": [
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "notes/Security Pro.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
