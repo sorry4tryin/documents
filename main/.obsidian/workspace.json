@@ -415,8 +415,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -625,8 +624,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 1799,
-        "y": 1137,
+        "x": 3,
+        "y": 41,
         "width": 895,
         "height": 1125,
         "maximize": false,
@@ -634,10 +633,11 @@
       }
     ]
   },
-  "active": "1e07c26b2803f8b0",
+  "active": "1376668abff7a880",
   "lastOpenFiles": [
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "web-clips/Intentional thoughts versus unintentional thoughts.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
