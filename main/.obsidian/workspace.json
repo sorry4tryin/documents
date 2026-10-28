@@ -248,6 +248,30 @@
             }
           },
           {
+            "id": "1e07c26b2803f8b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+            }
+          },
+          {
             "id": "781408b492c4d3d4",
             "type": "leaf",
             "state": {
@@ -318,7 +342,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -582,32 +606,44 @@
                   "icon": "lucide-file-text",
                   "title": "Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li"
                 }
+              },
+              {
+                "id": "1376668abff7a880",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical",
-        "x": 902,
-        "y": 41,
-        "width": 894,
+        "x": 1799,
+        "y": 1137,
+        "width": 1794,
         "height": 1125,
         "maximize": false,
         "zoom": -0.5
       }
     ]
   },
-  "active": "2854f3474df88ad9",
+  "active": "1e07c26b2803f8b0",
   "lastOpenFiles": [
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "mini-essays/love not affection.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
-    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/Introduction into Lateral Thinking.md",
     "notes/The Mechanism of Mind.md",
     "templates/ab.md",
