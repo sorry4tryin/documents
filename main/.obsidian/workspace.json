@@ -275,12 +275,24 @@
             "id": "f529dbdb398c053b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Criminal Procedure-Third Edition.pdf"
+                "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Criminal Procedure-Third Edition"
+              "icon": "lucide-file",
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
             }
           },
           {
@@ -427,8 +439,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -536,104 +547,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "5b26c52ab21bf4ba",
-    "type": "floating",
-    "children": [
-      {
-        "id": "df3c6ac5cec05ff1",
-        "type": "window",
-        "children": [
-          {
-            "id": "cf790527e5dc12f7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b45e3e7f18a1b953",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 454,
-        "y": 41,
-        "width": 444,
-        "height": 1125,
-        "maximize": false,
-        "zoom": -0.5
-      },
-      {
-        "id": "c9937adefab49e57",
-        "type": "window",
-        "children": [
-          {
-            "id": "bdabeb6e63bd2c74",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0e67bbef3a938eda",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 902,
-        "y": 41,
-        "width": 444,
-        "height": 1125,
-        "maximize": false,
-        "zoom": -0.5
-      },
-      {
-        "id": "dd195f9a005b50d5",
-        "type": "window",
-        "children": [
-          {
-            "id": "9a37f4f5be154fbb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c9a12a3d8af267e6",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1351,
-        "y": 41,
-        "width": 446,
-        "height": 1125,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "c9a12a3d8af267e6",
+  "active": "f529dbdb398c053b",
   "lastOpenFiles": [
-    "documents/Criminal Procedure-Third Edition.pdf",
     "notes/Security Pro.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "projects/latex snippet config.md",
+    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
@@ -649,8 +569,6 @@
     "templates/ab.md",
     "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf",
     "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Unconfirmed 949944.crdownload",
-    "documents/Serious creativity  using the power of lateral thinking to create new ideas (De Bono, Edward, 1933-) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "notes/The Mchanism of Mind-An Annotated Biliography.md",
     "mini-essays/how to become smarter.md",
