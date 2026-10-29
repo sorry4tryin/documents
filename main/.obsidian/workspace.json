@@ -272,6 +272,18 @@
             }
           },
           {
+            "id": "f529dbdb398c053b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "documents/Criminal Procedure-Third Edition.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Criminal Procedure-Third Edition"
+            }
+          },
+          {
             "id": "781408b492c4d3d4",
             "type": "leaf",
             "state": {
@@ -342,7 +354,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -415,7 +427,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -523,10 +536,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e07c26b2803f8b0",
+  "active": "f529dbdb398c053b",
   "lastOpenFiles": [
-    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Security Pro.md",
+    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
