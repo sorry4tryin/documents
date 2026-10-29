@@ -72,14 +72,7 @@
     }
   ],
   "workspace:close": [],
-  "workspace:new-tab": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "W"
-    }
-  ],
+  "workspace:new-tab": [],
   "editor:toggle-bold": [],
   "editor:toggle-italics": [],
   "markdown:toggle-preview": [],

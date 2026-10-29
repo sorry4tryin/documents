@@ -1,6 +1,6 @@
 ---
 created: 2026-10-23 08:41
-modified: 2026-10-29 11:54
+modified: 2026-10-29 18:36
 ---
  toc
 wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=359&selection=78,0,78,3|p. 339]]
