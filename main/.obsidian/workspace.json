@@ -536,8 +536,102 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f529dbdb398c053b",
+  "floating": {
+    "id": "5b26c52ab21bf4ba",
+    "type": "floating",
+    "children": [
+      {
+        "id": "df3c6ac5cec05ff1",
+        "type": "window",
+        "children": [
+          {
+            "id": "cf790527e5dc12f7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b45e3e7f18a1b953",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 454,
+        "y": 41,
+        "width": 444,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      },
+      {
+        "id": "c9937adefab49e57",
+        "type": "window",
+        "children": [
+          {
+            "id": "bdabeb6e63bd2c74",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0e67bbef3a938eda",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 902,
+        "y": 41,
+        "width": 444,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      },
+      {
+        "id": "dd195f9a005b50d5",
+        "type": "window",
+        "children": [
+          {
+            "id": "9a37f4f5be154fbb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c9a12a3d8af267e6",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1351,
+        "y": 41,
+        "width": 446,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "c9a12a3d8af267e6",
   "lastOpenFiles": [
+    "documents/Criminal Procedure-Third Edition.pdf",
     "notes/Security Pro.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -573,7 +667,6 @@
     "web-clips/Essay.md",
     "web-clips/The Vestibule – Obsidian setup 2026.md",
     "notes/trading overview.md",
-    "notes/Create Artificial Intelligence autonomously conscious.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
