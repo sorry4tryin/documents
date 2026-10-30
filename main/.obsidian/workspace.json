@@ -275,24 +275,12 @@
             "id": "f529dbdb398c053b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "documents/Criminal Procedure-Third Edition.pdf"
               },
-              "icon": "lucide-file",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+              "icon": "lucide-file-text",
+              "title": "Criminal Procedure-Third Edition"
             }
           },
           {
@@ -439,7 +427,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
