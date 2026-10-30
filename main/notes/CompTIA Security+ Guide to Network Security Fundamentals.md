@@ -1,12 +1,12 @@
 ---
 created: 2026-10-23 08:41
-modified: 2026-10-30 12:33
+modified: 2026-10-30 12:36
 ---
  toc
 wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=359&selection=78,0,78,3|p. 339]]
 
 - mod. 10
-	- codes: **anytime a caret (^) is used in indicates a code or acronym is being used
+	- id:
 		- auth^ = authentication or authenticated
 		- en^ = encryption or encrypted; ens^ = encryptions
 		- gen^ = generation
@@ -66,4 +66,6 @@ wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamen
 		- explain the solutions for securing a wireless nets^
 - mod. 11
 	- id: 
+		- comp^ - computer; computing
+		- conf^ - configuration
 	- cloud comp^: network access that is on demand providing different conf^ resources
