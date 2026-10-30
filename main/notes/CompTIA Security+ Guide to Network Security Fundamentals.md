@@ -1,6 +1,6 @@
 ---
 created: 2026-10-23 08:41
-modified: 2026-10-29 18:36
+modified: 2026-10-30 12:33
 ---
  toc
 wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=359&selection=78,0,78,3|p. 339]]
@@ -64,3 +64,6 @@ wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamen
 			- wlan^ enterprise
 		- list the vulnerabilities of wlan^ sec^ 
 		- explain the solutions for securing a wireless nets^
+- mod. 11
+	- id: 
+	- cloud comp^: network access that is on demand providing different conf^ resources

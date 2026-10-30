@@ -275,12 +275,24 @@
             "id": "f529dbdb398c053b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Criminal Procedure-Third Edition.pdf"
+                "file": "notes/Introduction into Lateral Thinking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Criminal Procedure-Third Edition"
+              "icon": "lucide-file",
+              "title": "Introduction into Lateral Thinking"
             }
           },
           {
@@ -535,13 +547,62 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "floating": {
+    "id": "920444a8cffa2f4d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8f6e03cb92530073",
+        "type": "window",
+        "children": [
+          {
+            "id": "dee864fd1ccad762",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "33b489e6d2b6bc07",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "CompTIA Security+ Guide to Network Security Fundamentals"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1201,
+        "y": 41,
+        "width": 596,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
   "active": "f529dbdb398c053b",
   "lastOpenFiles": [
+    "documents/Criminal Procedure-Third Edition.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Security Pro.md",
     "projects/latex snippet config.md",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
@@ -572,7 +633,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
     "web-clips/Essay.md",
     "web-clips/The Vestibule – Obsidian setup 2026.md",
-    "notes/trading overview.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
