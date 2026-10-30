@@ -366,7 +366,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -596,11 +596,11 @@
       }
     ]
   },
-  "active": "33b489e6d2b6bc07",
+  "active": "c9239bb7780be1d5",
   "lastOpenFiles": [
     "notes/Introduction into Lateral Thinking.md",
-    "documents/Criminal Procedure-Third Edition.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "documents/Criminal Procedure-Third Edition.pdf",
     "notes/Security Pro.md",
     "projects/latex snippet config.md",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",

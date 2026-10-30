@@ -1,6 +1,6 @@
 ---
 created: 2026-10-23 08:41
-modified: 2026-10-30 12:36
+modified: 2026-10-30 12:48
 ---
  toc
 wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf#page=359&selection=78,0,78,3|p. 339]]
@@ -68,4 +68,28 @@ wireless denial attacks - [[CompTIA Security+ Guide to Network Security Fundamen
 	- id: 
 		- comp^ - computer; computing
 		- conf^ - configuration
-	- cloud comp^: network access that is on demand providing different conf^ resources
+	- Identify benefits of porting software to a cloud-native format and using microservices, APIs and RESTful APIs
+	- Differentiate cloud service models PaaS, IaaS, SaaS, XaaS and select the appropriate model to reduce server management burden
+	- Describe characteristics of a private cloud and the ownership responsibilities for hardware and software
+	- Select a transit gateway as a consolidated approach for managing multiple VPCs and AWS resources
+	- Identify a Secure Web Gateway as the device capable of analyzing SSL encrypted traffic
+	- Identify cloud security mitigation areas for Storage, Compute and Network
+	- Compare containers and VMs, including hypervisor types, resource consumption and portability
+	- Use security groups to logically separate cloud virtual machines
+	- Identify the SDN control plane as responsible for routing and security checks
+	- Select a public cloud for non-technical users requiring minimal management
+	- Differentiate cloud, on-premises, fog and edge computing use cases
+	- Describe how cloud firewalls differ from physical appliances
+	- Explain the responsibility matrix confusion as a cause of cloud vulnerabilities
+	- Identify CASB as the model that extends enterprise security policies to cloud data and monitors access
+	- Apply encryption for secure microservices-to-microservices communication
+	- Recognize shared responsibility for cloud security and the limitations of built-in app security
+	- Adapt the OSI model to map a cloud security profile
+	- Recommend a private cloud for strict federal regulatory compliance
+	- Identify cloud computing characteristics: on-demand self-service, immediate elasticity, metered services, pay-per-use
+	- Select PaaS for limited-funds development teams needing a hosted platform
+	- Enforce hybrid cloud practices including encrypted traffic inspection and zero-trust on servers
+	- Select SD-WAN for global site-to-site traffic handling and real-time conditions
+	- Identify right-to-audit contractual clauses for third-party cloud security assessment
+	- Describe cloud failover and automatic service migration
+	- Identify redundancy and availability zones as the cloud feature for natural disaster resilience
