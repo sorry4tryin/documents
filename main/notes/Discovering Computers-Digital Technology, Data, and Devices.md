@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-27 17:06
-modified: 2026-10-27 17:46
+modified: 2026-11-02 11:44
 ---
 - mod. 10 
 	- explain how to interact with a database
@@ -30,3 +30,24 @@ modified: 2026-10-27 17:46
 	- explain how to ensure database integrity
 		- use a database and allow the user the ability to modify data only once, to reduce errors. use forms
 	- discuss how to use data responsibly
+- mod. 11
+	- id:
+		- dev^ - developer
+		- sys^ - system 
+		- doc^ - documentation
+		- sc^ - scope creep
+		- cmgn^ - change management
+		- ux^  - user experience
+		- pl^ - project leader(s)
+	- identify the role of a developer
+		- a dev^ creates info^ sys^ and programs from an idea to distribution. moreover,  you will see a dev^ program, design, code, and test various projects. aspects of a dev^ include the following: doc^, sc^, scope, cmgn^, and ux^. doc^ includes a summary of the data, information and deliverables. sc^ occurs when one activity of a project has led to another. scope includes the goals, objectives, and expectation of a project. cmgn^ occurs when a dev^ or pl^ recognize a change in a project. UX^ includes the reaction a user provides based on a project (the efficiency, effectiveness, and ease of use)
+	- explain the methods of development
+		- 
+	- describe the tools and strategies critical to system development
+	- identify other roles and tasks in development
+	- identify application development languages and tools
+	- identify strategies for designing secure systems and applications
+	- explain how to sell your app
+	- explain the importance of ethics in development
+	- apply decision-making strategies to solve problems
+	

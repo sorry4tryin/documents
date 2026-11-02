@@ -547,19 +547,68 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "floating": {
+    "id": "920444a8cffa2f4d",
+    "type": "floating",
+    "children": [
+      {
+        "id": "77be130ca40178a4",
+        "type": "window",
+        "children": [
+          {
+            "id": "2a393286f8094eeb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "08ffd4986ef6948b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Discovering Computers-Digital Technology, Data, and Devices"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 902,
+        "y": 41,
+        "width": 895,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "8d0c790d624e6e44",
   "lastOpenFiles": [
-    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
+    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "notes/Security Pro.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/Introduction into Lateral Thinking.md",
     "documents/Criminal Procedure-Third Edition.pdf",
-    "notes/Security Pro.md",
     "projects/latex snippet config.md",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
-    "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "mini-essays/love not affection.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
