@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-27 17:06
-modified: 2026-11-02 11:44
+modified: 2026-11-02 13:50
 ---
 - mod. 10 
 	- explain how to interact with a database
@@ -41,8 +41,8 @@ modified: 2026-11-02 11:44
 		- pl^ - project leader(s)
 	- identify the role of a developer
 		- a dev^ creates info^ sys^ and programs from an idea to distribution. moreover,  you will see a dev^ program, design, code, and test various projects. aspects of a dev^ include the following: doc^, sc^, scope, cmgn^, and ux^. doc^ includes a summary of the data, information and deliverables. sc^ occurs when one activity of a project has led to another. scope includes the goals, objectives, and expectation of a project. cmgn^ occurs when a dev^ or pl^ recognize a change in a project. UX^ includes the reaction a user provides based on a project (the efficiency, effectiveness, and ease of use)
-	- explain the methods of development
-		- 
+	- explain the methods of development (include phases)
+		- start with the software development life cycle (SDLC), which provides the outline fot 
 	- describe the tools and strategies critical to system development
 	- identify other roles and tasks in development
 	- identify application development languages and tools
