@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/ab.md",
+                "file": "projects/ryzen-9-7950x-upgrade-parts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ab"
+              "title": "ryzen-9-7950x-upgrade-parts"
             }
           },
           {
@@ -366,7 +366,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -547,32 +547,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d0c790d624e6e44",
+  "active": "f529dbdb398c053b",
   "lastOpenFiles": [
+    "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
+    "projects/ryzen-9-7950x-upgrade-parts.md",
+    "projects/latex snippet config.md",
+    "templates/rrl.md",
+    "problems/verify hline collapse end to end.md",
+    "templates/ab.md",
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Security Pro.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/Introduction into Lateral Thinking.md",
     "documents/Criminal Procedure-Third Edition.pdf",
-    "projects/latex snippet config.md",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
     "mini-essays/love not affection.md",
-    "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
     "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/The Mechanism of Mind.md",
-    "templates/ab.md",
     "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf",
     "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "notes/The Mchanism of Mind-An Annotated Biliography.md",
     "mini-essays/how to become smarter.md",
-    "templates/rrl.md",
     "templates/note.md",
     "notes/alias extension.md",
     "documents/game theory notes.md",
@@ -583,7 +585,6 @@
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
     "web-clips/Essay.md",
-    "web-clips/The Vestibule – Obsidian setup 2026.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
