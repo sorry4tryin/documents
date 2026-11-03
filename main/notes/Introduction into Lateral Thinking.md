@@ -4,13 +4,14 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-26 16:20
-modified: 2026-10-27 14:07
+modified: 2026-11-03 17:58
 ---
 **Research Reading List: Introduction into Lateral Thinking
 
 ***General
 - De Bono, Edward. Lateral Thinking for Management: A Handbook. Harper and Row, 1971.
 	- De Bono, Edward. “The Way the Mind Works” (Chapter 1). Lateral Thinking for Management: A Handbook. Harper and Row, 1971. (pp. 26-27)
+		- 
 	- De Bono, Edward. “Difference Between Lateral and Vertical Thinking” (Chapter 2). Lateral Thinking for Management: A Handbook. Harper and Row, 1971. (pp. 39-46); (p. 45)
 	- De Bono, Edward. “The Use of Lateral Thinking” (Chapter 5). Lateral thinkg for Management: A Handbook Harper and Row, 1971. (pp. 57-60)
 	- De Bono, Edward. “The Generation of Alternatives” (Chapter 7). Lateral thinkg for Management: A Handbook Harper and Row, 1971. (pp. 63-90)
