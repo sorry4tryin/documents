@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Creative and Lateral Thinking- Edward de Bono.md",
+                "file": "notes/Introduction into Lateral Thinking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Creative and Lateral Thinking- Edward de Bono"
+              "title": "Introduction into Lateral Thinking"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Introduction into Lateral Thinking.md",
+                "file": "web-clips/Intentional thoughts versus unintentional thoughts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Introduction into Lateral Thinking"
+              "title": "Intentional thoughts versus unintentional thoughts"
             }
           },
           {
@@ -366,7 +366,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -547,9 +547,67 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f529dbdb398c053b",
+  "floating": {
+    "id": "4fcb51c6e8258d5c",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2777e01a175ab098",
+        "type": "window",
+        "children": [
+          {
+            "id": "beb1a2e69e10694f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2af6ba587d3a3106",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notes/Introduction into Lateral Thinking.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Introduction into Lateral Thinking"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 902,
+        "y": 41,
+        "width": 895,
+        "height": 1125,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "995135b4f9df43c1",
   "lastOpenFiles": [
+    "notes/Introduction into Lateral Thinking.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
+    "web-clips/Intentional thoughts versus unintentional thoughts.md",
+    "web-clips/Essay.md",
+    "web-clips/Lateral thinking.md",
+    "questions/unconscious contentment personal issues.md",
+    "questions/does hl render in obsidian.md",
+    "questions/shortest safe way to type array rules.md",
+    "mini-essays/how to become smarter.md",
+    "mini-essays/love not affection.md",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "projects/latex snippet config.md",
@@ -560,12 +618,9 @@
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Security Pro.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "notes/Introduction into Lateral Thinking.md",
     "documents/Criminal Procedure-Third Edition.pdf",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
-    "mini-essays/love not affection.md",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
     "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -574,17 +629,11 @@
     "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/The Mechanism of Mind-An Annotated Bibliography.md",
     "notes/The Mchanism of Mind-An Annotated Biliography.md",
-    "mini-essays/how to become smarter.md",
     "templates/note.md",
     "notes/alias extension.md",
     "documents/game theory notes.md",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/game theory notes.md",
-    "notes/help.md",
-    "documents/com.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/Module 12 - Vulnerability Management.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals/Module 12/module 12 notes.md",
-    "web-clips/Essay.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
