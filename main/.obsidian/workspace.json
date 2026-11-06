@@ -47,24 +47,10 @@
             "id": "6cddf6f641ca1576",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quick notes/observer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "observer"
+              "title": "New tab"
             }
           },
           {
@@ -354,7 +340,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -427,7 +413,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -535,59 +522,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "4fcb51c6e8258d5c",
-    "type": "floating",
-    "children": [
-      {
-        "id": "2777e01a175ab098",
-        "type": "window",
-        "children": [
-          {
-            "id": "beb1a2e69e10694f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2af6ba587d3a3106",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "notes/Introduction into Lateral Thinking.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Introduction into Lateral Thinking"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1351,
-        "y": 40,
-        "width": 446,
-        "height": 1126,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "93dbc99a3abe6893",
+  "active": "c9239bb7780be1d5",
   "lastOpenFiles": [
-    "notes/Introduction into Lateral Thinking.md",
+    "documents/Untitled.md",
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/Introduction into Lateral Thinking.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
     "web-clips/Essay.md",
@@ -606,7 +546,6 @@
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Security Pro.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -620,7 +559,6 @@
     "templates/note.md",
     "notes/alias extension.md",
     "documents/game theory notes.md",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
