@@ -340,7 +340,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -522,8 +522,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9239bb7780be1d5",
+  "active": "8d0c790d624e6e44",
   "lastOpenFiles": [
+    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Untitled.md",
     "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -546,7 +547,6 @@
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "notes/Security Pro.md",
-    "documents/Criminal Procedure-Third Edition.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
