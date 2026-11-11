@@ -14,5 +14,7 @@
   "todoist-sync-plugin",
   "hide-traffic-lights",
   "front-matter-timestamps",
-  "text-extractor"
+  "text-extractor",
+  "heatmap-calendar",
+  "dataview"
 ]

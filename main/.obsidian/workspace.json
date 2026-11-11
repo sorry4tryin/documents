@@ -129,12 +129,24 @@
             "id": "1aaaa435fa2f20de",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Game Theory.pdf"
+                "file": "contributions/pushup tracker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": true,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Game Theory"
+              "icon": "lucide-file",
+              "title": "pushup tracker"
             }
           },
           {
@@ -189,12 +201,24 @@
             "id": "efd677bc5f71f16a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "notes/game theory notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "icon": "lucide-file",
+              "title": "game theory notes"
             }
           },
           {
@@ -340,7 +364,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -413,8 +437,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -522,12 +545,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d0c790d624e6e44",
+  "active": "1aaaa435fa2f20de",
   "lastOpenFiles": [
+    "daily note/2026-11-7.md",
+    "daily note/2026-11-9.md",
+    "daily note/2026-11-10.md",
+    "daily note/2026-11-8.md",
+    "contributions/pushup tracker.md",
+    "templates/pushups.md",
+    "daily note",
+    "contributions/day one.md",
+    "contributions/Untitled.base",
+    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
+    "contributions",
+    "documents/Introduction to Criminal Justice.pdf",
+    "documents/Game Theory.pdf",
+    "notes/game theory notes.md",
+    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Criminal Procedure-Third Edition.pdf",
-    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Untitled.md",
-    "documents/Lateral thinking  creativity step by step (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "notes/Introduction into Lateral Thinking.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
     "web-clips/Intentional thoughts versus unintentional thoughts.md",
@@ -544,21 +582,7 @@
     "templates/rrl.md",
     "problems/verify hline collapse end to end.md",
     "templates/ab.md",
-    "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
-    "notes/Security Pro.md",
-    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md.bak",
-    "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Encyclopedia of Educational Theory and Philosophy.pdf",
-    "documents/The Cambridge Companion to Vygotsky (Harry Daniels, Michael Cole etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "notes/The Mechanism of Mind.md",
-    "documents/The Relation between Lateral Thinking and Inquiry Skills of Higher Education Students A Path Analysis.pdf",
-    "documents/Encyclopedia of educational theory and philosophy (Phillips, D. C. (Denis Charles) etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "notes/The Mechanism of Mind-An Annotated Bibliography.md",
-    "notes/The Mchanism of Mind-An Annotated Biliography.md",
-    "templates/note.md",
-    "notes/alias extension.md",
-    "documents/game theory notes.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]

@@ -7,6 +7,7 @@
     "area": "multitext",
     "class": "multitext",
     "topic": "text",
-    "created": "date"
+    "created": "date",
+    "pushups": "number"
   }
 }
