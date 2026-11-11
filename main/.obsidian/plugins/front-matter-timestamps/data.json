@@ -9,7 +9,8 @@
   "delayModifiedUpdate": 1000,
   "excludedFolders": [
     "web-clips",
-    "templates"
+    "templates",
+    "daily note"
   ],
   "customCommand": "",
   "debug": false

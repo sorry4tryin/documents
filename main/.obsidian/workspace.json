@@ -437,7 +437,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -547,10 +548,10 @@
   },
   "active": "1aaaa435fa2f20de",
   "lastOpenFiles": [
-    "daily note/2026-11-7.md",
     "daily note/2026-11-9.md",
     "daily note/2026-11-10.md",
     "daily note/2026-11-8.md",
+    "daily note/2026-11-7.md",
     "contributions/pushup tracker.md",
     "templates/pushups.md",
     "daily note",
