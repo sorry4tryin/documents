@@ -129,12 +129,24 @@
             "id": "676ecf9cefb6beb1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf"
+                "file": "documents/modules_7_13_questions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li"
+              "icon": "lucide-file",
+              "title": "modules_7_13_questions"
             }
           },
           {
@@ -413,7 +425,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -523,6 +536,10 @@
   },
   "active": "676ecf9cefb6beb1",
   "lastOpenFiles": [
+    "documents/modules_7_13_questions.pdf",
+    "documents/pages_238_413.pdf",
+    "documents/modules_7_13_questions.md",
+    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "contributions/pushup tracker.md",
     "daily note/2026-11-9.md",
     "daily note/2026-11-10.md",
@@ -532,7 +549,6 @@
     "daily note",
     "contributions/day one.md",
     "contributions/Untitled.base",
-    "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "contributions",
     "documents/Introduction to Criminal Justice.pdf",
     "documents/Game Theory.pdf",
@@ -540,7 +556,6 @@
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
-    "documents/Criminal Procedure-Third Edition.pdf",
     "documents/Untitled.md",
     "notes/Introduction into Lateral Thinking.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
@@ -557,8 +572,6 @@
     "projects/latex snippet config.md",
     "templates/rrl.md",
     "problems/verify hline collapse end to end.md",
-    "templates/ab.md",
-    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
