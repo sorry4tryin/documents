@@ -131,10 +131,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "title": "Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li"
             }
           },
           {
@@ -521,7 +521,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93dbc99a3abe6893",
+  "active": "676ecf9cefb6beb1",
   "lastOpenFiles": [
     "contributions/pushup tracker.md",
     "daily note/2026-11-9.md",
