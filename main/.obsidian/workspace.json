@@ -131,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/modules_7_13_questions.md",
+                "file": "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -146,7 +146,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "modules_7_13_questions"
+              "title": "CompTIA Security+ Guide to Network Security Fundamentals"
             }
           },
           {
@@ -352,7 +352,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -425,8 +425,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -534,11 +533,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "676ecf9cefb6beb1",
+  "active": "1e07c26b2803f8b0",
   "lastOpenFiles": [
+    "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
+    "documents/modules_7_13_questions.md",
     "documents/modules_7_13_questions.pdf",
     "documents/pages_238_413.pdf",
-    "documents/modules_7_13_questions.md",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
     "contributions/pushup tracker.md",
     "daily note/2026-11-9.md",
@@ -555,7 +555,6 @@
     "notes/game theory notes.md",
     "documents/The Mechanism of Mind (Edward De Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "documents/The Use of Lateral Thinking (Edward de Bono) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "documents/Discovering Computers_ Digital Technology, Data, and Devices (MindTap Course List){Jennifer T. Campbell, Mark Ciampa, Steven M. Freund, Mark Frydenberg, Susan L. Sebok}(2022, Cengage Learning){105475278} libgen.li.pdf",
     "documents/Untitled.md",
     "notes/Introduction into Lateral Thinking.md",
     "notes/Creative and Lateral Thinking- Edward de Bono.md",
