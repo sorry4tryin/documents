@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-16 10:47
+modified: 2026-11-16 10:54
 ---
 
 - ch 8. 
@@ -14,9 +14,9 @@ modified: 2026-11-16 10:47
 	- On which elements can NTFS permissions be set?
 	- How can you view the users who have permissions for a particular drive?
 - ch. 9
-	- Isolation: limit the attack
-	- Containment: first step; disconnect machine from network—terminate connections
-	- Segmentation: separate network to prevent threat pivoting; occurs to VLANs, software-defined networks, switches, subnetting or physically
+	- isolation: limit the attack
+	- containment: first step; disconnect machine from network—terminate connections
+	- segmentation: separate network to prevent threat pivoting; occurs to VLANs, software-defined networks, switches, subnetting or physically
 		- screened subnet: virtual area to separate internal network from the rest
 	- security orchestration, automation, and response (SOAR): use different security endpoints for compiled security data
 		- does: collect alert data and geo-data; create cases; supports multiple playbooks along with step automation
