@@ -352,7 +352,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -533,8 +533,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e07c26b2803f8b0",
+  "active": "08421d7f4ebc1154",
   "lastOpenFiles": [
+    "notes/Security Pro.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/modules_7_13_questions.md",
     "documents/modules_7_13_questions.pdf",
@@ -570,7 +571,6 @@
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "projects/latex snippet config.md",
     "templates/rrl.md",
-    "problems/verify hline collapse end to end.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]

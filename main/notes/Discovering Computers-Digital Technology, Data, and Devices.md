@@ -4,8 +4,105 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-27 17:06
-modified: 2026-11-02 17:06
+modified: 2026-11-16 11:29
 ---
+- mod. 7
+	- storage and cloud computing
+		- front end: user interacts with hardware and software
+		- back end: servers and storage mediums that allow users to interact with information
+		- storage: place to store information
+		- secondary storage: area for storing computer information/data
+		- cloud storage: information saved on servers
+		- storage device: tool that retrieves information from secondary storage
+		  - write: instructions to storage
+		  - read: storage to instructions
+	- storage performance
+		- capacity: amount of characters a storage medium can hold
+		- access time: time required to find information
+		- transfer rate: time required to transfer information
+	- hard disk drive (HDD)
+		- HDD: stores information using circular patterns and magnetic particles
+			- particles align to represent binary digits (0/1)
+		- platter: aluminum material that allows information to be magnetically recorded
+			- longitudinal recording: horizontal alignment of particles
+			- perpendicular recording: vertical alignment of particles
+		- density: number of bits on a storage medium
+		- track: series of concentric circles on a surface
+		- sector: block of data/segment of a track
+			- cluster: group of sectors
+		- defragmentation: reorganizes data into a continuous order
+		- spin speed: 5,400–15,000 RPM
+		- read/write head: reads and writes information on the drive
+			- two read/write heads per platter
+	- other storage devices
+		- external hard drive: external device that stores information
+		- solid-state drive (SSD): flash memory storage device with its own processor
+			- more efficient; less capacity
+		- memory card: removable flash memory
+		- USB flash drive: removable storage device
+		- optical media: CDs, DVDs, Blu-ray discs
+			- optical disc: portable storage medium
+				- easily damaged
+		- tape: magnetic plastic ribbon; holds large amounts of data
+		- magnetic stripe card: card containing an information-bearing magnetic stripe
+		- smart card: stores data on a chip
+			- contactless: uses RFID
+	- RFID and NFC
+		- RFID (Radio Frequency Identification): uses an antenna and microchip to share information through radio signals
+			- RFID reader: reads signals
+				- active: contains a battery
+				- passive: does not contain a battery
+			- NFC (Near Field Communication): based on RFID
+				- uses close-range signals
+				- NFC tag: similar to RFID tag but operates at a closer range
+	- computer startup and memory
+		- operating system: program that manages devices
+		- startup: operating system loads into RAM
+		- RAM: main memory; chips that read and write information
+		- addressing: unique ID assigned to a byte in memory
+		- byte: storage unit in memory; represents one character
+	- cloud storage and services
+		- IaaS (Infrastructure as a Service): hardware emulation
+		- STaaS (Storage as a Service): storage consolidation
+			  - examples: iCloud, Google Drive
+		- Desktop as a Service: virtual desktop
+		- DaaS (Data as a Service): sharing information between users and applications
+		- PaaS (Platform as a Service): platform emulation
+		- cloud storage capabilities:
+			  - sync files
+			  - write documents
+			  - back up files
+			  - stream content
+	- cloud storage security
+		- payment apps: Venmo, PayPal
+		- digital wallets: Apple Pay, Cash App
+		- cryptocurrency: digital currency
+		- security practices:
+			  - ensure safety
+			  - use encryption; read user agreements
+			  - configure privacy settings
+			  - use strong passwords
+			  - remove sensitive data
+	- redundancy and storage reliability
+		- redundancy: another component takes over when something fails
+		- data center: location containing multiple servers
+		- RAID (Redundant Array of Independent Disks): two or more integrated hard drives
+			  - mirroring: writes data to two drives simultaneously
+			  - striping: splits data across multiple drives
+			  - RAID level 1: enhances storage reliability
+	- network storage
+		- NAS (Network Attached Storage): server primarily used for network storage
+			  - data storage appliance
+		- SAN (Storage Area Network): network primarily used to provide storage to other servers
+			  - uses high speed
+	- types of memory: 
+		- ram—main memory; chips that read and write from processor
+		- rom—chips with permanent info (cannot be change)
+		- flash memory—erasable memory (mostly used on a removable device)
+		- cmos—complementary metal-oxide semiconductoy tech; chips that hold info even when the device is off
+	- cache: temp storage
+		- memory cache: better efficiency; uses temporary storage to process info faster (frequently used)
+	- beacons—devices that send low bluetooth signals to other devices nearby (used by retailers)
 - mod. 10 
 	- explain how to interact with a database
 		- to interact with a database, the user can first start by using the navigation pane in the selected program they are active in. the navigation pane will allow the user to see multiple objects in a database.  another way the user can interact with a database is through the internet, since each website that the user clicks on utilizes a database to provide searchable content.
