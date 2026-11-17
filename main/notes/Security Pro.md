@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-17 09:46
+modified: 2026-11-17 10:04
 ---
 
 - ch 8. 
@@ -52,3 +52,10 @@ modified: 2026-11-17 09:46
 				- dashboards—summary of data; day-to-day incident 
 				- log data—range of log files for a specific scenario
 				- host operating system logs—events from user and software interaction with the system
+	- ch. 9.4
+		- load balancing—distributed processes to multiple nodes
+			- active/active—working together to distribute network traffic 
+			- active/passive—one works, the other listens until the one working breaks
+			- virtual ip—ip not assigned to an endpoint
+		- power scheduling—used for active redundancy; network failsafe for a power outage
+		- geographic dispersal
