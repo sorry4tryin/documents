@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-17 09:09
+modified: 2026-11-17 09:32
 ---
 
 - ch 8. 
@@ -42,3 +42,6 @@ modified: 2026-11-17 09:09
 			- reporting: evidence cannot be change; if  so there  must be a reason behind it
 			- data image acquisition:
 				- video recording—ensures proof derives from the crime scene
+			- legal hold—significant information must be preserved; it cannot be tampered with
+			- chain of custody: items must be identified correctly; item must be in a secure location
+				- provenance must be displayed; evidence moved should not be tampered with
