@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-17 09:36
+modified: 2026-11-17 09:43
 ---
 
 - ch 8. 
@@ -47,3 +47,8 @@ modified: 2026-11-17 09:36
 				- provenance must be displayed; evidence moved should not be tampered with
 			- e-discovery—gather digital information for a court case; can be shared with the opposing counsel
 				- syntax, keywords, and file type
+			- due process—promote equality and fairness; used to ensure the admissibility evidence
+			- most effective way to gather evidence:
+				- dashboards—summary of data; day-to-day incident 
+				- log data—range of log files for a specific scenario
+				- host operating system logs—events from user and software interaction with the system
