@@ -215,7 +215,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
+                "file": "documents/modules_7_13_questions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -230,7 +230,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Discovering Computers-Digital Technology, Data, and Devices"
+              "title": "modules_7_13_questions"
             }
           },
           {
@@ -535,6 +535,7 @@
   },
   "active": "08421d7f4ebc1154",
   "lastOpenFiles": [
+    "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "notes/Security Pro.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/modules_7_13_questions.md",
@@ -567,7 +568,6 @@
     "questions/shortest safe way to type array rules.md",
     "mini-essays/how to become smarter.md",
     "mini-essays/love not affection.md",
-    "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "projects/ryzen-9-7950x-upgrade-parts.md",
     "projects/latex snippet config.md",
     "templates/rrl.md",
