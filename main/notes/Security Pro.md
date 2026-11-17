@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-16 20:33
+modified: 2026-11-16 20:39
 ---
 
 - ch 8. 
@@ -33,3 +33,7 @@ modified: 2026-11-16 20:33
 			- trend: pattern sent to the SIEM
 			- sensitivity: when sensors are released; configure data sent to SIEM
 			- vulnerability scan output: scan vulnerabilities along with providing solutions
+			- PRI code is calculated from the facility and severity level
+			- IPfix: tool that addresses a protocol for internal protocol flows; helps collect data from  routers servers, and other networks
+			- file metadata: metadata linked with files; creation date, access history, and security permissions
+			- even metadata: source and time of event; host or network address, a process name, and categorization/priority fields
