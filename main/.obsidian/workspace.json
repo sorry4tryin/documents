@@ -352,7 +352,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -425,7 +425,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375
+    "width": 241.84375,
+    "collapsed": true
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -533,12 +534,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08421d7f4ebc1154",
+  "active": "1e07c26b2803f8b0",
   "lastOpenFiles": [
+    "documents/modules_7_13_questions.md",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
     "notes/Security Pro.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
-    "documents/modules_7_13_questions.md",
     "documents/modules_7_13_questions.pdf",
     "documents/pages_238_413.pdf",
     "documents/Meadows, Donella H. - Thinking in Systems_ A Primer (2009, Earthscan) - libgen.li.pdf",
