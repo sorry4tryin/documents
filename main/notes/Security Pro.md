@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-17 09:43
+modified: 2026-11-17 09:46
 ---
 
 - ch 8. 
@@ -43,7 +43,7 @@ modified: 2026-11-17 09:43
 			- data image acquisition:
 				- video recording—ensures proof derives from the crime scene
 			- legal hold—significant information must be preserved; it cannot be tampered with
-			- chain of custody—items must be identified correctly; item must be in a secure location
+			- chain of custody—items must be identified correctly; item must be in a secure location; document related to evidence-gathering
 				- provenance must be displayed; evidence moved should not be tampered with
 			- e-discovery—gather digital information for a court case; can be shared with the opposing counsel
 				- syntax, keywords, and file type
