@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-17 09:06
+modified: 2026-11-17 09:09
 ---
 
 - ch 8. 
@@ -40,3 +40,5 @@ modified: 2026-11-17 09:06
 	- ch. 9.3
 		- digital forensics:
 			- reporting: evidence cannot be change; if  so there  must be a reason behind it
+			- data image acquisition:
+				- video recording—ensures proof derives from the crime scene
