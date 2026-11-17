@@ -4,7 +4,7 @@ aliases:
 tags:
   - note/quick
 created: 2026-10-28 18:37
-modified: 2026-11-16 20:22
+modified: 2026-11-16 20:33
 ---
 
 - ch 8. 
@@ -28,4 +28,8 @@ modified: 2026-11-16 20:22
 		- SIEM:  security information and event management; combines security information management (SIM) and security even management (SEM)——tool used to monitor and display info for daily incident response tasks
 			- sensors: most critical for monitoring and securing network endpoints, services, and other vulnerable locations
 			- SIEM dashboards: use ot effectively monitor and respond to events on the network in real-time
-			- correlation: 
+			- correlation: analyze attacker behavior against aggregated data from log files, system applications, and network appliances
+			- alert: informs IT that a pre-established parameter is not within the acceptable range
+			- trend: pattern sent to the SIEM
+			- sensitivity: when sensors are released; configure data sent to SIEM
+			- vulnerability scan output: scan vulnerabilities along with providing solutions
