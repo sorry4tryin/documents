@@ -352,7 +352,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -534,11 +534,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e07c26b2803f8b0",
+  "active": "6ded2ef3164cc15b",
   "lastOpenFiles": [
+    "notes/Security Pro.md",
     "documents/modules_7_13_questions.md",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
-    "notes/Security Pro.md",
     "notes/CompTIA Security+ Guide to Network Security Fundamentals.md",
     "documents/modules_7_13_questions.pdf",
     "documents/pages_238_413.pdf",
