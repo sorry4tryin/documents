@@ -153,12 +153,24 @@
             "id": "6ded2ef3164cc15b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+                "file": "notes/11-18-26.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk)"
+              "icon": "lucide-file",
+              "title": "11-18-26"
             }
           },
           {
@@ -425,8 +437,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.84375,
-    "collapsed": true
+    "width": 241.84375
   },
   "right": {
     "id": "047a0145d3d76939",
@@ -536,6 +547,8 @@
   },
   "active": "6ded2ef3164cc15b",
   "lastOpenFiles": [
+    "documents/CompTIA Security+ Guide to Network Security Fundamentals (Mark Ciampa) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "notes/11-18-26.md",
     "notes/Security Pro.md",
     "documents/modules_7_13_questions.md",
     "notes/Discovering Computers-Digital Technology, Data, and Devices.md",
@@ -570,8 +583,6 @@
     "mini-essays/how to become smarter.md",
     "mini-essays/love not affection.md",
     "projects/ryzen-9-7950x-upgrade-parts.md",
-    "projects/latex snippet config.md",
-    "templates/rrl.md",
     "systems/dig. notes system.canvas",
     "systems/study method.canvas"
   ]
